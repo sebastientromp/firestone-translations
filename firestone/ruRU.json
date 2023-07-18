@@ -248,6 +248,7 @@
             "profile-header": "Профиль",
             "profile-overview-header": "Обзор",
             "profile-share-button-text": "Поделиться",
+            "profile-share-button-tooltip": "",
             "duels-header": "Дуэли",
             "duels-hero-header": "Герои",
             "duels-hero-power-header": "Силы героя",
@@ -971,6 +972,7 @@
                 "header-average-position": "Средняя позиция",
                 "header-placement-distribution": "Распределение мест",
                 "header-net-mmr": "Сетевой MMR",
+                "header-tribes-tooltip": "",
                 "learn-more": "Как рассчитываются эти данные?"
             },
             "bgs-tier-list": {
@@ -983,12 +985,26 @@
                     "name": {
                         "basic": "Базовая кривая",
                         "fast-basic": "Быстрая базовая кривая",
+                        "fast-jeef": "",
                         "warrior": "Кривая воина",
                         "extended-warrior": "Расширенная кривая воина",
+                        "aggro-yogg": "",
+                        "slow-rafaam": "",
                         "3-on-3": "3 на 3 (уровень 8)",
                         "3-on-3-bis": "3 на 3 (уровень 9)",
                         "4-on-4": "4 на 4",
+                        "pocky": "",
                         "special": "Особый"
+                    },
+                    "notes": {
+                        "fast-basic": "",
+                        "fast-jeef": "",
+                        "warrior": "",
+                        "basic-yogg": "",
+                        "rafaam": "",
+                        "3-on-3": "",
+                        "4-on-4": "",
+                        "pocky": ""
                     },
                     "step": {
                         "turn": "Ход {{value}}",
@@ -1364,6 +1380,7 @@
             "quilboars": "Разыграно Свинобразов",
             "spells": "Разыграно заклинаний",
             "spells-tooltip": "Разыгрывайте заклинания для получения очков",
+            "close-confirmation-text-2": "",
             "close-confirmation-button-cancel": "Оставить открытым",
             "close-confirmation-button-ok": "Закрыть все равно"
         }
@@ -1401,6 +1418,9 @@
         },
         "vanessa": {
             "player": "Последняя карта разыгранная вашим противником: {{value}}"
+        },
+        "naga-giant": {
+            "player": ""
         },
         "corpse": {
             "player": "Вы потратили {{value}} трупов в этой игре"
@@ -1458,6 +1478,9 @@
         "hero-power-damage": {
             "player": "Вы нанесли {{value}} урона силой героя в этой игре",
             "opponent": "Противник нанес {{value}} урона силой героя в этой игре"
+        },
+        "shockspitter": {
+            "opponent": ""
         },
         "jade": {
             "player": "Характеристики вашего последнего нефритового голема: {{value}}/{{value}}",
@@ -1784,6 +1807,8 @@
             "reposition-button-done": "Завершена",
             "reposition-button-cancel": "Отмена",
             "reposition-button-cancelling": "Отмена...",
+            "reposition-button-tooltip-firstpass": "",
+            "reposition-button-tooltip-finalresult": "",
             "reposition-button-tooltip-cancel": "Нажмите, чтобы отменить репозицию",
             "actual": "Актуальный стол",
             "simulated": "Симуляция",
@@ -1815,6 +1840,10 @@
             "show-buddies-button-title": "Показать компаньонов",
             "search-minion-placeholder": "Поиск существа",
             "resimulating-battle": "Ресимуляция сражения",
+            "simulator-help-tooltip": {
+                "control-hero": "",
+                "control-minion": ""
+            },
             "global-effects-header": "Глобальные эффекты",
             "undead-army-tooltip": "Дополнительная атака вашей нежити",
             "eternal-legion-tooltip": "Количество дружественных Вечных Рыцарей, погибших в этой игре"
@@ -2074,10 +2103,13 @@
             },
             "third-party": {
                 "vs": {
-                    "website-link": "here"
+                    "pitch": "",
+                    "website-link": "here",
+                    "toggle-label": ""
                 },
                 "ooc": {
                     "website-link": "here",
+                    "toggle-label": "",
                     "connect-button-text": "Подключиться",
                     "connected-text": "Вы авторизованы",
                     "collection-synchronized": "Коллекция синхронизирована"
@@ -2156,6 +2188,7 @@
             },
             "premium": {
                 "title": "Настройки Премиум подписки",
+                "link": "",
                 "lottery-block-title": "Премиум лотерея (бета)",
                 "lottery-button-text": "Включить лотерею"
             },
@@ -2164,9 +2197,11 @@
                 "remote-intro-text": "Firestone хранит большинство ваших данных в сети, чтобы упростить их использование на разных компьютерах. Некоторые из этих данных кэшируются локально для уменьшения времени загрузки приложения. Однако вы можете принудительно обновить эти данные с помощью кнопок ниже, как правило, после того как вы пересели за другой компьютер.",
                 "games-title": "Игры",
                 "disable-local-cache": "Отключить локальный кэш",
+                "total-games": "",
                 "other-title": "Прочее",
                 "packs": "Информация о комплектах",
                 "packs-tooltip": "Обновить данные о комплектах. Это происходит автоматически каждые 7 дней.",
+                "clear-games-tooltip": "",
                 "games-period-options": {
                     "all-time": "За все время",
                     "past-100": "Последние 100 дней",
@@ -2188,6 +2223,7 @@
                 "show-in-game-label": "Показывать во время игры",
                 "show-in-game-tooltip": "Если выключено, то виджет заданий будет скрыт во время игры",
                 "constructed-label": "Hearthstone",
+                "constructed-on-hub-label": "",
                 "constructed-on-bg-label": "Hearthstone на полях сражений",
                 "battlegrounds-label": "Поля сражений",
                 "mercenaries-label": "Наёмники"
@@ -2216,6 +2252,7 @@
                 "show-deck-winrate": "Отображать % побед колоды",
                 "show-matchup-winrate": "Отображать % побед в противостоянии",
                 "show-gifts-separately": "Показывать подарки отдельно",
+                "reset-deck-position-after-trade": "",
                 "show-stats-change": "Показать изменения статистики",
                 "show-cost-reduction": "Отслеживать изменение стоимости карт в колоде",
                 "show-cost-reduction-tooltip": "Отслеживать изменение стоимости карт в колоде, когда она была изменена каким-либо эффектом (например, \"Из глубин\")",
@@ -2223,8 +2260,10 @@
                 "highlight-related-cards": "Подсветить связанные карты",
                 "discover-help": "Найти контекстную справку",
                 "close-tracker-on-end": "Закрыть трекер в конце игры",
+                "close-tracker-on-end-advanced": "",
                 "reset-button": "Сбросить позиции",
                 "reset-button-confirm": "Вы уверены?",
+                "reset-button-confirmation": "",
                 "counters-size": "Размер счётчиков"
             },
             "modes": {
@@ -2283,7 +2322,8 @@
                     "volatile-skeleton-label": "Погибло Взрывоопасных скелетов",
                     "volatile-skeleton-tooltip": "Показывать сколько Взрывоопасных скелетов погибло у противника",
                     "relic-label": "Счётчик реликвий",
-                    "hero-power-damage-label": "Счётчик урона нанесенного силой героя"
+                    "hero-power-damage-label": "Счётчик урона нанесенного силой героя",
+                    "corpse-spent-tooltip": ""
                 },
                 "size-title": "Размер и непрозрачность",
                 "opacity-title": "Непрозрачность",
@@ -2301,6 +2341,7 @@
                     "number-of-spells-label": "Счётчик заклинаний",
                     "elementals-label": "Счётчик элементалей",
                     "elementals-tooltip": "Показывает общее количество элементалей, которых вы разыграли на этом и предыдущем ходу. Показывается только если в вашей руке будут найдены подходящие карты",
+                    "libram-tooltip": "",
                     "elwynn-boar-tooltip": "Показывать сколько погибло ваших Элвинских вепрей",
                     "volatile-skeleton-tooltip": "Показывать сколько ваших Взрывоопасных скелетов погибло",
                     "relic-tooltip": "Показывает силу вашей следующей реликвии Охотника на демонов",
@@ -2311,7 +2352,10 @@
                     "monstrous-parrot-tooltip": "Показывает ваш последний сработавший предсмертный хрип, когда Страшный попугай у вас в руке",
                     "vanessa-label": "Ванесса ван Клиф",
                     "vanessa-tooltip": "Показывать последнюю разыгранную противником карту, когда Ванесса ван Клиф у вас в руке",
+                    "lightray-tooltip": "",
+                    "menagerie-tooltip": "",
                     "corpse-spent-label": "Трупов потрачено",
+                    "overdraft-label": "",
                     "bonelord-frostwhisper-label": "Лорд Ледяной Шепот",
                     "anachronos-label": "Анахронос",
                     "asvedon-label": "Асведон Большой Щит",
@@ -2319,6 +2363,7 @@
                     "murozond-tooltip": "Показывать все карты разыгранные противником на прошлом ходу, когда Дорнозму Бесконечный у вас в руке",
                     "naga-giant-label": "Нага Гигант",
                     "shockspitter-label": "Громострел",
+                    "parrot-mascot-label": "",
                     "queensguard-label": "Королевский стражник",
                     "queensguard-tooltip": "Когда Королевский стражник у вас в руке показывает количество заклинаний, которые вы играли за этот ход",
                     "spectral-pillager-label": "Вороватый дух",
@@ -2374,7 +2419,8 @@
             "set-show-golden-stats": "Показывать статистику для золотых"
         },
         "duels": {
-            "personal-decks-show-hidden-decks": "Показать архивные"
+            "personal-decks-show-hidden-decks": "Показать архивные",
+            "hide-stats-below-threshold-tooltip": ""
         },
         "battlegrounds": {
             "menu": {
@@ -2391,15 +2437,19 @@
                 "enable-battle-sim-label": "Включить симуляцию сражений",
                 "enable-battle-sim-tooltip": "Когда включено, вы будете видеть ваши шансы на победу / ничью / поражение каждое сражение в начале битвы",
                 "hide-simulation-label": "Скрывать симуляцию после завершения сражения",
+                "show-sim-only-in-tavern-label": "",
                 "use-local-simulator-label": "Использовать локальный симулятор сражения",
                 "popup-hero-selection-screen-label": "Всплывающее окно выбора героя",
                 "use-mmr-filter-for-live-stats-label-short": "MMR фильтр",
                 "use-tribe-filter-for-live-stats-label-short": "Фильтр типов существ",
+                "show-next-opponent-recap-label": "",
                 "show-achievements-label": "Показывать достижения",
                 "show-hero-tooltip-label": "Показывать подсказку героя",
                 "show-hero-tier-label": "Показывать уровень героя",
+                "show-hero-tips-label": "",
                 "show-overlay-button": "Показать кнопку наложения",
                 "popup-post-match-stats-label": "Вспывающая послематчевая статистика",
+                "show-game-end-notif-label": "",
                 "simulator-config-title": "Настройки симулятора",
                 "simulator-number-of-sims-label": "Количество симуляций"
             },
@@ -2431,6 +2481,7 @@
                 "minions-list-show-on-mouse-over-label": "Показать список существ при наведении курсора мыши",
                 "minions-list-show-on-mouse-over-tooltip": "При деактивации вам нужно будет нажимать на значки уровня таверны, чтобы отобразить список существ",
                 "minions-list-show-on-mouse-over-confirmation": "Готово, мы покажем вам информацию о существах только тогда, когда вы нажмете на звездочку",
+                "minions-list-group-minions-into-tribes-tooltip": "",
                 "minions-list-show-tribes-highlight-label": "Выделение типов существ",
                 "minions-list-show-tribes-highlight-tooltip": "Добавить кнопки для выделения определенных типов существ в таверне Боба",
                 "minions-list-show-mechanics-highlight-label": "Подсвечивать существ по ключевым словам",
@@ -2448,6 +2499,7 @@
             "session-widget": {
                 "title": "Виджет сессии",
                 "label": "Показывать виджет сессии",
+                "show-groups": "",
                 "hide-when-friends-list-open": "Скрывать при открытом списке друзей",
                 "hide-when-friends-list-open-tooltip": "Скрывать виджет при открытом списке друзей",
                 "show-matches": "Показать последние матчи",
@@ -2468,7 +2520,8 @@
                 "firestone-achievements-tooltip": "Включить отслеживание эксклюзивных Firestone достижений",
                 "show-notifications-text": "Показывать уведомления",
                 "show-notifications-tooltip": "Отображение уведомления при разблокировке достижения. Отключение этой опции также отключит внутриигровое отслеживание для достижений из Hearthstone",
-                "streamer-mode-text": "Режим \"Скрытня\""
+                "streamer-mode-text": "Режим \"Скрытня\"",
+                "streamer-mode-confirmation": ""
             }
         },
         "mercenaries": {
@@ -2523,7 +2576,9 @@
             "top-1-label": "Топ-1:",
             "games-played-label-global": "Сыграно",
             "top-4-label-global": "Топ-4",
-            "top-1-label-global": "Топ-1"
+            "top-1-label-global": "Топ-1",
+            "games-played-label-global-with-bg": "",
+            "top-1-label-global-with-bg": ""
         },
         "collection": {
             "packs": {
@@ -2551,6 +2606,8 @@
         "battle-simulator-size": "Размер симулятора сражений",
         "last-board-size": "Последний размер доски",
         "hide-battle-odds-in-combat": "Скрыть шансы в бою",
+        "hide-battle-odds-in-tavern": "",
+        "hide-battle-odds-when-empty": "",
         "options": {
             "auto": "Авто",
             "true": "Да",

@@ -134,6 +134,8 @@
             "year-of-phoenix": "Jahr des Phönix",
             "standard-pack": "Standard",
             "wild-pack": "Wild",
+            "golden-wild-pack": "",
+            "alterac-valley-golden": "",
             "the-sunken-city": "Reise in die Versunkene Stadt",
             "golden-the-sunken-city": "Reise in die Versunkene Stadt - Golden",
             "revendreth": "Mord auf Schloss Nathria",
@@ -219,6 +221,13 @@
             "stealth": "Verstohlen",
             "windfury": "Windzorn",
             "mega-windfury": "Super-Windzorn"
+        },
+        "duration": {
+            "hrs-min": "",
+            "sec": ""
+        },
+        "social": {
+            "twitter": ""
         }
     },
     "app": {
@@ -226,9 +235,13 @@
             "constructed-header": "Konstruktion",
             "battlegrounds-header": "Schlachtfeld",
             "mercenaries-header": "Söldner",
+            "profile-overview-header": "",
+            "profile-shared-button-text": "",
+            "profile-shared-button-tooltip": "",
             "duels-header": "Duelle",
             "duels-hero-header": "Helden",
             "duels-hero-power-header": "Heldenfähigkeiten",
+            "duels-passive-treasure-header": "",
             "arena-header": "Arena",
             "tavern-brawl-header": "Kartenchaos",
             "replays-header": "Aufzeichnungen",
@@ -267,7 +280,9 @@
             },
             "ads": {
                 "support-the-dev": "Unterstützen Sie den Entwickler und entfernen Sie die Anzeigen",
-                "supporter": "Vielen Dank, dass Sie uns unterstützen!"
+                "supporter": "Vielen Dank, dass Sie uns unterstützen!",
+                "unlock-subtext": "",
+                "features-link": ""
             },
             "graph": {
                 "tooltip-title": "Titel",
@@ -292,6 +307,9 @@
             "startup": {
                 "firestone-ready-title": "Firestone ist bereit",
                 "firestone-ready-text": "Danke, dass du uns unterstützt!"
+            },
+            "client-config": {
+                "message": ""
             }
         },
         "loading": {
@@ -395,6 +413,7 @@
                 },
                 "new-copy": "Neu",
                 "second-copy": "Zweite",
+                "second-copy-long": "",
                 "title": "Mein Kartenverlauf",
                 "you-have-viewed": "Du hast {{numberOfCards}} von {{totalCards}} Karten angesehen",
                 "load-more-button": "Weitere laden",
@@ -431,6 +450,7 @@
                     "epic": "Episch",
                     "legendary": "Legendär"
                 },
+                "faction": "",
                 "factions": {
                     "alliance": "Allianz",
                     "horde": "Horde"
@@ -542,6 +562,7 @@
             "sets": {
                 "coming-soon": "Kommt bald!",
                 "next-guaranteed": "Nächste garantiert",
+                "pity-timer-reset-button": "",
                 "in-packs": "In {{value}} Packungen",
                 "browse-set-button": "Set durchsuchen",
                 "total-non-golden-cards": "Insgesamt gesammelte nicht goldene Karten",
@@ -652,7 +673,9 @@
                 "total-matches-header": "Matches insgesamt",
                 "win-percent-header": "Sieg%",
                 "win-total-header": "Siege",
+                "win-play-total-header": "",
                 "matches-going-first": "In {{totalMatches}} Spielen als Erster begonnen",
+                "win-coin-total-header": "",
                 "matches-going-second": "In {{totalMatches}} Spielen als Zweiter begonnen",
                 "total-header": "Gesamt",
                 "show-as-percent-button-label": "Als % anzeigen",
@@ -700,12 +723,14 @@
                 "player-class-tooltip": "Deine Klasse: {{className}}",
                 "opponent-class-tooltip": "Gegnerklasse: {{className}}",
                 "total": "Insgesamt",
+                "going-second-button-label": "",
                 "tab-selection": {
                     "overview": "Überblick",
                     "matchups": "Begegnungen"
                 }
             },
             "rating-graph": {
+                "missing-region-title": "",
                 "empty-state-message": "Bitte überprüfe, ob ein einzigartiger Spielmodus (Standard, Wild oder Klassik) ausgewählt ist und überprüfe den Bronze / Legende Filter."
             },
             "replays-recap": {
@@ -725,6 +750,7 @@
                 "choose-your-format-title": "Wähle dein Format",
                 "choose-your-class-title": "Wähle deine Klasse",
                 "build-your-deck-title": "Erstelle dein Deck",
+                "go-back-class": "",
                 "import-deck-button-tooltip": "Importiere das Deck aus deiner Zwischenablage."
             }
         },
@@ -793,20 +819,25 @@
             "personal-stats": {
                 "hero": {
                     "average-position": "Durchschn. Position",
-                    "games-played": "Gespielte Partien"
+                    "games-played": "Gespielte Partien",
+                    "net-mmr-tooltip": ""
                 },
                 "hero-details": {
                     "tabs": {
                         "mmr": "MMR",
                         "final-warbands": "Letzte Trupps",
-                        "warband-stats": "Trupp Statistiken"
+                        "warband-stats": "Trupp Statistiken",
+                        "strategies": ""
                     },
                     "stats": {
                         "title": "Allgemeine Statistiken",
                         "games-played": "Gespielte Partien",
                         "average-position": "Durchschn. Position",
                         "top-1": "Top 1",
-                        "top-4": "Top 4"
+                        "top-4": "Top 4",
+                        "net-mmr": "",
+                        "avg-mmr-gain": "",
+                        "avg-mmr-loss": ""
                     },
                     "last-warbands": {
                         "title": "Letzte {{value}} Spiele",
@@ -824,11 +855,14 @@
                         "place-default": "{{value}}."
                     },
                     "winrate-stats": {
+                        "community-tooltip": "",
                         "your-tooltip": "Deine Werte für diesen Helden",
                         "turn-label": "Zug",
                         "winrate-label": "Gewinnrate"
                     },
                     "warband-stats": {
+                        "community-tooltip": "",
+                        "your-tooltip": "",
                         "turn-label": "Zug"
                     },
                     "mmr": {
@@ -865,18 +899,54 @@
                         "enemy-heroes-killed": "Feindliche Helden getötet",
                         "battles-going-first": "Kämpfe zuerst begonnen",
                         "battle-luck": "Kampf Glück",
-                        "battle-luck-explain-link": "Was ist das?"
+                        "battle-luck-explain-link": "Was ist das?",
+                        "negative-battle-luck": "",
+                        "watch-replay-tooltip": ""
                     },
                     "record-broken-tooltip": "Du hast deinen persönlichen Rekord gebrochen!"
                 }
             },
             "tier-list": {
-                "header-hero-details": "Held"
+                "tier": "",
+                "player-data-points": "",
+                "player-average-position-tooltip": "",
+                "header-hero-details": "Held",
+                "header-placement-distribution": "",
+                "header-net-mmr": "",
+                "header-tribes-tooltip": "",
+                "learn-more": ""
             },
             "strategies": {
+                "date": "",
                 "curve": {
+                    "name": {
+                        "basic": "",
+                        "jeef": "",
+                        "slow-jeef": "",
+                        "extended-warrior": "",
+                        "aggro-yogg": "",
+                        "slow-rafaam": "",
+                        "3-on-3-bis": "",
+                        "toki": "",
+                        "special": ""
+                    },
+                    "notes": {
+                        "fast-basic": "",
+                        "fast-jeef": "",
+                        "warrior": "",
+                        "basic-yogg": "",
+                        "rafaam": "",
+                        "3-on-3": "",
+                        "4-on-4": "",
+                        "pocky": ""
+                    },
+                    "step": {
+                        "gold": ""
+                    },
                     "action": {
-                        "buy": "Kaufen"
+                        "buy": "Kaufen",
+                        "roll": "",
+                        "level": ""
                     }
                 }
             }
@@ -892,6 +962,7 @@
             },
             "filters": {
                 "dust": {
+                    "all": "",
                     "dust": "{{value}} Staub"
                 },
                 "stat-type": {
@@ -914,6 +985,9 @@
                     "global-winrate": "Globale Gewinnrate",
                     "games-played": "Gespielte Partien"
                 },
+                "deck-sort": {
+                    "winrate": ""
+                },
                 "time": {
                     "past-three": "Vergangene 3 Tage",
                     "past-seven": "Vergangene 7 Tage",
@@ -929,7 +1003,8 @@
                     "passive-3": "Schatzauswahl passiv 2 nur ultra Seltene"
                 },
                 "treasure-sort": {
-                    "global-winrate": "Globale Gewinnrate"
+                    "global-winrate": "Globale Gewinnrate",
+                    "global-offering": ""
                 },
                 "passive-treasures": {
                     "all": "Alle Passiven"
@@ -944,6 +1019,8 @@
                 "runs": "Durchläufe",
                 "starter-deck": "Anfängerdeck",
                 "final-deck": "Finales Deck",
+                "run-details": "",
+                "average-wins-per-run": "",
                 "archive-deck-tooltip": "Deck archivieren (du kannst es später wiederherstellen)",
                 "delete-deck-tooltip": "Deck permantent löschen",
                 "restore-deck-tooltip": "Deck wiederherstellen",
@@ -958,7 +1035,10 @@
             },
             "tier-list": {
                 "header-hero-details": "Karte",
-                "header-winrate": "Gewinnrate"
+                "header-winrate": "Gewinnrate",
+                "tier": "",
+                "player-data-points": "",
+                "player-winrate-tooltip": ""
             },
             "hero-stat": {
                 "global-winrate": "Globale Gewinnrate",
@@ -993,6 +1073,9 @@
                 "hero": {
                     "placeholder": "Suche Helden..."
                 },
+                "deck": {
+                    "placeholder-tooltip": ""
+                },
                 "treasure": {
                     "placeholder": "Suche Schatz..."
                 }
@@ -1003,19 +1086,29 @@
                 "most-played-classes": "Meistgespielte Klassen",
                 "best-winrate-classes": "Beste Gewinnrate Klassen",
                 "most-faced-classes": "Meist getroffene Klassen",
-                "best-winrate-against": "Beste Gewinnrate gegen"
+                "best-winrate-against": "Beste Gewinnrate gegen",
+                "faced-tooltip": ""
             },
             "deckbuilder": {
                 "choose-your-hero-title": "Wähle deinen Helden",
                 "choose-your-hero-power-title": "Wähle deine Heldenfähigkeit",
                 "build-your-deck-title": "Erstelle dein Deck",
+                "go-back-hero-power": "",
+                "ongoing-deck-building": "",
+                "dk-runes-tooltip": "",
                 "export-deckcode-button": "Code kopieren",
                 "save-deck-button": "Deck speichern",
                 "deck-saved-info": "Deck gespeichert",
                 "save-deckcode-button-tooltip": "Füge dieses Deck dem \"Meine Decks\" Reiter hinzu",
+                "show-buckets-button-tooltip": "",
                 "search-tooltip": {
+                    "text": "",
                     "info-1": "Enter - füge das erste Ergebnis deiner Liste hinzu",
-                    "info-2": "Umschalt + Enter - füge das erste Ergebnis deiner Liste hinzu und leere das Suchfeld"
+                    "info-2": "Umschalt + Enter - füge das erste Ergebnis deiner Liste hinzu und leere das Suchfeld",
+                    "info-4": ""
+                },
+                "warning": {
+                    "loe-hero": ""
                 },
                 "or": "oder",
                 "import-deck-button-title": "Deck importieren",
@@ -1088,6 +1181,7 @@
             "replay-info": {
                 "rank-issue-tooltip": "Wir konnten den Rang des Spielers nicht abrufen",
                 "versus": "VS.",
+                "treasure-icon-tooltip": "",
                 "mmr": "MMR",
                 "show-stats-button": "Statistiken",
                 "show-stats-button-tooltip": "Zeige Statistiken",
@@ -1139,7 +1233,9 @@
             "tip-2": "Klicke auf das Fehler-Symbol oben, um einen Fehler zu melden oder eine Verbesserung vorzuschlagen",
             "tip-3": "Wenn du schwerwiegende Fehler hast (wie bspw. keine Synchronisierung der Sammlung, Decktracker funktioniert nicht, etc.), führe die App als Admin aus.",
             "tip-4": "Die Optionen haben viele Anpassungsmöglichkeiten, zöger nicht dich umzuschauen und aktiviere / deaktiviere einige Funktionen",
-            "tip-5": "[Mercenaries] Zeige die \"Münzen übrig\" Spalte an, indem du das Fenster vergrößerst"
+            "tip-5": "[Mercenaries] Zeige die \"Münzen übrig\" Spalte an, indem du das Fenster vergrößerst",
+            "tip-8": "",
+            "tip-10": ""
         },
         "streams": {
             "category": {
@@ -1158,7 +1254,16 @@
         "tavern-brawl": {
             "category": {
                 "meta": "Meta"
-            }
+            },
+            "with-name": ""
+        },
+        "lottery": {
+            "title": "",
+            "resources": "",
+            "quilboars": "",
+            "spells": "",
+            "close-confirmation-text-1": "",
+            "close-confirmation-button-cancel": ""
         }
     },
     "turn-timer": {
@@ -1167,6 +1272,9 @@
         "player-current-turn-tooltip": "Wie lange dein aktueller Zug läuft. Standardmäßig dauern Züge 75 Sekunden, können aber aufgrund von Animationen darüber hinausgehen."
     },
     "counters": {
+        "attack": {
+            "player": ""
+        },
         "pogo": {
             "player": "Du hast {{value}} Robohopser ausgespielt",
             "opponent": "Dein Gegner hat {{value}} Robohopser ausgespielt"
@@ -1183,8 +1291,26 @@
             "player": "{{value}} war die letzte Kampfschreikarte, die du ausgespielt hast",
             "opponent": "{{value}} war die letzte Kampfschreikarte, die dein Gegner ausgespielt hat"
         },
+        "monstrous-parrot": {
+            "opponent": ""
+        },
         "vanessa": {
             "player": "{{value}} war die letzte Karte, die dein Gegner ausgespielt hat"
+        },
+        "naga-giant": {
+            "player": ""
+        },
+        "corpse": {
+            "player": ""
+        },
+        "anachronos": {
+            "player": ""
+        },
+        "bonelord-frostwhisper": {
+            "opponent": ""
+        },
+        "spectral-pillager": {
+            "player": ""
         },
         "lady-darkvein": {
             "player": "{{value}} war der letzte Schattenzauber, den du ausgespielt hast",
@@ -1210,9 +1336,30 @@
             "player": "{{value}} Instabile Skelette sind für dich gestorben",
             "opponent": "{{value}} Instabile Skelette sind für deinen Gegner gestorben"
         },
+        "relic": {
+            "opponent": ""
+        },
+        "fatigue": {
+            "opponent": ""
+        },
+        "abyssal-curse-2": {
+            "opponent": ""
+        },
+        "galakrond": {
+            "opponent": ""
+        },
         "hero-power-damage": {
             "player": "Deine Heldenfähigkeit hat {{value}} Schaden verursacht",
             "opponent": "Die Heldenfähigkeit deines Gegners hat {{value}} Schaden verursacht"
+        },
+        "shockspitter": {
+            "opponent": ""
+        },
+        "jade": {
+            "opponent": ""
+        },
+        "libram": {
+            "opponent": ""
         },
         "si-seven": {
             "player": "Du hast {{value}} SI:7 Karten in diesem Spiel ausgespielt",
@@ -1343,6 +1490,7 @@
             "abilities": "Fähigkeiten",
             "global-usage": "Globale Nutzung",
             "your-usage": "Deine Nutzung",
+            "number-of-games-tooltip": "",
             "level-header": "LVL",
             "role-header": "Rolle",
             "name-header": "Name",
@@ -1374,6 +1522,7 @@
         },
         "team-widget": {
             "number-of-users-tooltip": "Anzahl, wie oft der Söldner diese Fähigkeit in diesem Kampf benutzt hat",
+            "speed-buff": "",
             "empty-state": "Gehe in ein Kopfgeld oder einen PvP Kampf um dein Team zu sehen",
             "merc-level-tooltip": "Aktuelles Söldner Level",
             "unrecognized-mercenary": "Unbekannter Söldner",
@@ -1382,10 +1531,13 @@
             "tasks-completed": "Du hast alle deine Aufgaben abgeschlossen",
             "task-title": "Aufgabe {{taskNumber}}: {{taskTitle}}",
             "task-progress-label": "Fortschritt:",
+            "create-team-button-label": "",
+            "create-team-button-ok-label": "",
             "roles-chart-button": "Rollen",
             "turn-counter": {
                 "turns": "Züge",
-                "current-battle-turn-tooltip": "Aktueller Zug"
+                "current-battle-turn-tooltip": "Aktueller Zug",
+                "total-map-turns-tooltip": ""
             }
         }
     },
@@ -1434,6 +1586,7 @@
         "card-discarded": "Karte verworfen",
         "card-countered": "Karte gekontert",
         "card-in-graveyard": "Auf dem Friedhof",
+        "gift-created-by-multiple-cards": "",
         "unnamed-player": "Unbenannter Spieler",
         "created-by": "Erstellt von {{value}}",
         "unknown-class-card": "Unbekannte {{playerClass}} Karte",
@@ -1460,11 +1613,13 @@
             "lose-chance-label": "Niederlage",
             "lose-chance-tooltip": "Deine Chance, den aktuellen Kampf zu verlieren",
             "damage-title": "Schaden",
+            "damage-received-tooltip": "",
             "lethal-title": "Tödlich",
             "lethal-dealt-tooltip": "% Chance den gegnerischen Helden zu töten",
             "lethal-received-tooltip": "% Chance in diesem Kampf zu sterben",
             "composition-not-supported": {
                 "reason-secret": "Geheimnisse",
+                "reason-festergut": "",
                 "bug": "Ein unbekannter Fehler ist aufgetreten. Ein Fehlerbericht wurde automatisiert an die Entwickler gesendet"
             },
             "result": {
@@ -1474,6 +1629,7 @@
             }
         },
         "sim": {
+            "add-minion-button-tooltip": "",
             "update-minion-button-tooltip": "Diener aktualisieren",
             "remove-minion-button-tooltip": "Diener entfernen",
             "versus": "VS.",
@@ -1482,10 +1638,16 @@
             "reset-button": "Zurücksetzen",
             "export-button": "Kopieren",
             "exporting": "Erstelle Simulationscode, bitte warten",
+            "export-confirmation": "",
             "import-button": "Importieren",
+            "reposition-button": "",
+            "reposition-button-secondpass": "",
             "reposition-button-done": "Abgeschlossen",
             "reposition-button-cancel": "Abbrechen",
             "reposition-button-cancelling": "Wird abgebrochen...",
+            "reposition-button-tooltip-firstpass": "",
+            "reposition-button-tooltip-finalresult": "",
+            "reposition-button-tooltip-cancel": "",
             "reposition-button-tooltip-cancelling": "Prozesse werden abgebrochen, bitte warte einen Moment",
             "actual": "Aktuell",
             "simulated": "Simuliert",
@@ -1497,23 +1659,39 @@
             "hero-powers-header": "Heldenfähigkeiten",
             "hero-search-placeholder": "Suche Helden / Heldenfähigkeit",
             "select-hero-power-placeholder": "Wähle einen Helden",
+            "quest-reward-header": "",
+            "select-quest-reward-placeholder": "",
             "select-hero-placeholder": "Wähle eine Heldenfähigkeit",
             "hero-selection-title": "Held",
             "heroes-header": "Helden",
             "search-heroes-placeholder": "Suche Helden",
             "update-minion-title": "Diener aktualisieren",
             "summon-mechs": "Mech beschwören",
+            "summon-plants": "",
+            "sneed-deathrattle": "",
             "minions-selection-title": "Diener",
-            "search-minion-placeholder": "Suche Diener"
+            "search-minion-placeholder": "Suche Diener",
+            "simulator-help-tooltip": {
+                "title": "",
+                "control-hero-power": "",
+                "control-general": ""
+            },
+            "undead-army-tooltip": ""
         },
         "hero-stats": {
+            "finishes-title": "",
+            "avg-position-tooltip": "",
+            "avg-position-global-tooltip": "",
             "matches-played-label": "Gespielte Spiele",
+            "turn-winrate": "",
             "winning-tribes-title": "Dienertypen, die am meisten gewinnen",
-            "winning-tribes-title-tooltip": "Prozentsatz jedes Dienertypen, die im Durchschnitt in den besten 4 Trupps sind"
+            "winning-tribes-title-tooltip": "Prozentsatz jedes Dienertypen, die im Durchschnitt in den besten 4 Trupps sind",
+            "strategies-link": ""
         },
         "hero-selection": {
             "achievement-completed": "Errungenschaft abgeschlossen",
             "achievement-missing": "Errungenschaft fehlt",
+            "tier-list-title-tooltip": "",
             "tier-list-title-footer": "Zuletzt aktualisiert am {{lastUpdateDate}}"
         },
         "in-game": {
@@ -1529,19 +1707,28 @@
                 "title": "Alle Helden",
                 "next-opponent-title": "Zug {{turn}} - Nächster Gegner",
                 "empty-state-title": "Zurzeit gibt es hier noch nichts",
+                "score-board-title": "",
                 "tavern-upgrade-title": "Gasthaus Verbesserungen",
                 "tavern-last-upgrade-title": "Letzte Verbesserung",
+                "tavern-empty-state": "",
                 "triple-title": "Neue Drillinge",
                 "triple-empty-state": "Keine neuen Drillinge",
-                "buddy-text": "Zug {{turn}}"
+                "buddies-empty-state": "",
+                "buddy-text": "Zug {{turn}}",
+                "buddy-tooltip-golden": "",
+                "rewards-empty-state": ""
             },
             "minions-list": {
                 "reset-button": "Zurücksetzen",
+                "buddies-tier-tooltip": "",
                 "highlight-tribe": "Klicke, um alle {{value}}s im Gasthaus hervorzuheben",
-                "unhighlight-tribe": "Klicke, um {{value}}s im Gasthaus nicht hervorzuheben"
+                "unhighlight-tribe": "Klicke, um {{value}}s im Gasthaus nicht hervorzuheben",
+                "unhighlight-mechanics": "",
+                "unhighlight-minion": ""
             }
         },
         "post-match-stats": {
+            "final-board": "",
             "final-position": "Beendet als #{{position}}",
             "tabs": {
                 "hp-by-turn": "Leben pro Zug",
@@ -1558,13 +1745,15 @@
                 "empty-state-title": "Keine Informationen verfügbar"
             },
             "winrate-stats": {
+                "community-label": "",
                 "turn-label": "Zug",
                 "winrate-label": "Gewinnrate"
             },
             "warband-stats": {
                 "community-label": "Durchschnitt per Held",
                 "your-label": "Aktueller Versuch",
-                "turn-label": "Zug"
+                "turn-label": "Zug",
+                "delta-label": ""
             }
         },
         "overlay-button": {
@@ -1576,6 +1765,8 @@
             "available-tooltip": "{{tribeNames}} werden in diesem Versuch erscheinen."
         },
         "board": {
+            "seen-turns-ago": "",
+            "last-board-empty": "",
             "total-damage": "Gesamtschaden"
         },
         "empty-state-title": "Zurzeit gibt es hier noch nichts",
@@ -1585,11 +1776,15 @@
         "hero-info": {
             "winrate-label": "Gewinnrate",
             "popularity-label": "Beliebtheit",
-            "win-distribution-tooltip": "Gewinnverteilung"
+            "your-value-tooltip": "",
+            "win-distribution-header": "",
+            "win-distribution-tooltip": "Gewinnverteilung",
+            "stats-period": ""
         },
         "deck-select": {
             "copy-deck-tooltip": "Zum Kopieren klicken",
-            "personal-deck-text": "Dein letztes Deck"
+            "personal-deck-text": "Dein letztes Deck",
+            "build-deck-tooltip": ""
         }
     },
     "session": {
@@ -1599,8 +1794,13 @@
             "battlegrounds": "Schlachtfeld",
             "unknown": "Unbekannt"
         },
+        "buttons": {
+            "close-tooltip": ""
+        },
         "summary": {
-            "total-games": "{{value}} Spiele"
+            "total-games": "{{value}} Spiele",
+            "total-games-tooltip-all-time": "",
+            "delta-mmr-tooltip": ""
         },
         "groups": {
             "battlegrounds": {
@@ -1616,6 +1816,9 @@
                 }
             }
         }
+    },
+    "quests": {
+        "quests-completed": ""
     },
     "settings": {
         "title": "Einstellungen",
@@ -1652,16 +1855,33 @@
                 "bug-report": "Fehler melden",
                 "third-party": "Drittanbieter",
                 "broadcast": "Twitch",
+                "mods": "",
                 "data": "Daten"
             },
             "mods": {
+                "warning": "",
+                "instructions": "",
+                "check-mods-title": "",
+                "enable-mods-title": "",
+                "disable-mods-description": "",
+                "enable-mods": "",
+                "game-running-error": "",
+                "refresh-engine-tooltip": "",
+                "add-mods-title": "",
+                "installed-mods-description": "",
+                "downloading-mod-engine": "",
+                "installing-mod-manager": "",
+                "mods-ready": "",
                 "check-for-updates": "Nach Updates suchen",
                 "checking-for-updates": "Suche...",
-                "checking-mod-for-updates": "Suche {{modName}}"
+                "checking-mod-for-updates": "Suche {{modName}}",
+                "update-disabled": ""
             },
             "third-party": {
                 "vs": {
-                    "website-link": "hier"
+                    "pitch": "",
+                    "website-link": "hier",
+                    "toggle-label": ""
                 },
                 "ooc": {
                     "website-link": "hier",
@@ -1675,6 +1895,7 @@
                     "instructions-page-link": "Anleitungsseite"
                 },
                 "hsdecks": {
+                    "pitch": "",
                     "website-link": "hier",
                     "next": "Wenn du dich für die Synchronisierung mit hearthstone-decks.net entscheidest, sendet Firestone ihnen anonym jedes Spiel, dass du spielst, mit einigen Informationen zum Spiel (Deck Code, Rang, Spielergebnis)",
                     "toggle-label": "Synchronisiere deine Aufzeichnungen mit hearthstone-decks.net"
@@ -1703,7 +1924,8 @@
                 "logged-in-as-text": "Eingeloggt als:",
                 "configuration-title": "Stream Konfiguration",
                 "delay-label": "Streamverzögerung (ms)",
-                "other-options-title": "Andere Optionen"
+                "other-options-title": "Andere Optionen",
+                "appear-on-live-streams-tooltip": ""
             },
             "launch": {
                 "launch-on-game-start-label": "Starte Firestone wenn das Spiel gestartet wird",
@@ -1719,6 +1941,9 @@
                 "allow-games-share-label": "Teilen von Spielen erlauben",
                 "allow-games-share-tooltip": "Erlaube der App, deine Spiele (und Decks) zu teilen. Die Daten sind anonymisiert, aber wenn du an geheimen Decks arbeitest, möchtest du eventuell diese Option deaktivieren.",
                 "enable-mailbox-label": "Postfach aktivieren",
+                "enable-mailbox-unread-label": "",
+                "display-notifications-label": "",
+                "display-notifications-confirmation": "",
                 "accessibility-title": "Bedienungshilfen",
                 "flash-window": "Hearthstone Fenster aufblinken",
                 "flash-window-tooltip": "Lasse das Hearthstone aufblinken, wenn du am Zug bist oder die Schlachtfeld Rekrutierungsphase beginnt",
@@ -1738,14 +1963,38 @@
                 "link": "hier",
                 "text-3": "Bitte starte die App neu (mit dem Button im Tab Allgemein auf der linken Seite) um sicherzustellen, dass die neue Sprache berücksichtigt wird."
             },
+            "premium": {
+                "text-1": "",
+                "lottery-block-title": "",
+                "lottery-button-text": ""
+            },
             "data": {
                 "remote-title": "Online Daten",
                 "remote-intro-text": "Firestone speichert einen Großteil deiner Daten online, um die Bedienung auf mehreren Geräten zu vereinfachen. Einige Daten werden lokal zwischengespeichert um Ladezeiten und Internetnutzung zu reduzieren. Du kannst eine Aktualisierung dieser Daten mit den Buttons unten erzwingen, beispielsweise wenn du das Gerät wechselst.",
                 "games-title": "Spiele",
+                "disable-local-cache-tooltip": "",
+                "other-title": "",
                 "packs": "Packungen",
+                "games-tooltip": "",
+                "games-period": "",
+                "games-period-options": {
+                    "past-100": "",
+                    "past-7": ""
+                },
                 "achievements": "Errungenschaften",
                 "refresh-button-label": "Aktualisieren",
                 "refresh-progress-button-label": "Arbeite..."
+            },
+            "quests": {
+                "title": "",
+                "enable-quests-tooltip": "",
+                "show-when-empty-tooltip": "",
+                "show-in-game-tooltip": "",
+                "constructed-tooltip": "",
+                "constructed-on-hub-tooltip": "",
+                "constructed-on-bg-tooltip": "",
+                "battlegrounds-tooltip": "",
+                "mercenaries-tooltip": ""
             }
         },
         "decktracker": {
@@ -1762,8 +2011,23 @@
                 "minions-play-order": "Diener Spielreihenfolge",
                 "minions-play-order-tooltip": "Zeige die Spielreihenfolge aller Diener auf dem Feld, um somit bei der Aktivierungsreihenfolge von Todesröchelneffekten zu helfen (oder bei allem anderen, was auf der Spielreihenfolge der Diener basiert)",
                 "streamer-mode": "Streamermodus",
+                "show-title-bar": "",
+                "show-control-bar": "",
+                "show-tooltips-on-hover": "",
+                "show-rarity-color-tooltip": "",
                 "show-deck-winrate": "Zeige Deck Gewinnrate",
+                "show-matchup-winrate": "",
+                "show-gifts-separately": "",
+                "reset-deck-position-after-trade": "",
+                "show-stats-change": "",
+                "show-cost-reduction": "",
+                "show-unknown-cards": "",
+                "highlight-related-cards": "",
+                "discover-help": "",
+                "close-tracker-on-end": "",
+                "close-tracker-on-end-advanced": "",
                 "reset-button-confirm": "Sind Sie sicher?",
+                "reset-button-confirmation": "",
                 "counters-size": "Zählergröße"
             },
             "modes": {
@@ -1776,11 +2040,21 @@
             },
             "opponent-deck": {
                 "tracker-title": "Decktracker",
+                "show-tracker-tooltip": "",
+                "ai-decklist-tooltip": "",
+                "group-cards-by-zone-tooltip": "",
+                "used-cards-go-to-bottom-tooltip": "",
                 "darken-used-cards-label": "Verwendete Karten abdunkeln",
                 "global-effects-label": "Zeige globale Effekte",
                 "sort-by-mana-cost-label": "Sortiere Karten nach Manakosten",
+                "show-bottom-cards-separately-label": "",
+                "show-top-cards-separately-label": "",
+                "hide-generated-cards-label": "",
+                "show-dk-runes-label": "",
+                "opponent-hand-title": "",
                 "card-turn-draw-tooltip": "Zeige den Zug, in welchem der Gegner eine Karte auf die Hand erhalten hat",
                 "guessed-cards-label": "Erratene Karten",
+                "buff-in-hand-label": "",
                 "secrets-helper-title": "Geheimnishelfer",
                 "enable-secret-helper-label": "Aktiviere Geheimnishelfer",
                 "counters": {
@@ -1798,12 +2072,18 @@
                     "elwynn-boar-label": "Elwynneber Tode",
                     "volatile-skeleton-label": "Instabiles Skelett Tode",
                     "relic-label": "Relikte",
-                    "hero-power-damage-label": "Schaden mit Heldenfähigkeit"
+                    "hero-power-damage-label": "Schaden mit Heldenfähigkeit",
+                    "corpse-spent-tooltip": ""
                 },
+                "size-title": "",
                 "opacity-title": "Deckkraft"
             },
             "your-deck": {
+                "ignore-decklist-label": "",
+                "ignore-decklist-confirmation": "",
                 "counters": {
+                    "pogo-tooltip": "",
+                    "cthun-tooltip": "",
                     "fatigue-tooltip": "Zeige deinen nächsten Erschöpfungsschaden",
                     "abyssal-curse-tooltip": "Zeige deinen höchsten Abyssischen Fluch Schaden",
                     "attack-on-board-tooltip": "Zeige den Gesamtschaden deines Helden und deiner Diener auf dem Feld",
@@ -1823,6 +2103,19 @@
                     "monstrous-parrot-label": "Monströser Papagei",
                     "monstrous-parrot-tooltip": "Zeige das letzte befreundete Todesröcheln, wenn du einen Monströsen Papagei auf der Hand hast.",
                     "vanessa-label": "Vanessa van Cleef",
+                    "lightray-label": "",
+                    "menagerie-label": "",
+                    "corpse-spent-label": "",
+                    "overdraft-label": "",
+                    "bonelord-frostwhisper-label": "",
+                    "anachronos-label": "",
+                    "asvedon-label": "",
+                    "murozond-label": "",
+                    "naga-giant-label": "",
+                    "shockspitter-label": "",
+                    "parrot-mascot-label": "",
+                    "queensguard-label": "",
+                    "spectral-pillager-label": "",
                     "lady-darkvein-label": "Lady Dunkelader",
                     "grey-sage-parrot-label": "Grauweisenpapagei",
                     "multicaster-label": "Multiwirkerin",
@@ -1831,11 +2124,19 @@
             },
             "duels": {
                 "title": "Spezielle Duelle Optionen",
-                "max-health-option-off": "Aus"
+                "max-health-tooltip": "",
+                "max-health-option-off": "Aus",
+                "max-health-option-mouseover": "",
+                "show-ooc-tracker-tooltip": "",
+                "show-ooc-hero-info-tooltip": "",
+                "show-ooc-deck-select-tooltip": ""
             },
             "turn-timer": {
                 "title": "Zug Timer",
-                "show-turn-timer-label": "Zeige Zug Timer"
+                "show-turn-timer-label": "Zeige Zug Timer",
+                "show-turn-timer-match-length-label": "",
+                "size-title": "",
+                "width-title": ""
             }
         },
         "collection": {
@@ -1845,20 +2146,24 @@
             "general": {
                 "title": "Allgemeine Optionen",
                 "high-resolution-images-label": "Hochauflösende Bilder",
+                "show-related-cards-tooltip": "",
                 "card-size-in-collection-label": "Kartengröße in der Sammlung",
                 "notifications-label": "Aktiviere Benachrichtigungen",
                 "notifications-dust-recap-label": "Staub Überblick",
                 "notifications-non-golden-commons-label": "Nicht goldene Seltene",
                 "notifications-rewards-label": "Belohnungen"
             },
-            "history-show-only-new-cards": "Zeige nur neue Karten"
+            "history-show-only-new-cards": "Zeige nur neue Karten",
+            "pack-stats-show-only-buyable-packs-tooltip": ""
         },
         "duels": {
-            "personal-decks-show-hidden-decks": "Zeige archivierte"
+            "personal-decks-show-hidden-decks": "Zeige archivierte",
+            "hide-stats-below-threshold-tooltip": ""
         },
         "battlegrounds": {
             "menu": {
-                "general": "Allgemein"
+                "general": "Allgemein",
+                "session": ""
             },
             "full-toggle-label": "Schlachtfeld aktivieren",
             "general": {
@@ -1866,8 +2171,23 @@
                 "enable-app-label": "Aktiviere App",
                 "integrated-mode-label": "Integrierter Modus",
                 "integrated-mode-tooltip": "Wenn aktiviert, wird das Schlachtfeld-Fenster zu einem Overlay, das an das Spielfenster gebunden ist. Dies ist für Einzelmonitor-Setups und für das Streamen der App empfohlen",
+                "enable-battle-sim-tooltip": "",
+                "hide-simulation-tooltip": "",
+                "show-sim-only-in-tavern-tooltip": "",
+                "use-local-simulator-tooltip": "",
+                "popup-hero-selection-screen-tooltip": "",
+                "use-mmr-filter-for-live-stats-tooltip": "",
                 "use-tribe-filter-for-live-stats-label-short": "Dienertypen Filter",
-                "show-achievements-label": "Zeige 'Errungenschaften'"
+                "show-next-opponent-recap-label": "",
+                "show-achievements-label": "Zeige 'Errungenschaften'",
+                "show-hero-tooltip-label": "",
+                "show-hero-tier-label": "",
+                "show-hero-tips-label": "",
+                "show-overlay-button": "",
+                "popup-post-match-stats-label": "",
+                "show-game-end-notif-label": "",
+                "simulator-config-title": "",
+                "simulator-number-of-sims-tooltip": ""
             },
             "overlay": {
                 "show-banned-tribes-label": "Zeige gebannte Dienertypen",
@@ -1875,18 +2195,40 @@
                 "show-available-tribes-label": "Zeige verfügbare Dienertypen stattdessen",
                 "show-available-tribes-tooltip": "Zeige verfügbare Dienertypen statt der Gebannten",
                 "banned-tribes-single-row-label": "Erzwinge einzelne Zeile",
+                "show-minions-list-label": "",
                 "turn-counter-label": "Zeige Zug Zähler",
                 "last-opponent-icon-label": "Letztes Gegnersymbol",
+                "last-opponent-board-label": "",
+                "battle-simulation-label": "",
+                "battle-simulation-example-label": "",
+                "widget-size-label": "",
                 "banned-tribes-title": "Gebannte Dienertypen",
                 "banned-tribes-show-in-column-label": "In Spalte anzeigen",
                 "banned-tribes-show-in-column-tooltip": "Zeige die gebannten Dienertypen in der Spalte, anstatt in der Zeile",
                 "banned-tribes-icon-size-label": "Icon Größe",
+                "minions-list-show-on-mouse-over-label": "",
                 "minions-list-show-on-mouse-over-confirmation": "Verstanden, wir werden dir nur Details zu den Dienern zeigen, wenn du auf einen Stern klickst",
+                "minions-list-group-minions-into-tribes-tooltip": "",
                 "minions-list-show-tribes-highlight-label": "Zeige Dienertypenhervorhebung",
                 "minions-list-show-tribes-highlight-tooltip": "Füge Buttons hinzu um bestimmte Dienertypen in Bobs Gasthaus hervorzuheben",
+                "minions-list-show-mechanics-highlight-tooltip": "",
+                "minions-list-show-mechanics-tiers-tooltip": "",
                 "minions-list-show-golden-cards-label": "Zeige goldene Karten",
+                "opponent-board-title": "",
+                "opponent-board-show-top-tooltip": "",
                 "counters-title": "Zähler",
-                "counter-soutshsea-label": "Südmeerschlägerin"
+                "counter-soutshsea-label": "Südmeerschlägerin",
+                "counter-magmaloc-label": "",
+                "counter-majordomo-label": ""
+            },
+            "session-widget": {
+                "title": "",
+                "label-tooltip": "",
+                "show-groups-tooltip": "",
+                "hide-when-friends-list-open-tooltip": "",
+                "show-matches-tooltip": "",
+                "number-of-matches-tooltip": "",
+                "opacity-title": ""
             }
         },
         "achievements": {
@@ -1894,10 +2236,12 @@
                 "general": "Allgemein"
             },
             "notifications": {
+                "achievements-enabled-text": "",
                 "achievements-enabled-tooltip": "Wenn deaktiviert, wird die gesamte Errungenschaftsverfolgung deaktiviert. Lass es deaktiviert, wenn du nicht planst deine Errugngenschafften mit Firestone zu durchsuchen. Ein Neustart der App wird benötigt.",
                 "firestone-achievements-text": "Aktiviere FS-Errungenschaften",
                 "show-notifications-text": "Zeige Benachrichtigungen",
-                "streamer-mode-text": "Streamer-Modus"
+                "streamer-mode-text": "Streamer-Modus",
+                "streamer-mode-confirmation": ""
             }
         },
         "mercenaries": {
@@ -1906,9 +2250,21 @@
                 "quests": "Quests"
             },
             "general": {
-                "your-team": "Dein Team"
+                "player-team-widget-tooltip": "",
+                "opponent-team-widget-tooltip": "",
+                "map-team-widget-tooltip": "",
+                "village-team-widget-tooltip": "",
+                "action-queue-pve-tooltip": "",
+                "action-queue-pvp-tooltip": "",
+                "role-chart-tooltip": "",
+                "tasks-tooltip": "",
+                "synergies-tooltip": "",
+                "turn-counter-battle-tooltip": "",
+                "your-team": "Dein Team",
+                "action-queue": ""
             },
             "quests": {
+                "explanation": "",
                 "search-box-placeholder": "Suche Söldner..."
             }
         },
@@ -1919,10 +2275,45 @@
             "empty-state": "Noch keine Einstellungen vorhanden"
         }
     },
+    "website": {
+        "desktop-app": {
+            "navigation-cta-text": ""
+        },
+        "spectator": {
+            "close-button-tooltip": ""
+        },
+        "battlegrounds": {
+            "games-played-tooltip": "",
+            "top-4-tooltip": "",
+            "top-1-tooltip": "",
+            "games-played-tooltip-global": "",
+            "top-4-tooltip-global": "",
+            "top-1-tooltip-global": "",
+            "top-4-label-global-with-bg": ""
+        },
+        "collection": {
+            "packs": {
+                "overview-title": ""
+            }
+        }
+    },
     "twitch": {
+        "adaptative-scaling": "",
+        "scale": "",
+        "move-magnifier-icon-on-top": "",
+        "constructed-section-title": "",
         "battlegrounds-section-title": "Schlachtfeld",
+        "could-not-log-error-text": "",
         "settings-side-text": "Einstellungen",
+        "show-hero-cards-help-tooltip": "",
+        "show-related-cards-help-tooltip": "",
+        "show-minions-list-tooltip": "",
         "show-minions-list-golden-cards": "Zeige goldene Karten",
+        "show-battle-simulator": "",
+        "last-board-size": "",
+        "hide-battle-odds-in-combat": "",
+        "hide-battle-odds-in-tavern": "",
+        "hide-battle-odds-when-empty": "",
         "options": {
             "auto": "Auto",
             "true": "Ja",
