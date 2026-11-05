@@ -432,7 +432,7 @@
             },
             "replay-in-game": {
                 "title": "遊戲內高畫質重播",
-                "blurb": "在《爐石戰記》用戶端中觀看完整的對戰重播，包含所有動畫與音效。現已全面開放——請先安裝 Replay Viewer 模組。"
+                "blurb": "在《爐石戰記》用戶端中觀看完整的對戰重播，包含所有動畫與音效。現已全面開放——請先安裝[Replay Viewer]模組。"
             },
             "general-hotkeys": {
                 "title": "自訂快速鍵",
@@ -524,7 +524,7 @@
             },
             "playerBgsTavernSpellsCastCounter": {
                 "title": "已施放旅店法術計數器",
-                "blurb": "顯示你在本場對戰中施放的旅店法術數量。"
+                "blurb": "顯示你在本場對戰施放的旅店法術數量。"
             },
             "questsWidgetScale": {
                 "title": "任務小工具大小",
@@ -1614,7 +1614,7 @@
                         "triples": "合成三合金卡次數",
                         "board-stats": "最高場面總體質",
                         "coins-wasted": "浪費金幣數",
-                        "rerolls": "刷牌次數",
+                        "rerolls": "重置次數",
                         "freezes": "凍結次數",
                         "hero-power": "英雄能力使用次數",
                         "minions-bought": "購買手下次數",
@@ -1689,9 +1689,9 @@
             "strategies": {
                 "curve": {
                     "name": {
-                        "3-on-3": "第 3 回合升 3⭐️（8 金幣升 4⭐️）",
-                        "3-on-3-bis": "第 3 回合升 3⭐️（9 金幣升 4⭐️）",
-                        "4-on-4": "第 4 回合直升 4⭐️",
+                        "3-on-3": "3 回合跳至 3⭐️旅店（8 金幣升 4⭐️）",
+                        "3-on-3-bis": "3 回合跳至 3⭐️旅店（9 金幣升 4⭐️）",
+                        "4-on-4": "4 回合跳至 4⭐️旅店",
                         "aggro-yogg": "強攻尤格節奏",
                         "basic": "常規節奏",
                         "basic-yogg": "標準尤格節奏",
@@ -1709,11 +1709,11 @@
                     },
                     "notes": {
                         "warrior": "若 1⭐️理財手下充裕且容易強刷三合一金卡，是非常有價值的路線。",
-                        "rafaam": "搭配 1 費英雄能力、或有理財資源支援的 2 費英雄能力，亦或是藉由『旅店小費者』來順暢升級旅店。",
-                        "slow-rafaam": "搭配 1 費英雄能力、有理財資源的 2 費英雄能力或『旅店小費者』順暢升級。在 2⭐️旅店多停留一段時間以提升場面強度。",
+                        "rafaam": "搭配 (1) 費英雄能力、或有理財資源支援的 (2) 費英雄能力，亦或是藉由「旅店小費仔」來順暢升級旅店。",
+                        "slow-rafaam": "搭配 (1) 費英雄能力、有理財資源的 (2) 費英雄能力或「旅店小費仔」順暢升級。在 2⭐️旅店多停留一段時間以提升場面強度。",
                         "extended-warrior": "在 1⭐️理財手下充裕且容易湊三合一時價值極高。若常規戰士節奏中遲遲未出現三合一，此變體為後備退路。",
-                        "toki": "適用於無法即時提供場面節奏的 1 費英雄能力打法。",
-                        "pocky": "非常冷門但針對特定 1 費英雄能力的特殊打法。",
+                        "toki": "適用於無法即時提供場面節奏的 (1) 費英雄能力打法。",
+                        "pocky": "非常冷門但針對特定 (1) 費英雄能力的特殊打法。",
                         "basic": "起手拿到理財手下時更強；第 4 回合商店較吃運氣。無特定英雄能力需求。",
                         "fast-basic": "起手拿到理財手下時更強；第 4 回合商店較吃運氣。無特定英雄能力需求。",
                         "3-on-3-bis": "賣前期血量以迅速鋪滿 3⭐️手下穩固場面。",
@@ -1721,8 +1721,8 @@
                         "4-on-4": "賣前期血量以極速獲取 3⭐️手下。若在『3回合升3⭐️』後遇到爛商店時的後備路線；需要額外經濟支援。",
                         "jeef": "利用 1⭐️理財手下與強力對子靈活展開前期遊戲及其多種變化。",
                         "fast-jeef": "利用 1⭐️理財手下與強力對子靈活開局，並能迅速跳費升⭐️。",
-                        "basic-yogg": "利用 2 費英雄能力來更快升至 3⭐️旅店。",
-                        "aggro-yogg": "利用 2 費英雄能力在場上鋪出優質的 1⭐️手下，之後再快速升至 3⭐️。",
+                        "basic-yogg": "利用 (2) 費英雄能力來更快升至 3⭐️旅店。",
+                        "aggro-yogg": "利用 (2) 費英雄能力在場上鋪出優質的 1⭐️手下，之後再快速升至 3⭐️。",
                         "slow-jeef": "利用 1⭐️理財手下與強力對子靈活開局，並停留在 2⭐️旅店以穩固場面。"
                     },
                     "action": {
@@ -2128,18 +2128,18 @@
             },
             "in-game": {
                 "error": {
-                    "connection-failed": "無法下載重播檔案。請檢查你的網路連線設定（如防火牆、VPN、Proxy 代理伺服器等）。",
+                    "connection-failed": "Firestone 無法連線至重播檢視器模組。請確認《爐石戰記》正在執行且該模組已啟用，並檢查您的防火牆或 VPN 設定。",
                     "mod-not-installed": "你必須安裝「Replay Viewer」模組才能使用遊戲內重播。請前往「設定」中的「模組」標籤安裝並啟用該模組。",
                     "not-in-game": "遊戲內重播功能僅在《爐石戰記》執行時有效。請啟動《爐石戰記》後再試一次。",
                     "download-failed": "無法下載重播檔案。請檢查你的網路連線設定（如防火牆、VPN、Proxy 代理伺服器等）。",
                     "mod-not-active": "你必須啟用「Replay Viewer」模組才能使用遊戲內重播。請前往「設定」中的「模組」標籤啟用該模組。",
-                    "rewind-block": "此對戰包含倒轉（Rewind）區塊，重播檢視器目前尚未完整支援此功能。"
+                    "rewind-block": "此對戰包含「倒轉」區塊，[Replay Viewer]目前尚未完整支援此功能。"
                 }
             },
             "in-game-protocol": {
                 "os-notification": {
                     "launch-hearthstone": "啟動《爐石戰記》以在遊戲內觀看此重播。",
-                    "install-mod-then-launch": "請先在 Firestone 設定中安裝「Replay Viewer」模組，再啟動《爐石戰記》以在遊戲內觀看。"
+                    "install-mod-then-launch": "請先在 Firestone 設定中安裝重播檢視器模組，再啟動《爐石戰記》以在遊戲內觀看。"
                 },
                 "error": {
                     "no-power-log": "此重播未包含遊戲內重播所需的資料。",
@@ -2706,6 +2706,51 @@
             "turn": {
                 "mine": "你的回合",
                 "opponent": "對手的回合"
+            },
+            "bg": {
+                "run": "回合",
+                "hero-selection": "英雄選擇",
+                "end": "結束",
+                "game-info": "對戰資訊",
+                "tribes": "本場遊戲的種族",
+                "health-graph": "玩家生命值",
+                "recruit": "招募",
+                "combat-end": "結束",
+                "round": "第 {{n}} 回合",
+                "picked": "已揀選",
+                "gold": "金幣",
+                "tier": "旅店等級",
+                "anomaly": "異變",
+                "rounds": "回合",
+                "combat-summary": "摘要",
+                "eliminated": "遭到淘汰",
+                "events": "事件",
+                "tavern-opens": "第 {{n}} 回合：旅店開門",
+                "result": {
+                    "tied": "平手",
+                    "won": "獲勝",
+                    "lost": "戰敗"
+                },
+                "place": {
+                    "6": "第 6 名",
+                    "7": "第 7 名",
+                    "1": "第 1 名",
+                    "8": "第 8 名",
+                    "2": "第 2 名",
+                    "3": "第 3 名",
+                    "4": "第 4 名",
+                    "5": "第 5 名"
+                },
+                "combat": "戰鬥",
+                "discover": "發現",
+                "mmr": "MMR",
+                "combat-start": "開始",
+                "combat-details": "逐步過程",
+                "empty-shop": "鮑伯沒有東西可賣",
+                "empty-board": "戰場上沒有手下",
+                "damage": "{{n}} 點傷害",
+                "versus": "對戰",
+                "combat-vs": "對戰 {{hero}}"
             }
         }
     },
@@ -2935,7 +2980,7 @@
             "player": "本場對戰你打出的海盜：{{value}} 隻"
         },
         "ceaseless": {
-            "player": "「{{cardName}}」目前消耗 {{cost}} 點法力。雙方已抽牌、打出或摧毀的卡牌：{{value}} 張"
+            "player": "「{{cardName}}」目前消耗 ({{cost}}) 點法力。雙方已抽牌、打出或摧毀的卡牌：{{value}} 張"
         },
         "discovers": {
             "player": "你已發現卡牌：{{value}} 次",
@@ -3296,6 +3341,9 @@
         "therazane": {
             "player": "你的下 {{value}} 個法術系別的法術將施放兩次：{{schools}}",
             "opponent": "對手的下 {{value}} 個法術系別的法術將施放兩次：{{schools}}"
+        },
+        "crash-of-thunder": {
+            "player": "你在本回合已施放的自然法術：{{value}} 個。轟響雷霆消耗為：{{cost}}"
         }
     },
     "loading": {
@@ -3592,7 +3640,7 @@
         "unknown-card": "未知卡牌",
         "unknown-mana-spell": "消耗 {{manaCost}} 點法力的未知法術",
         "unknown-info": "未知的 {{info}} 卡牌",
-        "unknown-big-minion": "消耗 {{cost}} 點法力以上的未知手下",
+        "unknown-big-minion": "消耗 ({{cost}}) 點法力以上的未知手下",
         "card-dredged-tooltip": "被打撈的卡牌",
         "streamer-mode": {
             "opponent": "對手",
@@ -3816,7 +3864,7 @@
             "undead-army-tooltip": "你的不死族手下獲得的額外攻擊力",
             "simulating-button": "模擬中...",
             "show-buddies-button-title": "顯示夥伴手下",
-            "eternal-legion-tooltip": "本局對戰中我方「永恆騎士」陣亡的數量",
+            "eternal-legion-tooltip": "本局對戰我方「永恆騎士」陣亡的數量",
             "global-info-title": "英雄附魔狀態",
             "greater-trinket-title": "強效飾品",
             "greater-trinkets-header": "強效飾品",
@@ -3829,36 +3877,36 @@
             "tavern-spells-cast": "旅店法術施放總數",
             "bloodgem-attack-tooltip": "每次使用鮮血寶石所獲得的額外攻擊力加成",
             "bloodgem-health-tooltip": "每次使用鮮血寶石所獲得的額外生命值加成",
-            "tavern-spells-cast-tooltip": "本局對戰中你打出的旅店法術總數",
+            "tavern-spells-cast-tooltip": "本局對戰你打出的旅店法術總數",
             "ancestral-automaton": "先祖自動機累計",
             "pirates-played": "打出海盜總數",
-            "ancestral-automaton-tooltip": "本局對戰中你召喚「先祖自動機」的數量",
-            "pirates-played-tooltip": "本局對戰中你打出的海盜手下總數",
+            "ancestral-automaton-tooltip": "本局對戰你召喚「先祖自動機」的數量",
+            "pirates-played-tooltip": "本局對戰你打出的「海盜」總數",
             "add-teammate-button": "新增隊友",
             "bloodgem-attack": "鮮血寶石攻擊力加成",
             "bloodgem-health": "鮮血寶石生命值加成",
             "empty-teammate-board": "尚未配置陣容。點此將隊友切換至主要位置以編輯場面。",
-            "frostling-bonus-tooltip": "本局對戰中你已打出的元素總數",
+            "frostling-bonus-tooltip": "本局對戰你已打出的「元素」總數",
             "teammate-board-tooltip": "隊友的場面陣容。點此將隊友切換至主要位置以編輯場面。",
             "clear-button": "清空",
             "pirates-summoned": "已召喚海盜總數",
-            "pirates-summoned-tooltip": "本局對戰中你召喚的海盜總數",
+            "pirates-summoned-tooltip": "本局對戰你召喚的「海盜」總數",
             "remove-teammate-button": "移除隊友",
             "beasts-summoned": "已召喚野獸總數",
             "magnetized": "已合體次數",
-            "beasts-summoned-tooltip": "本局對戰中你召喚的野獸總數",
-            "magnetized-tooltip": "本局對戰中你已進行合體的手下數量",
+            "beasts-summoned-tooltip": "本局對戰你召喚的「野獸」總數",
+            "magnetized-tooltip": "本局對戰你已進行[合體]的手下數量",
             "battlecries-triggered": "戰吼觸發次數",
             "beetle-attack-buff": "甲蟲攻擊力增益",
             "beetle-health-buff": "甲蟲生命值增益",
             "friendly-minions-dead-last-combat-tooltip": "在上一場戰鬥中陣亡的我方手下總數",
             "friendly-minions-dead-last-combat": "上場陣亡我方手下",
-            "battlecries-triggered-tooltip": "本局對戰中你已觸發的戰吼次數",
+            "battlecries-triggered-tooltip": "本局對戰你已觸發的[戰吼]次數",
             "elemental-attack-buff": "元素攻擊力增益",
             "elemental-health-buff": "元素生命值增益",
             "spells-cast": "法術施放總數",
             "tavern-spell-attack-buff": "旅店法術攻擊力增益",
-            "spells-cast-tooltip": "本局對戰中你施放過的法術總數",
+            "spells-cast-tooltip": "本局對戰你施放過的法術總數",
             "tavern-spell-health-buff": "旅店法術生命值增益",
             "haunted-carapace-health": "鬧鬼甲殼生命值加成",
             "haunted-carapace-attack-tooltip": "由「鬧鬼甲殼」賦予的額外攻擊力",
@@ -3887,9 +3935,9 @@
             "back-to-back-cast-this-game": "本局施放「背水一戰」次數",
             "cards-played-this-turn": "本回合打出卡牌數",
             "deathrattles-triggered-this-game": "本局觸發死亡之聲次數",
-            "back-to-back-cast-this-game-tooltip": "本局對戰中你施放旅店法術「背水一戰」的累積次數",
-            "mrrgltons-played-this-game-tooltip": "本局對戰中你打出莫戈頓系列手下的總數量（影響魚人老媽／老爸的成長數值）",
-            "deathrattles-triggered-this-game-tooltip": "本局對戰中你觸發死亡之聲效果的總次數（包含手下、法術等）",
+            "back-to-back-cast-this-game-tooltip": "本局對戰你施放旅店法術「背水一戰」的累積次數",
+            "mrrgltons-played-this-game-tooltip": "本局對戰你打出莫戈頓系列手下的總數量（影響魚人老媽／老爸的成長數值）",
+            "deathrattles-triggered-this-game-tooltip": "本局對戰你觸發[死亡之聲]效果的總次數（包含手下、法術等）",
             "undead-army-health-tooltip": "你的不死族手下獲得的額外生命值",
             "undead-army-health": "不死大軍生命值",
             "tasty-lobsters-buff": "美味龍蝦加成",
@@ -3899,9 +3947,9 @@
             "golden-minions-played-this-game": "打出的金卡手下",
             "eternal-knight-attack-buff-tooltip": "永恆騎士在本局獲得的固定攻擊力加成（例如來自飾品「永恆肖像」）",
             "eternal-knight-health-buff-tooltip": "永恆騎士在本局獲得的固定生命值加成（例如來自飾品「永恆肖像」）",
-            "golden-minions-played-this-game-tooltip": "你在本局對戰中打出的金卡手下數量",
+            "golden-minions-played-this-game-tooltip": "你在本局對戰打出的金卡手下數量",
             "cards-discarded-this-game": "本局捨棄卡牌數",
-            "cards-discarded-this-game-tooltip": "本局對戰中你已捨棄的卡牌總張數"
+            "cards-discarded-this-game-tooltip": "本局對戰你已捨棄的卡牌總張數"
         },
         "hero-stats": {
             "finishes-title": "完成場數",
@@ -3985,7 +4033,7 @@
                 "trinket-name-lesser": "{{name}}（次級）",
                 "rules": {
                     "missing-board-type": "你的陣容／手牌中至少需要有 {{typesAndQuantity}} 手下",
-                    "tavern-level": "你的旅店等級至少需要達到等級 {{target}}⭐️",
+                    "tavern-level": "你的旅店等級至少需要達到 {{target}}⭐️",
                     "menagerie": "你的陣容／手牌中至少需要有 3 個不同種族的手下",
                     "missing-board-expected-quantity": "{{quantity}} 個{{minionType}}",
                     "missing-board-linked": " 或 ",
@@ -4036,7 +4084,7 @@
                     "recommended-cards-header": "推薦卡牌",
                     "recommended-cards-header-tooltip": "強烈建議加入該陣容的卡牌；即使缺少這些卡牌，該陣容依然具備可行性"
                 },
-                "tier-category-tooltip": "檢視所有等級 {{value}}⭐️ 卡牌。按滑鼠右鍵可在旅店中醒目標示所有等級 {{value}}⭐️ 卡牌。",
+                "tier-category-tooltip": "檢視所有 {{value}}⭐️卡牌。按滑鼠右鍵可在旅店中醒目標示所有 {{value}}⭐️卡牌。",
                 "hide-all-mechanics-tooltip": "收合「關鍵字」標籤以僅顯示主要關鍵字",
                 "show-all-mechanics-tooltip": "展開「關鍵字」標籤以顯示所有支援的機制與關鍵字"
             },
@@ -4122,9 +4170,9 @@
                     "requires-end-of-turn": "僅會提供給具有[回合結束時]效果的手下",
                     "requires-minion-type": "僅會提供給擁有手下種族的手下",
                     "not-lowest-tier": "僅會提供給此卡池中等級最低的手下",
-                    "requires-battlecries-this-game": "本場對戰中必須曾觸發過[戰吼]",
-                    "requires-deathrattles-this-game": "本場對戰中必須曾觸發過[死亡之聲]",
-                    "requires-tavern-spells-this-game": "本場對戰中必須曾施放過旅店法術",
+                    "requires-battlecries-this-game": "本場對戰必須曾觸發過[戰吼]",
+                    "requires-deathrattles-this-game": "本場對戰必須曾觸發過[死亡之聲]",
+                    "requires-tavern-spells-this-game": "本場對戰必須曾施放過旅店法術",
                     "choose-one-gift-restriction": "[二選一]手下只能獲得【雙重幻象】、【複製】、【鍍金】或【迴響之聲】",
                     "lobby-quilboar-naga": "當對局中包含「野豬人」或「納迦」時不會提供",
                     "requires-tavern-tier-3": "旅店等級需達到等級 3 或以上",
@@ -4141,7 +4189,7 @@
                     "not-tier-7": "等級 7⭐️ 手下無法獲得",
                     "requires-activate": "僅會提供給[啟動]手下",
                     "lobby-no-aberration": "僅在對局中包含變異怪時才會提供",
-                    "requires-discards-this-game": "本場對戰中必須曾捨棄過卡牌",
+                    "requires-discards-this-game": "本場對戰必須曾捨棄過卡牌",
                     "relentless-deflector": "「不懈偏斜者」無法獲得【隱密】"
                 },
                 "turn": "第 {{value}} 回合",
@@ -4257,7 +4305,7 @@
         "display-mode": {
             "all": "所有模式",
             "battlegrounds": "英雄戰場",
-            "unknown": "未知模式",
+            "unknown": "未知",
             "battlegrounds-duo": "英雄戰場雙打"
         },
         "buttons": {
@@ -4332,7 +4380,7 @@
             "new-only-empty": "此版本無新增的設定項目。",
             "new-badge": "新",
             "counter-dropdown": {
-                "on-tooltip": "只要在目前的牌組、手牌或發現選項中偵測到相關卡牌，或本場對戰中曾打出過相關卡牌，便一律顯示計數器",
+                "on-tooltip": "只要在目前的牌組、手牌或發現選項中偵測到相關卡牌，或本場對戰曾打出過相關卡牌，便一律顯示計數器",
                 "limited": "受限",
                 "off-tooltip": "一律不顯示計數器",
                 "off": "關閉",
@@ -4514,7 +4562,9 @@
                 "disable-overlay-shared-texture-label": "停用遊戲內高速覆疊視窗",
                 "disable-hardware-acceleration-label": "停用硬體加速",
                 "disable-hardware-acceleration-tooltip": "改用 CPU 繪製應用程式視窗與覆疊介面，而非透過顯示卡。這能降低應用程式的記憶體使用量，但動畫與滾動畫面會耗費較多 CPU 資源。若遇到畫面破圖或視窗反白，開啟此功能可能有所幫助。需要重新啟動應用程式。",
-                "close-app-on-game-exit-tooltip": "當《爐石戰記》關閉時一併關閉 Firestone。若已開啟「結束遊戲時顯示戰況回顧」則無法使用此功能。"
+                "close-app-on-game-exit-tooltip": "當《爐石戰記》關閉時一併關閉 Firestone。若已開啟「結束遊戲時顯示戰況回顧」則無法使用此功能。",
+                "show-main-window-on-launch-label": "啟動時開啟主視窗",
+                "show-main-window-on-launch-tooltip": "關閉時，Firestone 會在系統匣中啟動。你可以從系統匣圖示開啟主視窗。"
             },
             "localization": {
                 "title": "語系與在地化",
@@ -5063,7 +5113,11 @@
                     "ghuun-blood-runes-label": "「古翰」生命值",
                     "ghuun-blood-runes-tooltip": "當對手為使用三血魄符文牌組的死亡騎士，且已打出過至少一個血魄符文卡牌時，顯示「古翰」偷取的生命值（基礎 6 點加上本賽局已打出的血魄符文數量）",
                     "nzoth-dreams-end-label": "『夢境終結』恩若司",
-                    "nzoth-dreams-end-tooltip": "啟用後，當對手召喚過至少一個死亡之聲手下時，顯示對手已召喚死亡之聲手下的數量及『夢境終結』恩若司目前的法力消耗"
+                    "nzoth-dreams-end-tooltip": "啟用後，當對手召喚過至少一個死亡之聲手下時，顯示對手已召喚死亡之聲手下的數量及『夢境終結』恩若司目前的法力消耗",
+                    "cthun-cost-label": "克蘇恩消耗",
+                    "hero-attacks-tooltip": "顯示對手英雄在本場對戰的攻擊次數",
+                    "cards-discarded-tooltip": "顯示對手在本場對戰捨棄的卡牌數量",
+                    "cthun-cost-tooltip": "顯示『帝國之眼』克蘇恩降低的法力消耗"
                 },
                 "size-title": "大小與不透明度",
                 "opacity-title": "不透明度",
@@ -5124,7 +5178,7 @@
                     "anachronos-tooltip": "打出「安納克羅斯」後，追蹤手下返回戰場前的剩餘回合數",
                     "lightray-label": "「聖光魟魚」",
                     "chaotic-tendril-label": "「混沌觸鬚」",
-                    "menagerie-label": "混合種族",
+                    "menagerie-label": "種族數量",
                     "anachronos-label": "「安納克羅斯」",
                     "asvedon-label": "『巨盾』亞思維頓",
                     "corpse-spent-label": "屍體（已消耗）",
@@ -5145,7 +5199,7 @@
                     "treant-tooltip": "顯示你召喚樹人的次數",
                     "relic-tooltip": "顯示你下一個惡魔獵人文物的效果強化等級",
                     "volatile-skeleton-tooltip": "顯示我方「易變骷髏」死亡的次數",
-                    "secrets-label": "已施放秘密",
+                    "secrets-label": "秘密（已施放）",
                     "excavate-tooltip": "顯示當前和最大的挖掘級別，並在將滑鼠懸停在櫃檯上時顯示你可以從下一次挖掘獲得的寶藏",
                     "corpse-spent-tooltip": "當擁有能從該數值獲益的卡牌時（例如「高潮死靈爆炸」），顯示已消耗屍體總數的計數器",
                     "gardens-grace-tooltip": "當手牌或牌堆中有「花園祝福」時，顯示其降低消耗後的實際費用",
@@ -5174,13 +5228,13 @@
                     "damage-taken-on-your-turn-label": "己方回合受到的傷害",
                     "dead-minions-this-game-label": "手下（已死亡）",
                     "damage-taken-on-your-turn-tooltip": "當手牌或牌堆中有需要此資訊的卡牌（例如「三溫暖常客」或「派對策劃員沃娜」）時，提供英雄在你的回合中受到的傷害資訊（受傷次數與累積傷害）",
-                    "locations-used-label": "已使用地點",
+                    "locations-used-label": "地點（已使用）",
                     "dead-minions-this-game-tooltip": "當手牌或牌堆中有相關卡牌時（例如「礦坑老大雷斯卡」），顯示本賽局死亡的手下總數",
                     "locations-used-tooltip": "當手牌或牌堆中有需要此資訊的卡牌時，顯示你已使用地點的次數",
                     "cards-drawn-tooltip": "當手牌中有「{{cardName}}」時，顯示本賽局你已抽取的卡牌總數",
                     "holy-spells-label": "神聖法術",
                     "holy-spells-tooltip": "顯示已施放的神聖法術數量。當手牌或牌堆中擁有打出神聖法術可降低消耗的卡牌時顯示",
-                    "pirates-summoned-label": "已召喚海盜",
+                    "pirates-summoned-label": "海盜（已召喚）",
                     "wheel-of-death-label": "「死亡輪盤」",
                     "thirsty-drifter-tooltip": "當手牌或牌堆中有「口渴的漂泊者」時，顯示你本賽局打出消耗為 (1) 點卡牌的數量",
                     "sea-shanty-label": "「船員之歌」",
@@ -5190,7 +5244,7 @@
                     "cards-drawn-label": "抽牌張數",
                     "elemental-streak-tooltip": "計算你連續幾次回合有打出元素手下",
                     "elemental-streak-label": "元素連續回合",
-                    "dragons-played-label": "龍類（打出過）",
+                    "dragons-played-label": "龍類（已打出）",
                     "ceaseless-expanse-tooltip": "顯示本賽局卡牌被打出、抽出或摧毀的累積次數",
                     "dragons-played-tooltip": "顯示你打出龍類的次數",
                     "ceaseless-expanse-label": "「無垠邊際」",
@@ -5198,17 +5252,17 @@
                     "discovers-tooltip": "計算你[發現]卡牌的次數",
                     "libram-reduction-label": "聖契減費",
                     "libram-reduction-tooltip": "顯示你的聖契所累積減少的消耗數值",
-                    "spells-on-friendly-characters-label": "友方角色法術",
+                    "spells-on-friendly-characters-label": "法術（友方）",
                     "gifts-played-tooltip": "顯示你打出由其他卡牌產生的衍生卡牌數量",
-                    "gifts-played-label": "衍生牌（打出過）",
+                    "gifts-played-label": "衍生牌（已打出）",
                     "spells-on-friendly-characters-tooltip": "顯示本賽局你對友方角色施放的法術數量",
-                    "combo-cards-played-label": "連擊牌（打出過）",
+                    "combo-cards-played-label": "連擊牌（已打出）",
                     "protoss-spells-tooltip": "當牌堆中有「{{cardName}}」時，顯示本賽局你已施放的神族法術數量",
                     "protoss-minion-reduction-tooltip": "顯示神族手下降低的總消耗（包含整場對戰生效的效果，以及僅作用於下一張手下的效果）",
                     "combo-cards-played-tooltip": "當手牌或牌堆中有「{{cardName}}」時，顯示本賽局你打出的連擊卡牌數量",
                     "protoss-minion-reduction-label": "神族手下消耗降低",
                     "next-starship-launch-label": "下一艘星艦發射消耗降低",
-                    "protoss-spells-label": "已施放神族法術",
+                    "protoss-spells-label": "神族法術（已施放）",
                     "next-starship-launch-tooltip": "顯示你發射下一艘星艦所減少的法力消耗",
                     "cards-played-this-turn-label": "本回合打出的卡牌",
                     "cards-played-this-turn-tooltip": "當牌堆中包含相關連動卡牌時，顯示你本回合打出的卡牌數量",
@@ -5269,13 +5323,13 @@
                     "friendly-attacks-tooltip": "顯示本賽局友方手下發動攻擊的總次數",
                     "cards-discarded-tooltip": "顯示本賽局你已捨棄的卡牌數量",
                     "secrets-triggered-tooltip": "顯示本賽局已觸發的友方秘密數量",
-                    "secrets-triggered-label": "已觸發秘密",
+                    "secrets-triggered-label": "祕密（已觸發）",
                     "shirvallah-label": "『老虎』希爾瓦拉",
                     "shirvallah-tooltip": "當手牌或牌堆中有『老虎』希爾瓦拉時，顯示你在法術上消耗的法力總量，以及希爾瓦拉目前的法力消耗",
                     "freebird-label": "「自由鳥」",
                     "overload-cards-played-tooltip": "顯示本賽局你打出的超載卡牌數量",
-                    "overload-cards-played-label": "已打出超載卡牌",
-                    "friendly-dead-minions-this-turn-label": "本回合死亡友方手下",
+                    "overload-cards-played-label": "超載卡牌（已打出）",
+                    "friendly-dead-minions-this-turn-label": "死亡友方手下（本回合）",
                     "frost-spells-label": "冰霜法術",
                     "frost-spells-tooltip": "顯示本賽局你施放過的冰霜法術數量",
                     "damage-taken-this-turn-label": "本回合受到傷害",
@@ -5285,9 +5339,9 @@
                     "damage-to-opponent-this-turn-tooltip": "顯示本回合對敵方英雄造成的總傷害",
                     "non-class-cards-added-to-hand-label": "加入手牌的非盜賊卡牌",
                     "beasts-summoned-label": "野獸（已召喚）",
-                    "totems-summoned-label": "已召喚圖騰",
+                    "totems-summoned-label": "圖騰（已召喚）",
                     "non-class-cards-added-to-hand-tooltip": "顯示本賽局加入手牌的非盜賊職業卡牌數量",
-                    "weapons-equipped-label": "已裝備武器",
+                    "weapons-equipped-label": "武器（裝備過）",
                     "beasts-summoned-tooltip": "顯示本賽局你召喚野獸的次數",
                     "damage-to-opponent-this-turn-label": "本回合對敵方英雄傷害",
                     "totems-summoned-tooltip": "顯示本賽局你召喚圖騰的次數",
@@ -5338,7 +5392,15 @@
                     "hodir-label": "『巨人先祖』霍迪爾",
                     "hodir-tooltip": "顯示『巨人先祖』霍迪爾還能將多少個手下的體質變成 8/8",
                     "therazane-label": "『大地守護者』瑟拉贊恩",
-                    "therazane-tooltip": "顯示下一個法術將施放兩次的法術系別"
+                    "therazane-tooltip": "顯示下一個法術將施放兩次的法術系別",
+                    "crash-of-thunder-label": "轟響雷霆",
+                    "ancestral-automaton-tooltip": "顯示你召喚「遠古自動機」的次數",
+                    "ysondre-tooltip": "顯示「伊索德雷」在本場對戰的死亡次數",
+                    "crash-of-thunder-tooltip": "當你手牌或牌庫中有轟響雷霆時，顯示你在本回合已施放的自然法術數量",
+                    "cthun-cost-tooltip": "顯示『帝國之眼』克蘇恩降低的法力消耗",
+                    "specific-deaths": "顯示對手的「{{cardName}}」死亡次數",
+                    "cthun-cost-label": "克蘇恩消耗",
+                    "ysondre-label": "「伊索德雷」"
                 },
                 "discovery-zone-label": "[發現]專區",
                 "discovery-zone-tooltip": "啟用後，記牌器將顯示一個新區塊以展示你當前獲得的[發現]選項。這可讓你檢視相關卡牌，並突顯與牌組的連動協同效果",
@@ -5514,7 +5576,7 @@
             "overlay": {
                 "overlay-title": "覆疊介面設定",
                 "show-banned-tribes-label": "顯示禁用的手下種族",
-                "show-banned-tribes-tooltip": "顯示本局對戰中被禁用的手下種族",
+                "show-banned-tribes-tooltip": "顯示本局對戰被禁用的手下種族",
                 "show-available-tribes-label": "改為顯示開放的手下種族",
                 "show-available-tribes-tooltip": "顯示本局開放的手下種族，而非禁用的種族",
                 "banned-tribes-single-row-label": "強制單行顯示",
@@ -5800,11 +5862,11 @@
             },
             "in-game": {
                 "description": "遊戲內重播功能讓你可以像在觀戰模式一樣重溫對戰——完整保留遊戲的所有畫面效果、動畫與震撼音效。",
-                "how-to-activate": "若要啟用遊戲內重播，請至「設定」的「模組」標籤中安裝並啟用[Hearthstone Replay Viewer]模組。完成後，「重播」標籤將會出現新按鈕，讓你可以直接在遊戲內觀看重播。",
+                "how-to-activate": "若要啟用遊戲內重播，請至「設定」的「模組」標籤中安裝並啟用重播檢視器[Hearthstone Replay Viewer]模組。完成後，「重播」標籤將會出現新按鈕，讓你可以直接在遊戲內觀看重播。",
                 "limitations": "重播檔案必須在建立後 30 天內於遊戲中開啟觀看，否則伺服器將會刪除該檔案。超過 30 天的重播仍可使用網頁瀏覽器觀看，但無法在遊戲內檢視。其他限制：目前尚不支援具倒轉效果（Rewind）的對戰。"
             },
             "in-game-sharing": {
-                "description": "只要對方安裝了 Firestone 且啟用了 Replay Viewer 模組，你就能與其分享重播。若要分享重播，只需點選「重播」標籤中的複製連結按鈕即可。"
+                "description": "只要對方安裝了 Firestone 且啟用了重播檢視器模組，你就能與其分享重播。若要分享重播，只需點選「重播」標籤中的複製連結按鈕即可。"
             }
         }
     },
@@ -6893,7 +6955,7 @@
                 "write-basic": "+ 撰寫基礎秘訣",
                 "add-hero": "+ 英雄專屬",
                 "add-lobby": "+ 大廳環境專屬",
-                "curve-3-on-3": "3 回合跳至 3 級旅店 (3-on-3)",
+                "curve-3-on-3": "3 回合跳至 3⭐️旅店",
                 "nav-label": "英雄能力秘訣",
                 "confirm-delete": "確定要刪除這則秘訣嗎？刪除後其他玩家將無法再看到它。",
                 "details": "詳細說明",
