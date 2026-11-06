@@ -2134,7 +2134,7 @@
                     "not-in-game": "游戏内回放只有在炉石传说运行时才有效。请启动炉石传说再试一次。",
                     "mod-not-active": "你需要启用 Replay Viewer 模组才能使用游戏内的回放。请前往设置，在模组标签下启用 Replay Viewer 模组。",
                     "mod-not-installed": "你需要启用 Replay Viewer 模组才能使用游戏内的回放。请前往设置，在模组标签下启用 Replay Viewer 模组。",
-                    "connection-failed": "我们无法下载回放。请检查您的连接设置，例如您的防火墙、VPN、代理等。",
+                    "connection-failed": "Firestone 无法连接到回放查看器模组。请确认炉石传说正在运行且模组已启用，并检查防火墙或 VPN 设置。",
                     "download-failed": "我们无法下载回放。请检查您的连接设置，例如您的防火墙、VPN、代理等。",
                     "rewind-block": "这局对战有回溯区块。这些区块目前还未被 Replay Viewer 正确支持。"
                 }
@@ -2725,6 +2725,51 @@
             "mulligan": {
                 "coin": "抽到幸运币",
                 "replaced": "已换"
+            },
+            "bg": {
+                "end": "结束",
+                "game-info": "对局信息",
+                "hero-selection": "英雄选择",
+                "run": "回合",
+                "tribes": "本局的随从类型",
+                "anomaly": "畸变",
+                "combat": "战斗",
+                "combat-summary": "摘要",
+                "health-graph": "玩家生命值",
+                "mmr": "等级积分",
+                "recruit": "招募",
+                "rounds": "回合",
+                "combat-details": "逐步演示",
+                "combat-end": "结束",
+                "combat-start": "开始",
+                "discover": "发现",
+                "picked": "选取",
+                "round": "第{{n}}回合",
+                "damage": "{{n}}点伤害",
+                "eliminated": "淘汰",
+                "empty-board": "战场上没有随从",
+                "empty-shop": "鲍勃没东西可卖",
+                "events": "事件",
+                "gold": "铸币",
+                "tier": "酒馆等级",
+                "versus": "对阵",
+                "combat-vs": "与{{hero}}战斗",
+                "place": {
+                    "1": "第1名",
+                    "2": "第2名",
+                    "3": "第3名",
+                    "4": "第4名",
+                    "5": "第5名",
+                    "6": "第6名",
+                    "7": "第7名",
+                    "8": "第8名"
+                },
+                "result": {
+                    "lost": "落败",
+                    "tied": "战平",
+                    "won": "获胜"
+                },
+                "tavern-opens": "第{{n}}回合：酒馆开启"
             }
         }
     },
@@ -3319,6 +3364,9 @@
         "therazane": {
             "opponent": "对手接下来施放的这{{value}}个法术派系的法术会施放两次：{{schools}}",
             "player": "你接下来施放的这{{value}}个法术派系的法术会施放两次：{{schools}}"
+        },
+        "crash-of-thunder": {
+            "player": "你在本回合已施放{{value}}个自然法术。“雷电崩鸣”的法力值消耗为{{cost}}。"
         }
     },
     "loading": {
@@ -4608,7 +4656,9 @@
                 "disable-overlay-shared-texture-tooltip": "默认情况下，游戏内浮窗直接通过显卡发送到游戏中，这样可以大大减少 CPU 的使用。如果浮窗未显示、显示不正确或挡住了游戏中的点击，请开启此功能。将在下次启动炉石传说时生效。",
                 "close-app-on-game-exit-label": "离开游戏时关闭应用",
                 "disable-hardware-acceleration-tooltip": "使用 CPU 而非显卡渲染应用窗口和浮窗。这可以降低应用的显存占用，但动画和滚动可能会占用更多 CPU。如果出现显示异常或窗口空白，也可以尝试启用此选项。更改后需重启应用。",
-                "close-app-on-game-exit-tooltip": "关闭炉石传说时退出 Firestone。启用“结束游戏时显示战绩”后，此选项不可用。"
+                "close-app-on-game-exit-tooltip": "关闭炉石传说时退出 Firestone。启用“结束游戏时显示战绩”后，此选项不可用。",
+                "show-main-window-on-launch-tooltip": "关闭时，Firestone 会启动到系统托盘中。点击托盘中的图标即可打开主窗口。",
+                "show-main-window-on-launch-label": "启动时打开主窗口"
             },
             "localization": {
                 "title": "本地化",
@@ -5071,7 +5121,7 @@
                     "starships-launched-label": "已发射的星舰",
                     "starships-launched-tooltip": "显示对手本局对战中发射的星舰数量及其组件",
                     "hero-power-use-label": "英雄技能使用",
-                    "ysondre-tooltip": "显示在本局对战中伊森德雷的死亡次数",
+                    "ysondre-tooltip": "显示“伊森德雷”在本局对战中的死亡次数",
                     "ysondre-label": "伊森德雷",
                     "hero-power-use-tooltip": "显示你使用英雄技能的次数",
                     "imbue-tooltip": "显示对手在本局对战中灌注英雄技能的次数",
@@ -5093,7 +5143,11 @@
                     "ghuun-blood-runes-label": "“戈霍恩”生命值",
                     "ghuun-blood-runes-tooltip": "当对手使用三鲜血符文的死亡骑士套牌且本局至少使用过一鲜血符文的卡牌时，显示“戈霍恩”偷取多少点生命值（基础6点加上已使用的鲜血符文数量）。",
                     "nzoth-dreams-end-label": "恩佐斯，梦境之末",
-                    "nzoth-dreams-end-tooltip": "启用后，当对手至少召唤过一个亡语随从时，显示其召唤的亡语随从数量，以及“恩佐斯，梦境之末”的当前法力消耗。"
+                    "nzoth-dreams-end-tooltip": "启用后，当对手至少召唤过一个亡语随从时，显示其召唤的亡语随从数量，以及“恩佐斯，梦境之末”的当前法力消耗。",
+                    "cards-discarded-tooltip": "显示对手在本局对战中弃掉的卡牌数量",
+                    "cthun-cost-label": "克苏恩法力值消耗",
+                    "cthun-cost-tooltip": "显示“克苏恩，帝国之眼”降低的法力值消耗",
+                    "hero-attacks-tooltip": "显示对手的英雄在本局对战中攻击的次数"
                 },
                 "size-title": "尺寸和透明度",
                 "opacity-title": "透明度",
@@ -5364,7 +5418,15 @@
                     "hodir-label": "巨人之父霍迪尔",
                     "hodir-tooltip": "显示“巨人之父霍迪尔”还能将多少个随从设为8/8属性值",
                     "therazane-label": "地母塞拉赞恩",
-                    "therazane-tooltip": "显示下一个会施放两次的法术派系"
+                    "therazane-tooltip": "显示下一个会施放两次的法术派系",
+                    "ancestral-automaton-tooltip": "显示你召唤“星元自动机”的次数",
+                    "specific-deaths": "显示 “{{cardName}}” 为对手死亡的次数",
+                    "ysondre-label": "伊森德雷",
+                    "ysondre-tooltip": "显示“伊森德雷”在本局对战中的死亡次数",
+                    "cthun-cost-label": "克苏恩法力值消耗",
+                    "cthun-cost-tooltip": "显示“克苏恩，帝国之眼”降低的法力值消耗",
+                    "crash-of-thunder-label": "雷电崩鸣",
+                    "crash-of-thunder-tooltip": "当“雷电崩鸣”在你的手牌或牌库中时，显示你在本回合施放的自然法术数量"
                 },
                 "discovery-zone-label": "发现区",
                 "discovery-zone-tooltip": "启用此功能，将在记牌器中分离出一个新的分区记录你的发现选项。此功能可以方便你查看关联卡牌并高亮显示你套牌中的卡牌配合。",
