@@ -452,7 +452,7 @@
             },
             "overlayUseSingleHighlightColor": {
                 "title": "單一強調顏色",
-                "blurb": "所有關聯卡牌的突顯標示均使用單一顏色，而非依優先順序使用不同色彩。"
+                "blurb": "所有關聯卡牌的醒目標記標示均使用單一顏色，而非依優先順序使用不同色彩。"
             },
             "playerNzothDreamsEndCounter": {
                 "title": "『夢境終結』恩若司計數器",
@@ -2164,7 +2164,7 @@
             "tip-2": "點選頂端的「🪲」錯誤回報圖示，以回報問題或提出改進建議",
             "tip-3": "若遇到重大問題（例如收藏無法同步、記牌器失靈等），請嘗試「以系統管理員身分執行」應用程式。",
             "tip-4": "設定中提供豐富的自訂選項，歡迎隨時前往開啟或關閉各項功能",
-            "tip-5": "[傭兵戰隊] 將視窗拉寬即可看見「總代幣」欄位",
+            "tip-5": "[傭兵戰隊] 將視窗拉寬即可看見「總硬幣」欄位",
             "tip-6": "[傭兵戰隊] 在重播中選擇「傭兵戰隊（PvP）」選項，即可檢視每場對局中雙方陣容的詳細資訊",
             "tip-8": "[英雄戰場] 對戰中按下 Alt + B 即可開啟英雄戰場視窗，檢視即時數據分析",
             "tip-9": "[英雄戰場] 將英雄戰場視窗拉寬，即可在戰鬥模擬器中檢視平均傷害與斬殺機率",
@@ -2174,7 +2174,7 @@
             "share_profile_page": "線上瀏覽你的個人檔案頁面，並可分享給好友炫耀你的成就與輝煌戰績！",
             "constructed_deck_stats_free": "免費瀏覽當前天梯主流強勢牌組清單！",
             "tip-0": "如果有任何建議、錯誤回報或想與我們聊聊，歡迎造訪我們的 Discord（連結位於頂端）！",
-            "discover_highlight": "在[發現]卡牌時將滑鼠懸停於選項上，會即時高亮標示你牌庫中的相關卡牌",
+            "discover_highlight": "在[發現]卡牌時將滑鼠懸停於選項上，會即時高亮標示你牌堆中的相關卡牌",
             "contextual_related_cards": "將滑鼠懸停在記牌器中的特定卡牌上，即可預覽該卡牌的具體作用效果",
             "mercs_terasure_highlight": "在傭兵戰隊中將滑鼠懸停於寶藏上，即可高亮顯示與隊伍手下的協同效應",
             "ad-tip-premium": "Premium 會員",
@@ -2465,7 +2465,7 @@
                     "replaced": "{{who}} 換掉了 {{replaced}}"
                 },
                 "you": "你",
-                "trade-cost": "1 點法力",
+                "trade-cost": "(1) 點法力",
                 "damage-to-targets": "對 {{count}} 個目標造成 {{amount}} 點傷害",
                 "source-deals": "{{source}} 造成 {{damage}} 點傷害",
                 "source-dealing": "{{source}}，造成 {{damage}} 點傷害",
@@ -2746,7 +2746,7 @@
                 "mmr": "MMR",
                 "combat-start": "開始",
                 "combat-details": "逐步過程",
-                "empty-shop": "鮑伯沒有東西可賣",
+                "empty-shop": "鮑伯(旅店老闆)沒有東西可賣",
                 "empty-board": "戰場上沒有手下",
                 "damage": "{{n}} 點傷害",
                 "versus": "對戰",
@@ -3343,7 +3343,7 @@
             "opponent": "對手的下 {{value}} 個法術系別的法術將施放兩次：{{schools}}"
         },
         "crash-of-thunder": {
-            "player": "你在本回合已施放的自然法術：{{value}} 個。轟響雷霆消耗為：{{cost}}"
+            "player": "你在本回合已施放的自然法術：{{value}} 個。「轟響雷霆」消耗為：{{cost}}"
         }
     },
     "loading": {
@@ -3655,7 +3655,7 @@
                 "no-mulligan-data": "暫無資料",
                 "deck-mulligan-filter-rank-bracket-tooltip": "顯示階級區間在 {{rankBracket}} 的對局。點此可切換。",
                 "mulligan-impact-tooltip-premium": "起手保留這張卡牌對總勝率的提升／降低影響。",
-                "no-mulligan-data-tooltip": "找不到該套牌類型的起手換牌數據",
+                "no-mulligan-data-tooltip": "找不到該牌組類型的起手換牌數據",
                 "mulligan-keep-rate-tooltip": "玩家在起手時選擇保留這張單卡的比例。",
                 "mulligan-keep-rate": "留牌率%",
                 "mulligan-impact-tooltip-free": "起手保留這張卡牌對總勝率的提升／降低影響。你今天還有 {{value}} 次免費查詢額度。",
@@ -4175,7 +4175,7 @@
                     "requires-tavern-spells-this-game": "本場對戰必須曾施放過旅店法術",
                     "choose-one-gift-restriction": "[二選一]手下只能獲得【雙重幻象】、【複製】、【鍍金】或【迴響之聲】",
                     "lobby-quilboar-naga": "當對局中包含「野豬人」或「納迦」時不會提供",
-                    "requires-tavern-tier-3": "旅店等級需達到等級 3 或以上",
+                    "requires-tavern-tier-3": "旅店等級需達到 3⭐️或以上",
                     "battlecry-gift-restriction": "[戰吼]手下只能獲得【雙重幻象】、【複製】、【鍍金】或【迴響之聲】",
                     "deathrattle-stats-restriction": "[死亡之聲]手下在屬性值提升類贈禮中只能獲得【磨利劍刃】或【死亡的擁抱】",
                     "not-beast-or-undead": "不會提供給「野獸」或「不死族」手下",
@@ -4380,7 +4380,7 @@
             "new-only-empty": "此版本無新增的設定項目。",
             "new-badge": "新",
             "counter-dropdown": {
-                "on-tooltip": "只要在目前的牌組、手牌或發現選項中偵測到相關卡牌，或本場對戰曾打出過相關卡牌，便一律顯示計數器",
+                "on-tooltip": "只要在目前的牌堆、手牌或發現選項中偵測到相關卡牌，或本場對戰曾打出過相關卡牌，便一律顯示計數器",
                 "limited": "受限",
                 "off-tooltip": "一律不顯示計數器",
                 "off": "關閉",
@@ -4557,7 +4557,7 @@
                 "restore-ftue-settings-tooltip": "還原至上次套用新手設定檔之前的覆疊視窗設定。後續對設定檔所做的變更不會覆蓋此備份。",
                 "close-app-on-game-exit-label": "離開遊戲時結束應用程式",
                 "disable-low-memory-rendering-label": "停用低記憶體繪製",
-                "disable-low-memory-rendering-tooltip": "預設情況下，應用程式會以較小的圖形緩衝區繪製視窗與覆疊視窗，在遊戲中可節省約 100 MB 記憶體。若視窗或覆疊視窗顯示異常或滾動不順暢，請開啟此選項。將於下次啟動應用程式時生效。",
+                "disable-low-memory-rendering-tooltip": "預設情況下，應用程式會以較小的圖形緩衝區繪製視窗與覆疊畫面，在遊戲中可節省約 100 MB 記憶體。若視窗或覆疊畫面顯示異常或滾動不順暢，請開啟此選項。將於下次啟動應用程式時生效。",
                 "disable-overlay-shared-texture-tooltip": "預設情況下，遊戲內覆疊視窗會直接透過顯示卡繪製至遊戲中，佔用的 CPU 極低。若覆疊視窗未顯示、顯示異常或阻擋了遊戲內的點選動作，請開啟此選項。將於下次啟動《爐石戰記》時生效。",
                 "disable-overlay-shared-texture-label": "停用遊戲內高速覆疊視窗",
                 "disable-hardware-acceleration-label": "停用硬體加速",
@@ -4953,8 +4953,8 @@
                 "reset-deck-position-after-trade-tooltip": "發動「可更換」效果更換卡牌後，該卡在理論上可能會被洗入牌堆底部。因此預設在發生更換時，會清空「牌堆頂部」與「牌堆底部」區塊。若希望更換後仍保留先前的推測順序，請關閉此選項。",
                 "show-stats-change": "顯示數值與狀態變化",
                 "show-stats-change-tooltip": "在牌組清單中即時顯示特定卡牌數值或效果的增長變化（例如：點燃、鍛造錘）",
-                "show-cost-reduction": "更新牌組內的卡牌法力消耗",
-                "show-cost-reduction-tooltip": "當卡牌消耗受到效果影響而變動時，即時更新牌組內卡牌的法力消耗（例如受「咒法之流」影響）",
+                "show-cost-reduction": "更新牌堆內的卡牌法力消耗",
+                "show-cost-reduction-tooltip": "當卡牌消耗受到效果影響而變動時，即時更新牌堆內卡牌的法力消耗（例如受「咒法之流」影響）",
                 "show-unknown-cards": "顯示未知卡牌",
                 "show-unknown-cards-tooltip": "當尚無法得知確切卡牌資訊時，在記牌器中加入「未知卡牌」。",
                 "highlight-related-cards": "醒目標示關聯卡牌",
@@ -5023,13 +5023,13 @@
                 "darken-used-cards-label": "遮暗顯示已打出的卡牌",
                 "darken-used-cards-tooltip": "啟用後，已經打出的卡牌會以反灰遮暗顯示。",
                 "global-effects-label": "顯示全局光環效果",
-                "global-effects-tooltip": "啟用後，記牌器頂部會出現專屬區塊，顯示當前影響玩家與牌組的全局光環效果",
+                "global-effects-tooltip": "啟用後，記牌器頂部會出現專屬區塊，顯示當前影響玩家與牌堆的全局光環效果",
                 "sort-by-mana-cost-label": "依法力消耗排序",
                 "sort-by-mana-cost-tooltip": "啟用後，「其他」區塊中的卡牌將依據法力消耗由低到高排列；關閉時，則會依序先顯示場上手下，其次為墓地，最後才是其餘卡牌",
                 "show-bottom-cards-separately-label": "顯示牌堆底部已知卡牌",
-                "show-bottom-cards-separately-tooltip": "將牌堆底部已知的卡牌與主牌組分開獨立顯示",
+                "show-bottom-cards-separately-tooltip": "將牌堆底部已知的卡牌與其他卡牌分開獨立顯示",
                 "show-top-cards-separately-label": "顯示牌堆頂部已知卡牌",
-                "show-top-cards-separately-tooltip": "將牌堆頂部已知的卡牌與主牌組分開獨立顯示",
+                "show-top-cards-separately-tooltip": "將牌堆頂部已知的卡牌與其他卡牌分開獨立顯示",
                 "opponent-hand-title": "對手手牌追蹤",
                 "card-turn-draw-label": "抽牌回合標記",
                 "card-turn-draw-tooltip": "顯示對手手牌是在第幾回合抽到的",
@@ -5056,9 +5056,9 @@
                     "attack-on-board-label": "場上總攻擊力",
                     "attack-on-board-tooltip": "顯示對手戰場上手下與英雄的攻擊力總和",
                     "watch-post-label": "哨所",
-                    "watch-post-tooltip": "顯示對手本場對戰打出的哨所手下總數。僅在牌組或手牌中偵測到相關卡牌時顯示",
+                    "watch-post-tooltip": "顯示對手本場對戰打出的哨所手下總數。僅在牌堆或手牌中偵測到相關卡牌時顯示",
                     "libram-label": "聖契",
-                    "libram-tooltip": "顯示對手本場對戰打出的聖契卡牌總數。僅在牌組或手牌中偵測到相關卡牌時顯示",
+                    "libram-tooltip": "顯示對手本場對戰打出的聖契卡牌總數。僅在牌堆或手牌中偵測到相關卡牌時顯示",
                     "elwynn-boar-label": "「艾爾文野豬」死亡次數",
                     "elwynn-boar-tooltip": "顯示對手陣亡的「艾爾文野豬」累計次數",
                     "volatile-skeleton-label": "「易變骷髏」死亡次數",
@@ -5109,7 +5109,7 @@
                     "ancestral-automaton-label": "「遠古自動機」",
                     "flesh-giant-tooltip": "當對手職業為 {{classes}} 時，顯示對手英雄在其自身回合中生命值發生變動的次數",
                     "cthun-abilities-label": "克蘇恩能力",
-                    "cthun-abilities-tooltip": "當對手手牌、牌組或戰場上有『帝國之眼』克蘇恩時，顯示其已觸發四種能力中的幾種",
+                    "cthun-abilities-tooltip": "當對手手牌、牌堆或戰場上有『帝國之眼』克蘇恩時，顯示其已觸發四種能力中的幾種",
                     "ghuun-blood-runes-label": "「古翰」生命值",
                     "ghuun-blood-runes-tooltip": "當對手為使用三血魄符文牌組的死亡騎士，且已打出過至少一個血魄符文卡牌時，顯示「古翰」偷取的生命值（基礎 6 點加上本賽局已打出的血魄符文數量）",
                     "nzoth-dreams-end-label": "『夢境終結』恩若司",
@@ -5127,7 +5127,7 @@
                 "hide-generated-cards-tooltip": "隱藏由其他卡牌製造衍生且目前不在手牌或牌堆中的卡牌。警告：隱藏衍生卡牌可能會導致部分功能降級運作（如卡牌醒目標示）",
                 "show-dk-runes-tooltip": "在記牌器頂端加入區塊，顯示該牌組目前已知的死亡騎士符文配置",
                 "show-dk-runes-label": "顯示死亡騎士符文",
-                "group-cards-by-zone-tooltip": "啟用後，記牌器會將卡牌細分為可收合的區塊（牌組、手牌與其他），並解鎖多項新功能。關閉此選項則使用「傳統顯示模式」，所有卡牌會合併顯示在同一清單中。",
+                "group-cards-by-zone-tooltip": "啟用後，記牌器會將卡牌細分為可收合的區塊（牌堆、手牌與其他），並解鎖多項新功能。關閉此選項則使用「傳統顯示模式」，所有卡牌會合併顯示在同一清單中。",
                 "known-decklist-label": "載入已知固定牌組",
                 "known-decklist-tooltip": "啟用後，若對手在對戰開始時使用的是已知固定牌組，記牌器將自動嘗試載入該牌組清單（例如遊玩《扭曲模式：威茲邦的英雄們》時）",
                 "sequence-info-tooltip": "當對手因單張卡牌獲得多張不同衍生手牌時，顯示指示標記協助你辨識各張手牌的來源對應關係",
@@ -5135,7 +5135,7 @@
                 "current-effects-use-enchantment-name-label": "使用附魔效果名稱",
                 "current-effects-use-enchantment-name-tooltip": "啟用後，將會直接顯示附魔／增益效果的名稱，而非卡牌原本的名稱",
                 "current-effects-label": "顯示當前效果",
-                "current-effects-tooltip": "啟用後，記牌器頂部會出現專屬區塊，顯示當前影響玩家或牌組的效果",
+                "current-effects-tooltip": "啟用後，記牌器頂部會出現專屬區塊，顯示當前影響玩家或牌堆的效果",
                 "width-title": "寬度",
                 "extra-info-label": "額外資訊指示標記",
                 "extra-info-tooltip": "當獲知對手手牌的額外資訊時（如法力消耗降低），在該手牌上顯示提示標記"
@@ -5152,13 +5152,13 @@
                     "abyssal-curse-tooltip": "顯示你的「深淵詛咒」累積最高傷害",
                     "attack-on-board-tooltip": "顯示我方場上手下與英雄的攻擊力總和（場攻）",
                     "number-of-spells-label": "法術施放次數",
-                    "number-of-spells-tooltip": "顯示本賽局施放過的法術總數。僅在牌組或手牌中包含相關卡牌時顯示",
+                    "number-of-spells-tooltip": "顯示本賽局施放過的法術總數。僅在牌堆或手牌中包含相關卡牌時顯示",
                     "elementals-label": "元素",
                     "elementals-tooltip": "顯示你在本回合與上一回合打出的元素手下總數。僅在手牌中有相關卡牌時顯示",
-                    "watch-post-tooltip": "顯示本賽局你打出的哨所數量。僅在牌組或手牌中有相關卡牌時顯示",
-                    "libram-tooltip": "顯示本賽局你打出的聖契數量。僅在牌組或手牌中有相關卡牌時顯示",
+                    "watch-post-tooltip": "顯示本賽局你打出的哨所數量。僅在牌堆或手牌中有相關卡牌時顯示",
+                    "libram-tooltip": "顯示本賽局你打出的聖契數量。僅在牌堆或手牌中有相關卡牌時顯示",
                     "elwynn-boar-tooltip": "顯示我方「艾爾文野豬」死亡的次數",
-                    "hero-power-damage-tooltip": "顯示本賽局英雄能力造成的總傷害。僅在「火眼莫德雷斯」或『龍鷹』賈納雷存在於牌組或手牌時顯示",
+                    "hero-power-damage-tooltip": "顯示本賽局英雄能力造成的總傷害。僅在「火眼莫德雷斯」或『龍鷹』賈納雷存在於牌堆或手牌時顯示",
                     "bolner-label": "「包那‧錘喙」",
                     "bolner-tooltip": "當手牌中有「包那‧錘喙」時，顯示本回合打出的第一張戰吼卡牌（若有的話）",
                     "brilliant-macaw-label": "「聰明的金剛鸚鵡」",
@@ -5205,7 +5205,7 @@
                     "gardens-grace-tooltip": "當手牌或牌堆中有「花園祝福」時，顯示其降低消耗後的實際費用",
                     "naga-giant-tooltip": "當手牌或牌堆中有「納迦巨人」時，顯示其降低消耗後的實際費用",
                     "spectral-pillager-label": "「鬼靈掠取者」",
-                    "chained-guardian-tooltip": "顯示你洗入對手牌組的瘟疫卡牌數量",
+                    "chained-guardian-tooltip": "顯示你洗入對手牌堆的瘟疫卡牌數量",
                     "astral-automaton-tooltip": "顯示你已召喚「星界自動機」的數量",
                     "earthen-golem-tooltip": "顯示你召喚「土靈魔像」的次數",
                     "shockspitter-label": "「閃電龍鷹」",
@@ -5280,7 +5280,7 @@
                     "colossus-damage-label": "「巨像」傷害",
                     "table-flip-tooltip": "顯示打出「{{cardName}}」目前的法力消耗。雖然這只是簡單的計算，但隨時掌握費用十分便利",
                     "table-flip-label": "「{{cardName}}」",
-                    "cards-shuffled-into-your-deck-tooltip": "計算你將卡牌洗入牌組的次數",
+                    "cards-shuffled-into-your-deck-tooltip": "計算你將卡牌洗入牌堆的次數",
                     "hero-attacks-label": "英雄攻擊次數",
                     "hero-attacks-tooltip": "當手牌或牌堆中有能從該資訊獲益的卡牌時，顯示英雄在本賽局攻擊的次數",
                     "cards-shuffled-into-your-deck-label": "卡牌（已洗入）",
@@ -5393,17 +5393,17 @@
                     "hodir-tooltip": "顯示『巨人先祖』霍迪爾還能將多少個手下的體質變成 8/8",
                     "therazane-label": "『大地守護者』瑟拉贊恩",
                     "therazane-tooltip": "顯示下一個法術將施放兩次的法術系別",
-                    "crash-of-thunder-label": "轟響雷霆",
+                    "crash-of-thunder-label": "「轟響雷霆」",
                     "ancestral-automaton-tooltip": "顯示你召喚「遠古自動機」的次數",
                     "ysondre-tooltip": "顯示「伊索德雷」在本場對戰的死亡次數",
-                    "crash-of-thunder-tooltip": "當你手牌或牌庫中有轟響雷霆時，顯示你在本回合已施放的自然法術數量",
+                    "crash-of-thunder-tooltip": "當你手牌或牌堆中有「轟響雷霆」時，顯示你在本回合已施放的自然法術數量",
                     "cthun-cost-tooltip": "顯示『帝國之眼』克蘇恩降低的法力消耗",
                     "specific-deaths": "顯示對手的「{{cardName}}」死亡次數",
                     "cthun-cost-label": "克蘇恩消耗",
                     "ysondre-label": "「伊索德雷」"
                 },
                 "discovery-zone-label": "[發現]專區",
-                "discovery-zone-tooltip": "啟用後，記牌器將顯示一個新區塊以展示你當前獲得的[發現]選項。這可讓你檢視相關卡牌，並突顯與牌組的連動協同效果",
+                "discovery-zone-tooltip": "啟用後，記牌器將顯示一個新區塊以展示你當前獲得的[發現]選項。這可讓你檢視相關卡牌，並醒目標記與牌堆的連動協同效果",
                 "special-zones-tooltip": "啟用後，記牌器中會顯示一個新區塊，用來追蹤由『背叛者』高佛雷或「伊莉妲‧尋罪者」所處理的卡牌",
                 "special-zones-label": "特殊區域"
             },
@@ -5955,7 +5955,7 @@
             "title-tooltip-global": "你在競技場中全部時間的勝負",
             "cards": "卡牌",
             "classes": "職業",
-            "description": "免費檢視英雄與卡牌數據、歷史高勝率套牌等豐富資訊。"
+            "description": "免費檢視英雄與卡牌數據、歷史高勝率牌組等豐富資訊。"
         },
         "duels": {
             "title-label-global": "決鬥擂台",
@@ -6026,9 +6026,9 @@
             }
         },
         "constructed": {
-            "decks": "套牌",
+            "decks": "牌組",
             "meta": "主流環境",
-            "description": "免費檢視任何階級區間的職業、卡牌與套牌數據。",
+            "description": "免費檢視任何階級區間的職業、卡牌與牌組數據。",
             "assemble": "組裝",
             "assemble-base": "基底",
             "cards": "卡牌",
@@ -6189,7 +6189,7 @@
                     "sections": {
                         "duels": {
                             "title": "決鬥擂台",
-                            "body": "<ul><li>英雄／英雄能力／專屬寶藏：<code>https://static.zerotoheroes.com/api/duels/duels-global-stats-hero-class-%mmr%-%date%.gz.json</code></li><li>高勝率套牌：<a href=\"https://static.zerotoheroes.com/api/duels/duels-global-stats-hero-class-decks.gz.json\" target=\"_blank\" rel=\"noopener noreferrer\"><code>https://static.zerotoheroes.com/api/duels/duels-global-stats-hero-class-decks.gz.json</code></a></li><li>選牌組合包 (Buckets)：<a href=\"https://static.zerotoheroes.com/api/duels/duels-buckets.gz.json\" target=\"_blank\" rel=\"noopener noreferrer\"><code>https://static.zerotoheroes.com/api/duels/duels-buckets.gz.json</code></a></li></ul>"
+                            "body": "<ul><li>英雄／英雄能力／專屬寶藏：<code>https://static.zerotoheroes.com/api/duels/duels-global-stats-hero-class-%mmr%-%date%.gz.json</code></li><li>高勝率牌組：<a href=\"https://static.zerotoheroes.com/api/duels/duels-global-stats-hero-class-decks.gz.json\" target=\"_blank\" rel=\"noopener noreferrer\"><code>https://static.zerotoheroes.com/api/duels/duels-global-stats-hero-class-decks.gz.json</code></a></li><li>選牌組合包 (Buckets)：<a href=\"https://static.zerotoheroes.com/api/duels/duels-buckets.gz.json\" target=\"_blank\" rel=\"noopener noreferrer\"><code>https://static.zerotoheroes.com/api/duels/duels-buckets.gz.json</code></a></li></ul>"
                         },
                         "api-links": {
                             "body": "<p>API 各處使用的幾個佔位符說明：</p><ul><li><code>%timeSuffix%</code> 可替換為 <code>all-time</code>（歷史總計）、<code>past-three</code>（近三天）、<code>past-seven</code>（近七天）或 <code>last-patch</code>（最新版本），以取得不同時間區間的統計資料</li><li><code>%tribeSuffix%</code> 建議設為 <code>all-tribes</code>（推薦）；亦可設為以連字號（<code>-</code>）分隔的 5 個種族組合，使用定義於 <a href=\"https://github.com/Zero-to-Heroes/hs-reference-data/blob/master/src/enums/race.ts\" target=\"_blank\" rel=\"noopener noreferrer\">race.ts</a> 的種族 ID（但樣本量通常過小）</li></ul>",
@@ -6228,7 +6228,7 @@
                 "twitch": {
                     "sections": {
                         "what-is-the-twitch-extension": {
-                            "body": "<p>它會在瀏覽器畫面上新增套牌清單覆疊，方便觀眾檢視你的套牌內容、將滑鼠懸停於卡牌上方檢視效果，並能一鍵複製套牌代碼。</p><p>它也能讓觀眾將滑鼠游標停在場上或手中的卡牌上方，詳細檢視卡牌效果說明。</p>",
+                            "body": "<p>它會在瀏覽器畫面上新增牌組清單覆疊，方便觀眾檢視你的牌組內容、將滑鼠懸停於卡牌上方檢視效果，並能一鍵複製牌組代碼。</p><p>它也能讓觀眾將滑鼠游標停在場上或手中的卡牌上方，詳細檢視卡牌效果說明。</p>",
                             "title": "什麼是 Twitch 擴充功能"
                         },
                         "firestone-configuration": {
@@ -6252,7 +6252,7 @@
                     },
                     "blurb": "將 Firestone 連結至 Twitch 並在直播中擷取覆疊視窗。",
                     "title": "設定 Twitch 擴充功能",
-                    "subtitle": "在 Twitch 上向觀眾展示你的套牌清單與卡牌覆疊資訊。"
+                    "subtitle": "在 Twitch 上向觀眾展示你的牌組清單與卡牌覆疊資訊。"
                 },
                 "creator-code": {
                     "sections": {
@@ -6278,7 +6278,7 @@
                         },
                         "developing": {
                             "title": "開發模組",
-                            "body": "<p>Firestone 隨附內建整合版的 <a href=\"https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">BepInEx</a>。這是安裝模組為遊戲新增功能最簡便的方式，你也可以自行安裝 BepInEx。</p><p>開發 BepInEx 外掛程式請參閱 BepInEx 說明文檔，或參考現有的模組原始碼。有任何疑問也可以在 <a href=\"https://discord.gg/vKeB3gnKTy\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a> 上敲我。</p><p>《爐石戰記》與 Firestone 特有的功能介面（例如獲取雙方玩家的套牌狀態）稍後將開放給開發者在模組中使用。因此理論上你將能打造出一套完全整合的專屬記牌器 🙂</p>"
+                            "body": "<p>Firestone 隨附內建整合版的 <a href=\"https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">BepInEx</a>。這是安裝模組為遊戲新增功能最簡便的方式，你也可以自行安裝 BepInEx。</p><p>開發 BepInEx 外掛程式請參閱 BepInEx 說明文檔，或參考現有的模組原始碼。有任何疑問也可以在 <a href=\"https://discord.gg/vKeB3gnKTy\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a> 上敲我。</p><p>《爐石戰記》與 Firestone 特有的功能介面（例如獲取雙方玩家的牌組狀態）稍後將開放給開發者在模組中使用。因此理論上你將能打造出一套完全整合的專屬記牌器 🙂</p>"
                         },
                         "not-ok": {
                             "title": "明確禁止的模組類型",
@@ -6506,8 +6506,8 @@
                                     "alt": "傳統對戰環境數據，顯示傳說階級當前的主流牌組"
                                 },
                                 "archetypes": {
-                                    "alt": "傳統對戰環境數據，顯示高階競技玩家的主流套牌原型",
-                                    "caption": "高階競技區間當前的主流套牌原型"
+                                    "alt": "傳統對戰環境數據，顯示高階競技玩家的主流牌組原型",
+                                    "caption": "高階競技區間當前的主流牌組原型"
                                 }
                             },
                             "text": "依階級分類的當前環境：牌組、流派與詳細單卡數據"
@@ -6641,7 +6641,7 @@
                 "title": "方案專屬權益",
                 "unlimited-overlays": "在傳統對戰中無限次使用發現與起手換牌覆疊視窗，以及英雄戰場的選牌與數據覆疊視窗（免費版使用者有每日或每週限制）",
                 "ad-free": "移除應用程式內廣告",
-                "meta-analytics": "應用程式內提供完整的環境主流套牌與流派分析、單卡層級解析，以及更詳盡的牌組頁面",
+                "meta-analytics": "應用程式內提供完整的環境主流牌組與流派分析、單卡層級解析，以及更詳盡的牌組頁面",
                 "battlegrounds": "英雄戰場英雄選擇覆疊視窗、任務與獎勵數據、打法提示、手下自動標記、大廳戰況分析與賽後數據總結",
                 "support": "支持 Firestone 的持續開發"
             },
@@ -7401,7 +7401,7 @@
         "starship-hunter": "星艦獵",
         "xl-big-spell-mage": "40大法術法",
         "xl-elemental-mage": "40元素法",
-        "xl-handbuff-paladin": "40手牌Buff聖",
+        "xl-handbuff-paladin": "40手牌加加聖",
         "42-priest": "42血牧",
         "anchorite-priest": "隱士牧",
         "draenei-priest": "德萊尼牧",
