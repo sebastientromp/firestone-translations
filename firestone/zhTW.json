@@ -2399,7 +2399,7 @@
             "periodicity": {
                 "monthly": "每月",
                 "yearly": "每年",
-                "six-month": "每 6 個月"
+                "six-month": "每半年(6 個月)"
             },
             "features": {
                 "title": "專屬權益",
@@ -2486,7 +2486,8 @@
             },
             "banner": {
                 "back-to-old": "返回舊版檢視器",
-                "new-viewer": "你正在使用新版重播檢視器。"
+                "new-viewer": "你正在使用新版重播檢視器。",
+                "dismiss": "關閉"
             },
             "coming-soon": {
                 "title": "行動版即將推出",
@@ -2546,7 +2547,8 @@
                 "turns": "{{count}} 個回合",
                 "versus": "{{mine}} 對戰 {{opponent}}",
                 "share": "分享重播",
-                "view-in-firestone": "在 Firestone 中檢視"
+                "view-in-firestone": "在 Firestone 中檢視",
+                "switch-to-old": "切換至舊版檢視器"
             },
             "decklists": {
                 "copy-code": "複製牌組代碼",
@@ -2750,7 +2752,51 @@
                 "empty-board": "戰場上沒有手下",
                 "damage": "{{n}} 點傷害",
                 "versus": "對戰",
-                "combat-vs": "對戰 {{hero}}"
+                "combat-vs": "對戰 {{hero}}",
+                "uses-card": "使用 {{card}}",
+                "activates": "{{card}} 啟動",
+                "sold-effect": "{{card}} 觸發",
+                "draws": "獲得 {{cards}}",
+                "draw-source": "來自 {{source}}",
+                "discover-lesser-trinket": "次級飾品",
+                "discover-greater-trinket": "強效飾品",
+                "event-discover": "發現",
+                "next": "下一步：",
+                "chose-from": "從 {{n}} 個選項中揀選了 {{card}}",
+                "you": "你",
+                "other-players": "其他玩家",
+                "hero": "英雄",
+                "lobby": "大廳",
+                "step-through": "逐步檢視戰鬥",
+                "damage-from": "旅店 {{tier}}⭐️+ {{n}} 個手下",
+                "end-title": "對戰結束",
+                "game": "對戰",
+                "mode": "模式",
+                "round-vs": "第 {{n}} 回合 對戰 {{hero}}",
+                "tap-to-close": "點擊外部區域以關閉",
+                "final-board": "最終陣容",
+                "restart": "從英雄選擇重新開始",
+                "rounds-count": "{{n}} 回合",
+                "minutes": "{{n}} 分鐘",
+                "place-label": "名次",
+                "stat": {
+                    "total-stats": "總體質",
+                    "triples": "三合一",
+                    "won": "獲勝回合數"
+                },
+                "back-to-summary": "返回摘要",
+                "mode-solo": "英雄戰場 · 單人",
+                "choice": "選擇",
+                "discover-dark-gift": "黑暗贈禮",
+                "health": "生命值",
+                "step-of": "第 {{n}} 步，共 {{total}} 步",
+                "damage-from-one": "旅店 {{tier}}⭐️+ 1 個手下"
+            },
+            "swipe-hint": {
+                "title": "滑動以瀏覽重播過程",
+                "previous": "向右滑動返回上一步",
+                "next": "向左滑動前往下一步",
+                "ok": "我知道了"
             }
         }
     },
@@ -3967,7 +4013,11 @@
             "strategies-link": "按一下以檢視推薦攻略",
             "place": "排名：第 {{value}} 名",
             "avg-position-details-tooltip-details-text": "在此積分區間內，所有使用該英雄的玩家之平均最終排名。該數值是套用以下修正係數計算得出：",
-            "strategies-link-tooltip": "將開啟應用程式主視窗以顯示該英雄的攻略方針"
+            "strategies-link-tooltip": "將開啟應用程式主視窗以顯示該英雄的攻略方針",
+            "avg-position-details-tooltip-hero-average": "英雄平均名次",
+            "avg-position-details-tooltip-lobby-tribes": "本場大廳的種族",
+            "avg-position-details-tooltip-estimated-position": "預估名次",
+            "pick-rate-label": "揀選率："
         },
         "hero-selection": {
             "achievement-completed": "成就已達成",
@@ -4424,7 +4474,8 @@
                 "streamer": "實況主模式",
                 "addons": "擴充套件",
                 "account": "帳號",
-                "hotkeys": "快速鍵"
+                "hotkeys": "快速鍵",
+                "privacy": "隱私權"
             },
             "third-party": {
                 "intro": "我們堅信資料完全屬於你自己，且你應該能夠將其同步至其他第三方網站以發揮最大效益。雖然我們並未從中獲利，但這些網站宣傳 Firestone 能為我們帶來曝光度 :)",
@@ -4859,12 +4910,12 @@
                 "intro-battlenet-linked": "此 Battle.net 帳號已綁定至你的 Overwolf Firestone 帳號。解除綁定後即可分別登入並獨立管理。",
                 "not-signed-in": "你尚未登入。",
                 "unlink-battlenet-label": "Battle.net",
-                "link-battlenet-button": "綁定 Battle.net",
+                "link-battlenet-button": "綁定",
                 "link-battlenet-need-overwolf": "請先使用 Overwolf 登入，再重新嘗試綁定 Battle.net。",
                 "provider-unknown": "未知的登入管道",
                 "unlink-battlenet-failed": "無法解除綁定 Battle.net，請稍後再試。",
                 "unlink-battlenet-confirmation": "你確定嗎？",
-                "unlink-battlenet-button": "解除綁定 Battle.net",
+                "unlink-battlenet-button": "解除綁定",
                 "log-out-label": "帳號",
                 "log-out-button": "登出",
                 "log-out-tooltip": "從此裝置登出你的 Firestone 帳號。",
@@ -4874,7 +4925,7 @@
                 "unlink-battlenet-tooltip": "解除 Battle.net 與 Overwolf Firestone 帳號的綁定。解除後，各個登入帳號將僅顯示各自獨立的對戰紀錄。",
                 "intro": "將 Battle.net 帳號綁定至你現有的 Overwolf Firestone 帳號，即可使用 Battle.net 登入並同步保有原先的對戰歷史紀錄。",
                 "link-battlenet-tooltip": "請先使用 Overwolf 登入，再綁定 Battle.net。完成後即可直接透過 Battle.net 登入並同步資料。",
-                "sign-in-tooltip": "開啟登入頁面以使用 Overwolf 或 Battle.net 登入。",
+                "sign-in-tooltip": "開啟登入頁面。",
                 "signed-in-as": "已透過 {{provider}} 登入為 <b>{{name}}</b>。Firestone 使用者名稱：{{username}}",
                 "intro-battlenet": "你目前已透過 Battle.net 登入。綁定現有的 Overwolf 帳號可將其對戰紀錄合併至此帳號中。",
                 "unlink-last-login-label": "帳號",
@@ -4882,13 +4933,13 @@
                 "unlink-overwolf-tooltip": "將 Overwolf 從此 Battle.net Firestone 帳號解除綁定。解除後，各登入方式將只會顯示各自的對戰紀錄。",
                 "intro-battlenet-linked-overwolf": "此 Battle.net 帳號已綁定至 Overwolf 帳號以檢視該對戰紀錄。解除綁定 Overwolf 後即可獨立使用各登入方式。",
                 "unlink-overwolf-failed": "無法解除綁定 Overwolf，請稍後再試。",
-                "link-overwolf-button": "綁定 Overwolf",
+                "link-overwolf-button": "綁定",
                 "link-overwolf-tooltip": "綁定現有的 Overwolf Firestone 帳號。這將允許你匯入先前的資料（對戰紀錄、卡牌包等）。",
                 "signed-in-linked-overwolf-tooltip": "已綁定的 Overwolf 帳號：{{name}}",
                 "link-overwolf-need-battlenet": "請先使用 Battle.net 登入，再重新嘗試綁定 Overwolf。",
                 "link-overwolf-label": "Overwolf",
                 "unlink-overwolf-label": "Overwolf",
-                "unlink-overwolf-button": "解除綁定 Overwolf",
+                "unlink-overwolf-button": "解除綁定",
                 "unlink-last-login-failed": "此 Firestone 帳號必須保留至少一種登入方式。",
                 "perks-title": "為什麼要登入？",
                 "perks-lottery-title": "參加抽獎拿好禮",
@@ -4900,7 +4951,23 @@
                 "perks-intro": "登入完全免費，還能讓 Firestone 為你帶來更完整的體驗與功能。",
                 "perks-sync-detail": "重新安裝或更換電腦時，對戰紀錄、開包統計與成就進度都能完整保留。",
                 "perks-history-title": "對戰紀錄永久保存在雲端",
-                "link-battlenet-failed": "無法啟動 Battle.net 綁定流程，請稍後再試。"
+                "link-battlenet-failed": "無法啟動 Battle.net 綁定流程，請稍後再試。",
+                "intro-other": "將其他登入方式綁定至此 Firestone 帳號。",
+                "provider-wechat": "WeChat",
+                "provider-email": "電子郵件",
+                "link-provider-button": "綁定",
+                "link-provider-unavailable": "目前尚無法使用此登入方式。",
+                "unlink-provider-button": "解除綁定",
+                "unlink-provider-confirmation": "你確定嗎？",
+                "link-need-sign-in": "請先登入 Firestone，然後再嘗試綁定。",
+                "unlink-generic-label": "帳號",
+                "unlink-generic-failed": "無法解除綁定此登入方式。請稍後再試。",
+                "hide-premium-lock-buttons-tooltip": "當 Premium 專屬功能的每日免費使用次數耗盡後，隱藏出現的升級 Premium 按鈕",
+                "link-generic-label": "帳號",
+                "link-provider-tooltip": "新增 {{provider}} 作為登入此 Firestone 帳號的另一種方式。",
+                "provider-google": "Google",
+                "hide-premium-lock-buttons-label": "隱藏 Premium 鎖定按鈕",
+                "unlink-provider-tooltip": "移除 {{provider}} 作為登入此 Firestone 帳號的方式。"
             },
             "hotkeys": {
                 "change": "變更",
@@ -4918,6 +4985,13 @@
                 "listening-scroll-pools": "請按下按鍵或滑鼠側鍵…",
                 "scroll-pools": "滾動瀏覽卡池",
                 "clear": "清除"
+            },
+            "privacy": {
+                "title": "隱私權",
+                "manage-button": "管理",
+                "manage-tooltip": "開啟廣告隱私權設定。顯示的選項取決於你所在的地區。",
+                "manage-label": "廣告隱私權設定",
+                "intro": "管理 Firestone 及其廣告合作夥伴在此裝置上使用資料的方式。你可以隨時進行變更。"
             }
         },
         "decktracker": {
@@ -5715,7 +5789,9 @@
                 "counter-tavern-spells-cast-tooltip": "顯示你在這場賽局中已施放的旅店法術數量",
                 "counter-tavern-spells-cast-label": "已施放旅店法術",
                 "hero-power-tips-label": "英雄能力攻略提示",
-                "hero-power-tips-tooltip": "游標懸停於英雄能力時，顯示由 Firestone 社群玩家撰寫的攻略要點（Premium 專屬）"
+                "hero-power-tips-tooltip": "游標懸停於英雄能力時，顯示由 Firestone 社群玩家撰寫的攻略要點（Premium 專屬）",
+                "quest-stats-frame-size-label": "任務小工具大小",
+                "quest-stats-size-label": "任務數據大小"
             },
             "session-widget": {
                 "title": "當前對戰紀錄小工具",
@@ -6344,7 +6420,11 @@
                 "try-again": "再試一次",
                 "overwolf-hint": "若開啟的是 Overwolf 而非 Firestone 獨立版（Standalone），請<a href=\"/faq#login-opens-overwolf\">變更 Windows 預設應用程式</a>以處理 firestoneapp:// 連結。",
                 "link-returning-overwolf": "正在返回 Firestone 應用程式。你的 Overwolf 對戰紀錄現已可在此 Battle.net 帳號中使用。",
-                "link-success-overwolf": "Overwolf 已成功連結！"
+                "link-success-overwolf": "Overwolf 已成功連結！",
+                "link-success-google": "Google 綁定成功！",
+                "link-success-wechat": "WeChat 綁定成功！",
+                "link-success-email": "已新增電子郵件登入！",
+                "link-returning-generic": "正在返回 Firestone 應用程式。你現在可以使用此登入方式登入你的 Firestone 帳號。"
             },
             "privacy-link": "隱私權政策",
             "errors": {
@@ -6357,7 +6437,9 @@
                 "cancelled": "驗證已取消或被拒絕。",
                 "invalid-state": "狀態參數無效，請嘗試重新登入。",
                 "missing-verifier": "缺少 PKCE 驗證碼，請嘗試重新登入。",
-                "missing-link-token-overwolf": "此連結已過期。請在以 Battle.net 登入的狀態下，從 Firestone 應用程式內開啟「連結 Overwolf」。"
+                "missing-link-token-overwolf": "此連結已過期。請在以 Battle.net 登入的狀態下，從 Firestone 應用程式內開啟「連結 Overwolf」。",
+                "missing-link-token-generic": "此連結已過期。請從 Firestone 應用程式設定中重新點擊綁定按鈕。",
+                "provider-not-configured": "目前尚無法使用此登入方式。請稍後再試。"
             },
             "privacy-prefix": "登入即代表你同意我們的 ",
             "link-subtitle": "將 Battle.net 帳號連結至 Firestone",
@@ -6367,7 +6449,52 @@
             "continue-with-overwolf": "透過 Overwolf 繼續",
             "link-subtitle-overwolf": "將 Overwolf 帳號連結至 Firestone",
             "linking-overwolf": "正在將你重新導向至 Overwolf…",
-            "web-subtitle": "登入 Firestone 官方網站"
+            "web-subtitle": "登入 Firestone 官方網站",
+            "link-subtitle-google": "將 Google 綁定至你的 Firestone 帳號",
+            "link-subtitle-wechat": "將 WeChat 綁定至你的 Firestone 帳號",
+            "linking-google": "正在為你重新導向至 Google…",
+            "linking-wechat": "正在為你重新導向至 WeChat…",
+            "continue-with-wechat": "透過 WeChat 繼續",
+            "email": {
+                "or": "或",
+                "display-name": "顯示名稱",
+                "email": "電子郵件",
+                "password": "密碼",
+                "new-password": "新密碼",
+                "confirm-password": "確認新密碼",
+                "sign-in": "使用電子郵件登入",
+                "create-account": "建立帳號",
+                "send-reset": "發送重設連結",
+                "reset-password": "設定新密碼",
+                "forgot-password": "忘記密碼？",
+                "back-to-sign-in": "返回登入",
+                "verification-sent": "我們已將確認連結發送至 {{email}}。開啟連結以完成驗證。",
+                "reset-sent": "如果此帳號使用了 {{email}}，我們已向其發送重設密碼的連結。",
+                "verified-title": "電子郵件確認成功！",
+                "verified-body": "正在返回 Firestone 應用程式…",
+                "reset-subtitle": "選擇新密碼",
+                "reset-done-title": "密碼更新成功！",
+                "reset-done-body": "正在返回 Firestone 應用程式…",
+                "errors": {
+                    "invalid-email": "請輸入有效的電子郵件地址。",
+                    "invalid-password": "密碼長度必須在 10 到 200 個字元之間。",
+                    "invalid-credentials": "電子郵件或密碼錯誤。",
+                    "email-not-verified": "請先驗證你的電子郵件地址。請檢查收件匣中的確認連結。",
+                    "email-in-use": "該電子郵件已被其他帳號使用。請直接登入或重設密碼。",
+                    "too-many-requests": "嘗試次數過多。請稍等幾分鐘後再試。",
+                    "invalid-token": "此連結無效或已過期。請重新申請並再試一次。",
+                    "already-linked": "此 Firestone 帳號已綁定電子郵件登入。",
+                    "invalid-fs-token": "你的 Firestone 連線階段已過期。請從應用程式重新登入後再試。",
+                    "password-mismatch": "兩次輸入的密碼不相符。",
+                    "email-pending": "此電子郵件的註冊正在等待確認。請檢查信箱裡的收件匣，或明天再試。"
+                },
+                "link-email": "新增電子郵件登入",
+                "password-hint": "至少 10 個字元。",
+                "verifying": "正在確認你的電子郵件…",
+                "resend-verification": "重新發送確認電子郵件",
+                "no-account": "建立帳號"
+            },
+            "link-subtitle-email": "為你的 Firestone 帳號新增電子郵件與密碼登入"
         },
         "monitoring": {
             "simulator": {
@@ -6395,7 +6522,8 @@
         "premium": {
             "cta": {
                 "download": "下載 Firestone",
-                "get": "取得 Firestone"
+                "get": "取得 Firestone",
+                "see-plans": "檢視方案"
             },
             "sections": {
                 "battlegrounds": {
@@ -6648,7 +6776,7 @@
             "hero": {
                 "subtitle": "解鎖完整的輔助工具體驗：各畫面更深入的數據分析、無限次遊戲內覆疊視窗、無廣告干擾，助你技術快速進步。",
                 "title": "Firestone Premium",
-                "note": "請於 Firestone 應用程式內訂閱購買（Premium 標籤或愛心圖示）。費用將於應用程式內的結帳頁面顯示。"
+                "note": "直接在此使用你的 Firestone 帳號訂閱，或從應用程式內的 Premium 畫面訂閱。"
             },
             "document-title": "Firestone Premium — www.firestoneapp.com",
             "free-tier": {
@@ -6661,10 +6789,10 @@
             },
             "subscribe": {
                 "title": "如何訂閱",
-                "step-1": "安裝並啟動 Firestone（Overwolf 版）。",
-                "step-2": "依提示登入你的 Overwolf 帳號。",
-                "step-3": "從愛心圖示或應用程式內的 Premium 標籤開啟 Premium，並選擇方案。",
-                "step-4": "可隨時透過 Tebex 付款紀錄管理或取消訂閱——相關連結位於 Premium 畫面內。"
+                "step-1": "在此網站上使用你在 Firestone 中所使用的帳號登入。",
+                "step-2": "在上方選擇方案並於 Tebex 上完成付款。",
+                "step-3": "Premium 將在數分鐘內於應用程式中解鎖。你也可以直接從應用程式內的 Premium 畫面進行訂閱。",
+                "step-4": "可隨時從此頁面或從應用程式中進行管理或取消：兩者都會導向至 Tebex。"
             },
             "lightbox": {
                 "close": "關閉原尺寸圖片",
@@ -6676,6 +6804,53 @@
                 "previous": "上一項",
                 "hint": "滑動或使用方向鍵瀏覽",
                 "roledescription": "輪播"
+            },
+            "plans": {
+                "title": "選擇你的方案",
+                "period": {
+                    "monthly": "按月訂閱",
+                    "yearly": "按年訂閱",
+                    "six-month": "6 個月"
+                },
+                "per-month": "{{price}} / 月",
+                "billed": {
+                    "monthly": "每月計費一次",
+                    "yearly": "每年計費一次 {{price}}",
+                    "six-month": "每半年(6 個月)計費一次 {{price}}"
+                },
+                "redirecting": "正在開啟結帳頁面…",
+                "loading": "正在載入方案…",
+                "error": {
+                    "signed-out": "你的連線階段已過期。請重新登入以進行訂閱。",
+                    "checkout-failed": "無法開啟結帳頁面。請稍後再試。"
+                },
+                "lead": "每個方案解鎖的 Premium 功能都完全相同。訂閱期越長，每月費用越划算。",
+                "taxes": "價格不含稅金，稅金將於結帳時依據你的帳單地址計算。付款由 Tebex 處理。",
+                "apps-note": "Premium 隸屬於你的 Firestone 帳號。請在 Firestone 應用程式中登入同一帳號。在 Overwolf 版本的 Firestone 中，只要你的 Overwolf 登入方式已綁定至此帳號，在此購買的 Premium 便會立即解鎖：請在此處使用 Overwolf 登入，或從應用程式設定中綁定 Overwolf。",
+                "save": "省下 {{value}}%",
+                "subscribe": "訂閱",
+                "sign-in-to-subscribe": "登入以進行訂閱"
+            },
+            "subscription": {
+                "title": "你的訂閱",
+                "renews": "有效中，將於 {{date}} 自動續訂",
+                "ending": "已取消：Premium 將維持有效直至 {{date}}",
+                "ending-no-date": "已取消：Premium 將維持有效直至目前週期結束",
+                "manage": "管理訂閱",
+                "switch-note": "若要切換至其他方案，請先取消目前方案，並在該方案結束後重新訂閱。",
+                "renews-no-date": "有效中，自動續訂",
+                "manage-note": "在我們的付款合作夥伴 Tebex 上取消或更新你的付款方式。Tebex 會要求你使用結帳時所填寫的電子郵件登入。",
+                "unknown-plan": "Premium"
+            },
+            "status": {
+                "loading": "正在檢查你的訂閱狀態…",
+                "error": "目前無法檢查你的訂閱狀態。如果你已經訂閱，無需重複訂閱：請稍後重新整理頁面。"
+            },
+            "checkout": {
+                "success-pending": "感謝你支持 Firestone！正在確認你的付款，這通常需要不到一分鐘的時間…",
+                "success-done": "一切就緒：你帳號的 Premium 現已生效。",
+                "success-slow": "你的付款仍在處理中。請在幾分鐘後重新整理此頁面。如果 Premium 仍未生效，請在 Discord 上與我們聯絡。",
+                "cancel": "結帳已取消。系統並未向你收取任何費用。"
             }
         },
         "meta": {
@@ -7074,7 +7249,10 @@
             "account-id-copied": "已複製帳號 ID",
             "copy-account-id": "複製帳號 ID",
             "sign-in": "登入",
-            "sign-out": "登出"
+            "sign-out": "登出",
+            "premium-badge": "Premium",
+            "manage-subscription": "管理訂閱",
+            "go-premium": "升級 Premium"
         }
     },
     "archetype": {
@@ -7145,7 +7323,7 @@
         "highlander-priest": "無雙牧",
         "highlander-hunter": "無雙獵",
         "pure-paladin": "光鑄聖",
-        "thief-rogue": "剽竊賊",
+        "thief-rogue": "偷偷賊",
         "secret-hunter": "秘密獵",
         "shaggro-priest": "快攻暗牧",
         "chadlock": "泰迪斯術",
@@ -7169,11 +7347,11 @@
         "paladin": "未知聖騎士",
         "shaman": "未知薩滿",
         "xl-fuu-plague-dk": "40 FUU瘟疫死騎",
-        "xl-thief-rogue": "40剽竊賊",
+        "xl-thief-rogue": "40偷偷賊",
         "warrior": "未知戰士",
         "xl-coc-rogue": "40混合物賊",
         "xl-hero-power-druid": "40英雄能力德",
-        "xl-coc-thief-rogue": "40混合物剽竊賊",
+        "xl-coc-thief-rogue": "40混合物偷偷賊",
         "xl-uuu-plague-dk": "40穢邪瘟疫死騎",
         "xl-chadlock": "40泰迪斯術",
         "xl-gaia-paladin": "40大地聖",
@@ -7772,7 +7950,7 @@
         "ayaya-rogue": "幸運幣(阿雅)賊",
         "sanctum-priest": "OTK(晶紅聖所)牧",
         "securitybot-shaman": "警衛機器人(瑪格)薩",
-        "thief-priest": "偷牌(阿薩琳娜)牧",
+        "thief-priest": "偷偷(阿薩琳娜)牧",
         "two-bit-rogue": "雙面暴徒賊",
         "mug-quest-shaman": "瑪格(法術)任務薩",
         "mug-shaman": "瑪格薩",
@@ -7805,7 +7983,7 @@
         "exodia-paladin": "四騎士聖",
         "hl-igneous-warrior": "無雙(火成熔岩吞噬者)戰",
         "hl-questline-priest": "無雙任務線(尋求指引)牧",
-        "hl-thief-priest": "無雙偷牌牧",
+        "hl-thief-priest": "無雙偷偷牧",
         "harold-demon-warlock": "預兆惡魔術",
         "harold-warlock": "預兆術",
         "heal-burn-priest": "燒血(晶紅聖所)牧",
@@ -7837,7 +8015,7 @@
         "xl-champions-druid": "40OTK(艾澤拉斯勇士)德",
         "xl-hl-questline-mage": "40無雙任務線(法師的策略)法",
         "xl-hl-shadow-priest": "40無雙暗影牧",
-        "xl-hl-thief-priest": "40無雙偷牌牧",
+        "xl-hl-thief-priest": "40無雙偷偷牧",
         "chad-seedlock": "泰迪斯任務(惡魔之種)術",
         "cute-warrior": "可愛戰",
         "hl-n-roll-warrior": "無雙黑石搖滾戰",
@@ -7864,7 +8042,7 @@
         "xl-hl-exodia-paladin": "40無雙四騎士聖",
         "exodia-mage": "大法師(安東尼達斯)法",
         "gnoll-miracle-rogue": "豺狼人奇蹟賊",
-        "hl-thief-rogue": "無雙偷牌賊",
+        "hl-thief-rogue": "無雙偷偷賊",
         "hl-velarok-rogue": "無雙維拉若克賊",
         "igneous-warrior": "火成熔岩吞噬者戰",
         "kingsbane-rogue": "王禍賊",
@@ -7883,7 +8061,7 @@
         "xl-hl-big-spell-mage": "40無雙大法術法",
         "xl-hl-lpg-mage": "40無雙(露娜的口袋銀河)法",
         "xl-hl-sou-quest-shaman": "40無雙任務(腐化水域)薩",
-        "xl-hl-thief-rogue": "40無雙偷牌賊",
+        "xl-hl-thief-rogue": "40無雙偷偷賊",
         "xl-kingsbane-rogue": "40王禍賊",
         "xl-warlock": "40牌術",
         "xl-lc-quest-warrior": "40任務(進入迷城)戰",
