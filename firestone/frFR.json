@@ -2451,6 +2451,27 @@
             "please-log-in": "Veuillez vous connecter pour utiliser les fonctionnalités de guilde",
             "what-are-guilds": "Les... guildes ?",
             "leave-community-button": "Quitter la guilde"
+        },
+        "replay-viewer": {
+            "story": {
+                "trade-cost": "1 mana",
+                "a-card-capitalized": "Une carte"
+            },
+            "bg": {
+                "place": {
+                    "1": "1er",
+                    "2": "2e",
+                    "3": "3e",
+                    "4": "4e",
+                    "8": "8e",
+                    "5": "5e",
+                    "6": "6e",
+                    "7": "7e"
+                }
+            },
+            "minion": {
+                "old-god-abilities": "Capacités du Dieu très ancien"
+            }
         }
     },
     "turn-timer": {
@@ -3639,7 +3660,10 @@
             "tribes-impact": "Impact types",
             "average-position": "Position",
             "locked-premium-info-tooltip": "Devenez Premium pour voir les stats détaillées des héros et héroïnes. Vous pouvez utiliser cette fonctionnalité gratuitement {{value}} fois par jour.",
-            "pickrate": "% sélection"
+            "pickrate": "% sélection",
+            "recap": {
+                "more-tips": "+{{value}} de plus dans l’app"
+            }
         },
         "in-game": {
             "face-offs": {
@@ -4513,7 +4537,9 @@
                 "link-battlenet-failed": "Impossible de commencer la liaison avec Battle.net. Réessayez plus tard.",
                 "unlink-battlenet-tooltip": "Déconnecter Battle.net de votre compte Firestone Overwolf. Chaque connexion aura son propre historique de parties.",
                 "unlink-overwolf-tooltip": "Déconnectez Overwolf de ce compte Battle.net Firestone. Chaque connexion n’affichera que son propre historique de parties.",
-                "perks-lottery-title": "Participer à la loterie"
+                "perks-lottery-title": "Participer à la loterie",
+                "link-generic-label": "Compte",
+                "unlink-generic-label": "Compte"
             },
             "hotkeys": {
                 "change": "Modifier",
@@ -4523,6 +4549,9 @@
                 "battlegrounds": "Afficher/Masquer la fenêtre Champs de bataille",
                 "collection": "Afficher/Masquer la fenêtre principale",
                 "clear": "Effacer"
+            },
+            "privacy": {
+                "manage-label": "Paramètres de confidentialité des publicités"
             }
         },
         "decktracker": {
@@ -5690,7 +5719,12 @@
             "privacy-prefix": "En vous connectant, vous acceptez nos ",
             "coming-soon": "Prochainement",
             "continue-with-google": "Continuer avec Google",
-            "link-subtitle": "Lier votre compte Firestone à Battle.net"
+            "link-subtitle": "Lier votre compte Firestone à Battle.net",
+            "email": {
+                "errors": {
+                    "email-pending": "Votre inscription à cette newsletter est en attente de confirmation. Vérifiez votre boîte de réception ou réessayez demain."
+                }
+            }
         },
         "docs": {
             "pages": {
@@ -6230,6 +6264,9 @@
         },
         "meta": {
             "title": "Firestone - Stats Hearthstone et analyses de la méta"
+        },
+        "account": {
+            "account-id-copied": "Id du compte copié"
         }
     },
     "twitch": {
@@ -7223,7 +7260,8 @@
         "aberration_discard": "Aberration défausse",
         "naga_end_of_turn": "Nagas Fin de tour",
         "dragon_evoker": "Dragons évocateur",
-        "quilboar_felboar_spam": "Hurans spam sanglier gangrené"
+        "quilboar_felboar_spam": "Hurans spam sanglier gangrené",
+        "undead_apm": "Morts-vivants APM"
     },
     "androidDeckTracker": {
         "overlay": {
