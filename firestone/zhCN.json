@@ -569,7 +569,7 @@
                 "blurb": "显示触须抽击及类似效果让帝国之眼克苏恩的费用降低了多少。"
             },
             "bgsShowTavernStatsOverlay": {
-                "title": "酒馆升级时机",
+                "title": "酒馆时机",
                 "blurb": "高级会员：根据顶尖玩家，在英雄页面和悬停酒馆按钮时查看何时升级。"
             },
             "bgsShowHeroTipsOverlay": {
@@ -1589,7 +1589,8 @@
                         "final-warbands": "上次阵容",
                         "warband-stats": "阵容数据",
                         "winrate-stats": "战斗胜率",
-                        "strategies": "策略"
+                        "strategies": "策略",
+                        "tavern-timings": "酒馆时机"
                     },
                     "stats": {
                         "title": "综合数据",
@@ -1830,6 +1831,37 @@
                 "variant-hero": "仅{{hero}}",
                 "variant-lobby-lacks": "大厅中没有{{tribes}}",
                 "variant-lobby-has": "大厅中有{{tribes}}"
+            },
+            "tavern-timings": {
+                "compare-mmr": "等级积分",
+                "compare-mmr-tooltip": "等级积分前10%对比等级积分后50%",
+                "compare-winners": "获胜者",
+                "compare-winners-tooltip": "在等级积分排名前25%的玩家中，获得第1名或第2名的玩家与其他玩家对比",
+                "compare-heroes-tooltip": "在等级积分排名前25%的玩家中，最终获得第1名或第2名的玩家：{{hero}}与所有英雄对比",
+                "group-bottom-50": "后50%",
+                "group-top-10": "前10%",
+                "group-winners": "第1或第2名",
+                "group-others": "第3至第8名",
+                "legend-left": "左：{{group}}",
+                "legend-right": "右：{{group}}",
+                "board-all": "全部",
+                "board-avg": "平均",
+                "board-label": "阵容",
+                "board-weak": "弱",
+                "compare-label": "对比",
+                "board-all-tooltip": "所有玩家，不论其阵容如何",
+                "board-strong": "强",
+                "board-weak-tooltip": "在该对局阶段，阵容总属性值位居使用此英雄的玩家中后25%的玩家",
+                "board-strong-tooltip": "在该对局阶段，阵容总属性值位居使用此英雄的玩家中前25%的玩家",
+                "level-rate-from-row": "从",
+                "level-rate-legend": "在回合开始时处于相同酒馆等级的玩家中（采用人数最多的等级）",
+                "level-rate-title": "按回合查看升级酒馆的玩家",
+                "hover": {
+                    "now": "现在",
+                    "reach-title": "当{{hero}}升至{{tier}}级酒馆时",
+                    "title": "{{hero}} · {{tier}}级酒馆 → {{next}}"
+                },
+                "board-avg-tooltip": "在该对局阶段，阵容总属性值处于使用此英雄的玩家中25%至75%的玩家"
             }
         },
         "duels": {
