@@ -277,7 +277,7 @@
             "nerubian": "蛛魔",
             "pirate": "海盗",
             "dragon": "龙",
-            "blank": "无",
+            "blank": "无随从类型",
             "all": "全部",
             "egg": "蛋",
             "quilboar": "野猪人",
@@ -589,7 +589,7 @@
                 "blurb": "独立版：Firestone 启动时打开主窗口。关闭后会留在托盘。"
             },
             "questsWidgetListScale": {
-                "title": "任务列表大小",
+                "title": "任务列表尺寸",
                 "blurb": "单独调整任务列表的大小，不影响任务小组件。"
             },
             "playerTherazaneCounter": {
@@ -1404,7 +1404,7 @@
                     "removed-cards-header": "已移除的卡牌",
                     "view-online-button-tooltip": "前往 https://www.hsguru.com 查看更多数据",
                     "view-online-button": "打开在线数据",
-                    "cards-header-details": "({{value}} 张卡牌)",
+                    "cards-header-details": "（{{value}}张卡牌）",
                     "view-decks-button-tooltip": "显示所有此类型的套牌",
                     "view-details-button-tooltip": "查看卡牌强度等更深层次的数据细节（会员专属）",
                     "view-decks-button": "查看套牌",
@@ -1858,10 +1858,49 @@
                 "level-rate-title": "按回合查看升级酒馆的玩家",
                 "hover": {
                     "now": "现在",
-                    "reach-title": "当{{hero}}升至{{tier}}级酒馆时",
+                    "reach-title": "{{hero}}何时升至{{tier}}级酒馆",
                     "title": "{{hero}} · {{tier}}级酒馆 → {{next}}"
                 },
-                "board-avg-tooltip": "在该对局阶段，阵容总属性值处于使用此英雄的玩家中25%至75%的玩家"
+                "board-avg-tooltip": "在该对局阶段，阵容总属性值处于使用此英雄的玩家中25%至75%的玩家",
+                "never": "从未",
+                "recommended-curves-title": "推荐升级曲线",
+                "recommended-best": "最佳",
+                "recommended-delta-header": "对比平均值",
+                "recommended-delta-tooltip": "采用此升级曲线时的平均名次，与同一批玩家（{{group}}）的所有对局相比。",
+                "recommended-most-played": "最常用",
+                "no-data": "当前筛选条件下还没有该英雄的酒馆数据。",
+                "played": "使用率",
+                "tier-mix-title": "每回合的酒馆等级",
+                "openings-curve-header": "2 · 3 · 4 级酒馆升级回合",
+                "tier-mix-tooltip-end-of-turn": "回合结束时的酒馆等级",
+                "tier-mix-tooltip-title": "第{{turn}}回合 · 仍在游戏中的玩家",
+                "tier-mix-tooltip-upgraded": "本回合已升级",
+                "takeaway-hold-title": "第{{turn}}回合：他们保持当前等级",
+                "takeaway-points": "{{value}} 分",
+                "takeaways-title-heroes": "{{hero}}的获胜者有哪些不同之处",
+                "takeaways-title-winners": "获胜者有哪些不同之处",
+                "tier-mix-tooltip-games": "玩家",
+                "tier-mix-tooltip-from-tier": "{{from}}级酒馆 → {{to}}级",
+                "takeaway-ahead-title": "第{{turn}}回合领先",
+                "takeaway-behind-title": "第{{turn}}回合落后",
+                "takeaway-hold-range-title": "第{{from}}–{{to}}回合：他们保持当前等级",
+                "takeaway-level-range-title": "第{{from}}–{{to}}回合：他们更常升级",
+                "takeaway-level-title": "第{{turn}}回合：他们更常升级",
+                "takeaway-ahead-text": "第{{turn}}回合时，有{{a}}%的玩家达到{{tier}}级酒馆或更高等级，对比之下为{{b}}%。",
+                "takeaways-none": "两组之间没有明显差异。",
+                "reach-all-boards": "全部阵容",
+                "reach-column-header": "到达回合",
+                "reach-never": "从未",
+                "reach-subtitle": "等级积分前25% · 相较于该回合仍在游戏中的所有等级积分前25%玩家的名次差异",
+                "reach-title": "何时升至各酒馆等级",
+                "reach-legend-better": "最终名次更靠前",
+                "reach-legend-worse": "最终名次更靠后",
+                "reach-row": "{{from}}级酒馆 → {{to}}级",
+                "reach-legend-never": "从未：与所有升到该等级的玩家相比",
+                "reach-never-tooltip": "从未到达{{tier}}级酒馆 · {{games}}场对局<br/>平均名次为第{{avg}}名，而所有达到{{from}}级的的对局平均为 {{reference}}。",
+                "reach-cell-tooltip": "第{{turn}}回合升{{tier}}级酒馆 · {{games}}场对局<br/>平均名次为第{{avg}}名。<br/>前25%玩家在第{{turn}}回合仍在游戏中：{{reference}}。",
+                "takeaway-upgrade-text": "第{{turn}}回合：处于{{from}}级酒馆的玩家中有{{a}}%升至{{to}}级酒馆，对比之下为{{b}}%。",
+                "takeaways-title-mmr": "顶尖玩家有哪些不同之处"
             }
         },
         "duels": {
@@ -2360,7 +2399,7 @@
             "opt-out-button-cancel": "保留抽奖",
             "opt-out-button-ok": "退出抽奖",
             "tracking-ongoing-tooltip": "在你游玩时，抽奖点数将自动累积。",
-            "tracking-not-ongoing-tooltip": "抽奖追踪已暂停，当小部件不可见时，你将不会累计点数。",
+            "tracking-not-ongoing-tooltip": "抽奖追踪已暂停，当小组件不可见时，你将不会累计点数。",
             "navigation": {
                 "lottery": "抽奖",
                 "achievements": "成就"
@@ -2458,12 +2497,12 @@
             "subscribe-button-upgrade": "升级",
             "subscribe-button-epic": "成为Epic！",
             "billing": {
-                "yearly-subtext": "(节省 {{value}}%)",
+                "yearly-subtext": "（立省 {{value}}%）",
                 "monthly": "按月计费",
                 "yearly": "按年计费",
                 "click-to-copy-code": "点击复制代码到剪贴板",
                 "yearly-coupon-text": "限时优惠！截止至{{endDate}}，结账时使用以下代码可获得额外的{{reduction}}折扣：",
-                "six-month-subtext": "(节省 {{value}}%)",
+                "six-month-subtext": "（立省 {{value}}%）",
                 "six-month": "每6个月收费一次",
                 "six-month-coupon-text": "限时优惠！截止至{{endDate}}，结账时使用以下代码可获得额外的{{reduction}}折扣：",
                 "yearly-coupon-text-2": "为庆祝 {{expansionName}} 上线，在结账页面使用以下折扣代码以获得额外{{reduction}}的优惠：",
@@ -2889,7 +2928,12 @@
                 },
                 "step-of": "第{{n}}步，共{{total}}步",
                 "tap-to-close": "点击外部区域关闭",
-                "uses-card": "使用{{card}}"
+                "uses-card": "使用{{card}}",
+                "power-summons": "{{power}}召唤了{{to}}",
+                "offer-from": "来自{{source}}的{{title}}",
+                "quest-progress": "进度：{{n}}/{{total}}",
+                "quest-reward": "奖励",
+                "power-replaces": "{{power}} 将{{from}}替换为{{to}}"
             },
             "swipe-hint": {
                 "next": "向左滑动进入下一步",
@@ -3547,11 +3591,11 @@
             },
             "simple": {
                 "title": "保持简洁",
-                "text": "仅显示主要小部件，尽量减少屏幕上的杂乱。"
+                "text": "仅显示主要小组件，尽量减少屏幕上的杂乱。"
             },
             "recommended": {
                 "title": "推荐",
-                "text": "完整的默认体验，包含常规的浮窗和小部件。如果你有会员订阅，强烈推荐。"
+                "text": "完整的默认体验，包含常规的浮窗和小组件。如果你有会员订阅，强烈推荐。"
             }
         },
         "setup-intro": "这个简短的设置能让你在开始使用之前根据你的偏好调整应用程序。",
@@ -3581,7 +3625,7 @@
             "title": "已准备就绪",
             "experience-power": "我想拥有所有工具",
             "experience-recommended": "推荐",
-            "replay-warning": "这将更新浮窗和小部件设置以匹配你的选择。之后你仍可以从设置→应用→管理恢复以前的设置。"
+            "replay-warning": "这将更新浮窗和小组件设置以匹配你的选择。之后你仍可以从设置→应用→管理恢复以前的设置。"
         },
         "subtitle-2": "它有两个主要组成部分：游戏内浮窗，提供实时信息以帮助你做出最佳决策，以及一个桌面应用程序，显示你的所有对局、卡牌收藏等统计数据。"
     },
@@ -4133,7 +4177,28 @@
             "tier": "等级",
             "locked-premium-info-tooltip": "订阅会员查看详细的英雄数据。此功能每日可免费使用{{value}}次。",
             "tribes-impact": "随从类型影响",
-            "pickrate": "选取率"
+            "pickrate": "选取率",
+            "recap": {
+                "game-plan": "对局思路",
+                "tip-patch": "补丁 {{value}}",
+                "top-4": "前四",
+                "win": "胜利",
+                "combat-winrate": "战斗胜率",
+                "more-tips": "应用中还有{{value}}个",
+                "peak-range": "在第{{from}}–第{{to}}回合达到峰值",
+                "tribes": "随从类型",
+                "all-heroes": "虚线：所有英雄",
+                "average-short": "平均",
+                "peak-single": "在第{{value}}回合达到峰值",
+                "turn": "第{{value}}回合",
+                "you": "您",
+                "games": "场",
+                "game": "场",
+                "last-played": "上次游玩 {{value}}",
+                "no-recent-games": "无近期对局",
+                "rating-per-game": "每场评分",
+                "adjusted-for-lobby": "会考虑随从类型和畸变等特殊设置"
+            }
         },
         "in-game": {
             "face-offs": {
@@ -4282,9 +4347,9 @@
                 "actions-title": "本回合操作数",
                 "apm-title": "APM",
                 "apm-tooltip": "每分钟操作数，基于过去{{value}}秒的计算结果",
-                "close-tooltip": "关闭小部件。",
+                "close-tooltip": "关闭小组件。",
                 "close-ok": "关闭",
-                "close-confirmation-text": "关闭并停用小部件。您可以在设置中重新启用它。",
+                "close-confirmation-text": "关闭并停用小组件。您可以在设置中重新启用它。",
                 "close-cancel": "保持开启",
                 "peak-apm-tooltip": "本回合峰值APM",
                 "peak-apm-title": "峰值APM",
@@ -4463,7 +4528,7 @@
         },
         "buttons": {
             "reset-tooltip": "开始新的战绩记录并重置所有统计数据",
-            "close-tooltip": "关闭并停用小部件。如果您想要再次启用它，请在设置中重新开启"
+            "close-tooltip": "关闭并停用小组件。如果您想要再次启用它，请在设置中重新开启"
         },
         "summary": {
             "total-games": "{{value}} 场对局",
@@ -4524,7 +4589,7 @@
                 "zoom-200": "200%",
                 "zoom-400": "400%"
             },
-            "widget-size-label": "小部件尺寸",
+            "widget-size-label": "小组件尺寸",
             "show-advanced-settings-button": "显示高级设置",
             "hide-advanced-settings-button": "隐藏高级设置",
             "locked-tooltip": "成为会员用户即可解锁这个选项！（点击主界面右下角的广告上方的链接来支持开发者）",
@@ -4573,7 +4638,7 @@
                 "discord": "Discord",
                 "appearance": "外观",
                 "admin": "管理员",
-                "widgets": "小部件",
+                "widgets": "小组件",
                 "streamer": "主播",
                 "addons": "附加组件",
                 "account": "账号",
@@ -4685,7 +4750,7 @@
                     "toggle-label": "同步您的回放到 hearthstone-decks.net"
                 },
                 "hearthpwn": {
-                    "pitch": "Hearthpwn 是最大的分享卡组、文章等内容的社区网站之一。将您的卡牌收藏同步到该网站可以更轻松地找到可玩的套牌并查看您收藏的统计数据。您可以访问他们的网站 {{websiteLink}}",
+                    "pitch": "Hearthpwn 是大型社区网站之一，提供套牌、文章等内容。将你的卡牌收藏同步到该网站，可以更轻松地查找可用套牌，并查看收藏统计。访问网站：{{websiteLink}}",
                     "title": "Hearthpwn",
                     "next": "如果您决定同步到 Hearthpwn，Firestone 将向他们发送您的收藏数据，以便您可以查看收藏的统计信息。",
                     "toggle-label": "将你的收藏同步到 Hearthpwn",
@@ -4753,8 +4818,8 @@
                 "zoom-tooltip": "缩放等级将应用于所有窗口",
                 "reset-prefs-button-default": "重置",
                 "reset-prefs-button-confirmation": "您确定吗？",
-                "reset-prefs-tooltip": "重置您的所有偏好设置，包括屏幕上的各种小部件位置",
-                "reset-prefs-confirmation": "您的所有偏好设置都已重置。这包括屏幕上的各种小部件位置以及您的Twitch设置，所以别忘了将您需要的偏好设置修改回来：)",
+                "reset-prefs-tooltip": "重置您的所有偏好设置，包括屏幕上的各种小组件位置",
+                "reset-prefs-confirmation": "您的所有偏好设置都已重置。这包括屏幕上的各种小组件位置以及您的Twitch设置，所以别忘了将您需要的偏好设置修改回来：)",
                 "restart-app-button-label": "重启应用",
                 "title": "加载选项",
                 "restart-app-button-text": "重启",
@@ -4812,11 +4877,11 @@
                 "lottery-button-text": "启用抽奖",
                 "lottery-block-text1": "参与抽奖将有机会获得免费的Firestone会员。你可以通过正常游戏或完成相关任务来获得抽奖点数。每2周将会从奖池中出抽取2位用户，这些用户将获得2个月的免费会员。点数越高被选中的可能就越大，中奖的用户将会公布在{{twitterLink}}和{{discordLink}}。",
                 "lottery-block-text2": "每期抽奖的点数都会在抽奖时清空，不会累积到下一期。",
-                "lottery-block-text3": "注意：如果您有多个显示屏，请尝试改变小部件中的“设置浮窗”选项，并将其移动到第二个屏幕。",
+                "lottery-block-text3": "注意：如果您有多个显示屏，请尝试改变小组件中的“设置浮窗”选项，并将其移动到第二个屏幕。",
                 "lottery-block-text4": "注意：当你已经是会员时仍然可以参与抽奖，并且不会显示广告。当你抽中会员的时候，你将获得相同价值的奖品。",
-                "lottery-widget-settings-title": "小部件设置",
-                "lottery-size-title": "抽奖小部件尺寸",
-                "lottery-opacity-title": "抽奖小部件透明度",
+                "lottery-widget-settings-title": "小组件设置",
+                "lottery-size-title": "抽奖小组件尺寸",
+                "lottery-opacity-title": "抽奖小组件透明度",
                 "lottery-premium-section-tooltip": "此功能仅限会员用户使用",
                 "lottery-sync-label": "抽奖积分",
                 "lottery-sync-tooltip": "从服务器恢复本赛季的抽奖积分。在重新安装 Firestone 后使用此功能。"
@@ -4863,23 +4928,24 @@
             },
             "quests": {
                 "title": "任务",
-                "enable-quests-label": "启用任务小部件",
-                "enable-quests-tooltip": "在各种游戏模式中显示一个小部件来提示您正在进行的任务",
+                "enable-quests-label": "启用任务小组件",
+                "enable-quests-tooltip": "在各种游戏模式中显示一个小组件来提示您正在进行的任务",
                 "show-when-empty-label": "任务栏为空时也显示",
-                "show-when-empty-tooltip": "启用此项时，任务小部件将在完成所有任务后保持显示",
+                "show-when-empty-tooltip": "启用此项时，任务小组件将在完成所有任务后保持显示",
                 "show-in-game-label": "在对战中显示",
-                "show-in-game-tooltip": "停用此项时，任务小部件将在对战中隐藏",
+                "show-in-game-tooltip": "停用此项时，任务小组件将在对战中隐藏",
                 "constructed-label": "传统对战",
-                "constructed-tooltip": "在传统对战、对决模式、乱斗模式和友谊赛以及其主屏幕中显示包含原生任务的任务小部件",
+                "constructed-tooltip": "在传统对战、对决模式、乱斗模式和友谊赛以及其主屏幕中显示包含原生任务的任务小组件",
                 "constructed-on-hub-label": "主界面 - 原生任务",
-                "constructed-on-hub-tooltip": "在主界面中显示包含原生任务的任务小部件",
+                "constructed-on-hub-tooltip": "在主界面中显示包含原生任务的任务小组件",
                 "constructed-on-bg-label": "酒馆战棋 - 原生任务",
-                "constructed-on-bg-tooltip": "在酒馆战棋界面中显示包含原生任务的任务小部件",
+                "constructed-on-bg-tooltip": "在酒馆战棋界面中显示包含原生任务的任务小组件",
                 "battlegrounds-label": "酒馆战棋",
-                "battlegrounds-tooltip": "在酒馆战棋对战和其主界面中显示包含战棋任务的任务小部件",
+                "battlegrounds-tooltip": "在酒馆战棋对战和其主界面中显示包含战棋任务的任务小组件",
                 "mercenaries-label": "佣兵战纪",
-                "mercenaries-tooltip": "在所有佣兵战纪界面中显示任务小部件。启用任务小部件将移除队伍列表中任务按钮。",
-                "size-label": "任务小组件尺寸"
+                "mercenaries-tooltip": "在所有佣兵战纪界面中显示任务小组件。启用任务小组件将移除队伍列表中任务按钮。",
+                "size-label": "任务小组件尺寸",
+                "list-size-label": "任务列表尺寸"
             },
             "discord": {
                 "advanced-config-title": "高级选项",
@@ -4911,7 +4977,7 @@
             "appearance": {
                 "battlegrounds": {
                     "title": "酒馆战棋",
-                    "widget-background-color": "小部件背景色",
+                    "widget-background-color": "小组件背景色",
                     "global": "全局"
                 },
                 "reset-button": "重置全部",
@@ -4924,7 +4990,7 @@
                     "color": {
                         "color-8": "强调色",
                         "color-7": "背景（深色）",
-                        "bgs-background-end": "小部件背景（边缘）",
+                        "bgs-background-end": "小组件背景（边缘）",
                         "color-5": "背景（浅色）",
                         "color-6": "背景（中等）",
                         "color-9": "背景边框",
@@ -4937,12 +5003,45 @@
                         "color-3": "第三次要颜色",
                         "text": "文字颜色",
                         "title": "标题颜色",
-                        "bgs-background-start": "小部件背景（中心）"
+                        "bgs-background-start": "小组件背景（中心）",
+                        "loss": "败北",
+                        "tie": "平局",
+                        "win": "胜利",
+                        "rarity-common": "普通稀有度",
+                        "rarity-free": "免费稀有度",
+                        "rarity-rare": "稀有稀有度",
+                        "scale-high": "属性成长（最佳）",
+                        "scale-low": "属性成长（最差）",
+                        "class-druid": "德鲁伊",
+                        "rarity-epic": "史诗稀有度",
+                        "rarity-legendary": "传说稀有度",
+                        "class-hunter": "猎人",
+                        "class-mage": "法师",
+                        "class-paladin": "圣骑士",
+                        "class-priest": "牧师",
+                        "class-rogue": "潜行者",
+                        "class-neutral": "中立",
+                        "class-shaman": "萨满祭司",
+                        "class-warlock": "术士",
+                        "class-warrior": "战士",
+                        "tier-a": "A级",
+                        "tier-b": "B级",
+                        "tier-c": "C级",
+                        "tier-s": "S级",
+                        "stat-health": "生命值",
+                        "tier-d": "D级",
+                        "tier-e": "E级",
+                        "stat-cost": "法力消耗",
+                        "class-deathknight": "死亡骑士",
+                        "class-demonhunter": "恶魔猎手",
+                        "stat-attack": "攻击力",
+                        "window-background": "窗口背景"
                     },
                     "intro": "选择游戏内浮窗的外观和样式（记牌器、计数器、战斗胜率、随从列表等）。",
                     "group": {
                         "battlegrounds": "酒馆战棋颜色",
-                        "general": "颜色"
+                        "general": "颜色",
+                        "results": "结果颜色"
                     },
                     "customize-button": "创建自定义主题",
                     "custom": "自定义",
@@ -4950,7 +5049,7 @@
                     "firestone": "Firestone",
                     "firestone-dark": "Firestone 深色",
                     "deck-tracker": "怀旧",
-                    "title": "浮窗主题",
+                    "title": "主题",
                     "reset-button": "重置颜色",
                     "save-button": "保存为新主题",
                     "selector-label": "主题",
@@ -4963,29 +5062,37 @@
                     "export-button": "导出到文件",
                     "import-button": "从文件导入",
                     "import-error": "这看起来不像一个有效的 Firestone 浮窗主题。",
-                    "saved-themes": "已保存的主题"
+                    "saved-themes": "已保存的主题",
+                    "app-selector-label": "应用主题",
+                    "battlegrounds-selector-label": "酒馆战棋浮窗",
+                    "constructed-selector-label": "传统对战，竞技模式和佣兵战纪浮窗",
+                    "brown": "棕色",
+                    "follow-app": "与应用主题相同",
+                    "magenta": "品红",
+                    "plum": "梅紫",
+                    "results-hint": "用于显示胜场、平局和负场，以及按从差到好的顺序着色。"
                 }
             },
             "notifications": {
                 "title": "通知"
             },
             "widgets": {
-                "lock-widgets-label": "锁定小部件位置",
-                "lock-widgets-tooltip": "将小部件锁定，这样它们就无法移动",
-                "size": "全局小部件尺寸",
+                "lock-widgets-label": "锁定小组件位置",
+                "lock-widgets-tooltip": "将小组件锁定，这样它们就无法移动",
+                "size": "全局小组件尺寸",
                 "size-tooltiplabel": "全局修改所有本应用程序小部件的尺寸",
                 "card-tooltip-size": "卡牌提示尺寸",
                 "counters-opacity": "计数器不透明度",
-                "size-tooltip": "全局修改所有应用程序小部件的尺寸",
+                "size-tooltip": "全局修改所有应用程序小组件的尺寸",
                 "counters-opacity-tooltip": "修改所有应用程序计数器的不透明度",
                 "use-grouped-counters-label": "使用分组计数器",
                 "use-grouped-counters-tooltip": "将所有计数器（你和对手的计数器）组合到一个紧凑的列表中",
                 "grouped-counters-size": "分组计数器尺寸",
                 "card-tooltip-number-of-related-cards": "相关卡牌的数量",
                 "card-tooltip-number-of-related-cards-tooltip": "在卡牌提示中显示相关卡牌的最大数量。如果卡牌数量超过此数值，你将看到一个包含相关卡牌数量的通用信息。",
-                "counters-widgets-size": "计数器小部件尺寸",
+                "counters-widgets-size": "计数器小组件尺寸",
                 "help-tooltip-size": "鼠标提示文字尺寸",
-                "counters-widgets-size-tooltip": "修改鼠标悬停在某些计数器上时可以出现的小部件的尺寸，例如拉法姆列表",
+                "counters-widgets-size-tooltip": "修改鼠标悬停在某些计数器上时可以出现的小组件的尺寸，例如拉法姆列表",
                 "use-azalina-label": "预测自阿扎莉娜",
                 "use-azalina-tooltip": "如果玩家拥有阿扎莉娜，我们会根据对手的职业来决定是否显示一些计数器（例如，如果你是牧师，对手是潜行者，我们可以显示青玉守卫计数器）。实验性功能",
                 "card-tooltip-canvas-fallback": "卡牌图片备用方案",
@@ -5045,15 +5152,15 @@
                 "link-overwolf-need-battlenet": "请先使用 Battle.net 登录，然后再次尝试关联 Overwolf。",
                 "intro-battlenet-linked-overwolf": "此 Battle.net 登录与你的 Overwolf 账号相关联。如需单独使用每个登录，请解除 Overwolf 的关联。",
                 "unlink-overwolf-button": "取消关联",
-                "perks-replays-title": "回放大约保存一年",
+                "perks-replays-title": "延长回放的保存时间",
                 "perks-intro": "登录免费。这能让 Firestone 更好地为你服务。",
                 "perks-title": "为什么要登录？",
-                "perks-sync-title": "你的数据会随你同步",
-                "perks-sync-detail": "无论重新安装还是更换电脑，你的对局记录、开包统计和成就都会随你保留。",
+                "perks-sync-title": "保留你的数据",
+                "perks-sync-detail": "无论重装应用或更换电脑后，也能找回完整的对局历史和统计数据。",
                 "perks-lottery-title": "进入彩票抽奖",
-                "perks-lottery-detail": "积分仍然在本地累积；登录以同步它们并在赛季结束时进入抽奖。",
-                "perks-replays-detail": "没有账号，回放文件将在60天后被删除。",
-                "perks-history-title": "你的对局记录会保留在云端",
+                "perks-lottery-detail": "每两周结束时，都有机会赢得2个月的会员订阅。",
+                "perks-replays-detail": "没有账号，回放文件将在60天后被删除，登录后可保留一年（会员用户可永久保留）。",
+                "perks-history-title": "永久保存对局记录",
                 "perks-history-detail": "未关联账号的对局记录大约会在一年后自动清除。",
                 "link-battlenet-failed": "无法开始关联 Battle.net 账号，请稍后重试。",
                 "hide-premium-lock-buttons-tooltip": "免费使用次数耗尽后，隐藏会员功能旁出现的“升级会员”按钮",
@@ -5071,7 +5178,8 @@
                 "unlink-provider-button": "取消关联",
                 "unlink-provider-confirmation": "您确定吗？",
                 "unlink-provider-tooltip": "移除 {{provider}} 登录方式，使其无法再用于登录此 Firestone 账号。",
-                "provider-email": "邮箱"
+                "provider-email": "邮箱",
+                "link-provider-failed": "无法开始关联，请稍后重试。"
             },
             "hotkeys": {
                 "title": "快捷键",
@@ -5598,18 +5706,18 @@
                 "show-ooc-tracker-tooltip": "在选择战利品时显示您的套牌。以便于让您看到卡牌之间的联动。",
                 "show-ooc-hero-info-label": "显示英雄数据",
                 "show-ooc-hero-info-tooltip": "在开始一轮对决前悬停鼠标显示英雄/英雄技能/签名宝藏统计数据。",
-                "show-ooc-deck-select-label": "显示快速套牌小部件",
-                "show-ooc-deck-select-tooltip": "在构筑套牌界面显示小部件，让您能够快速复制您最近使用这个英雄/英雄技能/签名宝藏的构筑，或者最近的几个高胜套牌的构筑。"
+                "show-ooc-deck-select-label": "显示快速套牌小组件",
+                "show-ooc-deck-select-tooltip": "在构筑套牌界面显示小组件，让您能够快速复制您最近使用这个英雄/英雄技能/签名宝藏的构筑，或者最近的几个高胜套牌的构筑。"
             },
             "turn-timer": {
                 "title": "回合计时器",
                 "show-turn-timer-label": "显示回合计时器",
-                "show-turn-timer-tooltip": "显示一个记录此对局总时长和您当前回合时长的小部件，同时指明当前回合的剩余时长。",
+                "show-turn-timer-tooltip": "显示一个记录此对局总时长和您当前回合时长的小组件，同时指明当前回合的剩余时长。",
                 "show-turn-timer-match-length-label": "显示对局时长",
                 "show-turn-timer-match-length-tooltip": "显示在这场对局已用的总时长，包括起手换牌",
-                "size-title": "小部件尺寸",
-                "opacity-title": "小部件透明度",
-                "width-title": "小部件宽度"
+                "size-title": "小组件尺寸",
+                "opacity-title": "小组件透明度",
+                "width-title": "小组件宽度"
             },
             "mulligan": {
                 "show-mulligan-deck-overview-tooltip": "显示你套牌中的每张牌起手调度影响总览",
@@ -5620,7 +5728,7 @@
                 "keep-after-mulligan-off": "立即隐藏",
                 "keep-after-mulligan-10": "保留10秒",
                 "keep-after-mulligan-5": "保留5秒",
-                "keep-after-mulligan-label": "换牌后保留小部件",
+                "keep-after-mulligan-label": "换牌后保留小组件",
                 "keep-after-mulligan-until-dismissed": "直到手动关闭",
                 "personal-min-games-count": "{{value}} 场对局",
                 "personal-min-games-always": "始终（尽管对局场数很少）",
@@ -5638,10 +5746,10 @@
             },
             "max-resources-widget": {
                 "always-on": "始终开启",
-                "toggle-tooltip": "当你的最大生命值/法力水晶发生变化时，会显示一个显示您在游戏中可拥有的最大资源量小部件",
-                "title": "最大资源小部件",
-                "always-on-tooltip": "即使最大生命值/法力水晶没有变化，也会显示小部件",
-                "toggle": "显示小部件",
+                "toggle-tooltip": "当你的最大生命值/法力水晶发生变化时，会显示一个显示您在游戏中可拥有的最大资源量小组件",
+                "title": "最大资源小组件",
+                "always-on-tooltip": "即使最大生命值/法力水晶没有变化，也会显示小组件",
+                "toggle": "显示小组件",
                 "show-horizontally-tooltip": "单行显示最大资源，而不是单列显示",
                 "show-horizontally": "水平显示",
                 "show-corpses": "显示残骸",
@@ -5683,7 +5791,7 @@
             "menu": {
                 "general": "通用",
                 "overlay": "浮窗",
-                "session": "战绩记录小部件",
+                "session": "战绩记录小组件",
                 "leaderboard": "排行榜",
                 "battle-odds": "对战胜率",
                 "minions-list": "随从列表",
@@ -5772,7 +5880,7 @@
                 "battle-simulation-tooltip": "在游戏顶部显示当前战斗模拟结果",
                 "battle-simulation-example-label": "模拟器样式",
                 "battle-simulation-example-tooltip": "添加此按钮，点击可查看达到特定结果的示例。 警告：点击后将在您的默认浏览器中打开一个新标签页",
-                "widget-size-label": "小部件尺寸",
+                "widget-size-label": "小组件尺寸",
                 "banned-tribes-title": "禁用随从类型",
                 "banned-tribes-show-in-column-label": "纵列显示",
                 "banned-tribes-show-in-column-tooltip": "纵列显示禁用的随从类型，而非横排显示",
@@ -5850,7 +5958,7 @@
                 "counter-elemental-tavern-stats-tooltip": "在酒馆中为元素显示额外的攻击力/生命值增益",
                 "counter-elemental-tavern-stats-label": "酒馆元素统计",
                 "show-tribe-colors-label": "使用随从类型颜色",
-                "show-tribe-colors-tooltip": "用随从类型的颜色为每个小部件着色",
+                "show-tribe-colors-tooltip": "用随从类型的颜色为每个小组件着色",
                 "minions-list-keep-in-bounds-label": "保持在范围内",
                 "minions-list-keep-in-bounds-tooltip": "确保列表不会超出范围太多。如果无法准确定位列表，请将其关闭",
                 "actions-counter": {
@@ -5899,22 +6007,24 @@
                 "hero-power-tips-tooltip": "鼠标悬停在英雄技能上时，显示 Firestone 社区为其撰写的技巧提示（会员功能）。",
                 "hero-power-tips-label": "英雄技能技巧",
                 "quest-stats-frame-size-label": "任务小组件尺寸",
-                "quest-stats-size-label": "任务数据尺寸"
+                "quest-stats-size-label": "任务数据尺寸",
+                "tavern-stats-label": "悬停时显示酒馆数据",
+                "tavern-stats-tooltip": "鼠标悬停在酒馆升级按钮上时，显示适合你所选英雄的升级曲线，以及玩家通常升至下一级酒馆的回合数。"
             },
             "session-widget": {
-                "title": "战绩记录小部件",
-                "label": "显示战绩记录小部件",
+                "title": "战绩记录小组件",
+                "label": "显示战绩记录小组件",
                 "label-tooltip": "显示您在当前期间的战况回顾。推荐主播使用。",
                 "show-groups": "分类显示信息",
                 "show-groups-tooltip": "按最终位次分类显示您的战绩。",
                 "hide-when-friends-list-open": "当好友列表展开时隐藏",
-                "hide-when-friends-list-open-tooltip": "当好友列表展开时隐藏战绩记录小部件。",
+                "hide-when-friends-list-open-tooltip": "当好友列表展开时隐藏战绩记录小组件。",
                 "show-matches": "显示最近的比赛",
                 "show-matches-tooltip": "显示最近的几局比赛。",
                 "number-of-matches": "对战场数",
                 "number-of-matches-tooltip": "显示对战详情时包含的比赛局数上限 (最近一局在最上面)",
-                "size-title": "小部件尺寸",
-                "opacity-title": "小部件透明度"
+                "size-title": "小组件尺寸",
+                "opacity-title": "小组件透明度"
             },
             "leaderboard": {
                 "title": "排行榜信息浮窗",
@@ -5944,7 +6054,7 @@
                 "streamer-mode-tooltip": "重置战绩记录中的成就，那些未解锁的成就也会显示通知。取消选中将恢复您所有曾经达成的成就。需要重启应用",
                 "streamer-mode-confirmation": "知道了，在您下次启动Firestone时我们将不会加载您现有的成就",
                 "achievements-live-tracking-text": "实时追踪",
-                "achievements-live-tracking-tooltip": "启用小部件用于显示您想要追踪的成就的当前进度。 您可以在应用的成就部分选择要追踪的成就。"
+                "achievements-live-tracking-tooltip": "启用小组件用于显示您想要追踪的成就的当前进度。 您可以在应用的成就部分选择要追踪的成就。"
             }
         },
         "mercenaries": {
@@ -5953,29 +6063,29 @@
                 "quests": "任务"
             },
             "general": {
-                "player-team-widget-label": "己方队伍小部件",
+                "player-team-widget-label": "己方队伍小组件",
                 "player-team-widget-tooltip": "显示一个包括您的所有英雄、技能和装备等信息的浮窗",
-                "opponent-team-widget-label": "对手队伍小部件",
+                "opponent-team-widget-label": "对手队伍小组件",
                 "opponent-team-widget-tooltip": "显示对手所有已知的英雄、技能和装备的浮窗",
-                "map-team-widget-label": "队伍小部件：悬赏地图",
+                "map-team-widget-label": "队伍小组件：悬赏地图",
                 "map-team-widget-tooltip": "当您在悬赏地图中，显示一个包括所有您的英雄、技能和装备等信息的浮窗。能帮助您在选择路径和宝藏时查看队伍。",
-                "village-team-widget-label": "队伍小部件：村庄",
+                "village-team-widget-label": "队伍小组件：村庄",
                 "village-team-widget-tooltip": "在收藏和队伍选择界面中显示一个包括您所有英雄、技能和装备等信息的浮窗",
-                "action-queue-pve-label": "行动顺序小部件（PvE）",
+                "action-queue-pve-label": "行动顺序小组件（PvE）",
                 "action-queue-pve-tooltip": "显示PvE战斗中的行动顺序列表",
-                "action-queue-pvp-label": "行动顺序小部件（PvP）",
+                "action-queue-pvp-label": "行动顺序小组件（PvP）",
                 "action-queue-pvp-tooltip": "启用此功能，会在PvP时显示行动顺序。 由于在开战前无法得知对手的情况，这只会让您看到你自己的佣兵行动顺序",
                 "role-chart-label": "显示角色克制",
-                "role-chart-tooltip": "在队伍小部件下方添加一个小按钮，您可以悬停鼠标来查看角色克制关系",
+                "role-chart-tooltip": "在队伍小组件下方添加一个小按钮，您可以悬停鼠标来查看角色克制关系",
                 "tasks-label": "显示任务",
-                "tasks-tooltip": "在队伍小部件下方添加一个小按钮，您可以悬停鼠标来查看您当前的任务。在PvP时隐藏",
+                "tasks-tooltip": "在队伍小组件下方添加一个小按钮，您可以悬停鼠标来查看您当前的任务。在PvP时隐藏",
                 "synergies-label": "高亮协同",
-                "synergies-tooltip": "当鼠标悬停在技能或装备上（在队伍小部件中）或宝藏（在宝藏选择界面）时，队伍小部件中会突出显示与它有协同作用的所有卡牌",
+                "synergies-tooltip": "当鼠标悬停在技能或装备上（在队伍小组件中）或宝藏（在宝藏选择界面）时，队伍小组件中会突出显示与它有协同作用的所有卡牌",
                 "turn-counter-battle-label": "对战回合计数器",
                 "turn-counter-battle-tooltip": "显示当前对战的回合数以及此地图所用的总回合数（包括当前对战）",
-                "your-team": "小部件尺寸 - 你的队伍",
-                "opponent-team": "小部件尺寸 - 对手队伍",
-                "action-queue": "小部件尺寸 - 行动顺序",
+                "your-team": "小组件尺寸 - 你的队伍",
+                "opponent-team": "小组件尺寸 - 对手队伍",
+                "action-queue": "小组件尺寸 - 行动顺序",
                 "enabled": "启用佣兵战纪",
                 "enabled-tooltip": "如果您玩佣兵战纪模式，请启用此选项，否则请将其禁用，以提高应用程序的性能。更改此设置后，请重新启动应用程序。"
             },
@@ -6027,8 +6137,8 @@
                 "show-runs": "显示最近的轮次",
                 "show-runs-in-game": "在游戏中显示轮次",
                 "show-runs-tooltip": "显示最近的轮次。",
-                "show-in-game-tooltip": "在游戏中显示小部件。关闭后只在选牌时显示",
-                "label": "显示小部件",
+                "show-in-game-tooltip": "在游戏中显示小组件。关闭后只在选牌时显示",
+                "label": "显示小组件",
                 "show-groups-in-game-tooltip": "关闭此项可在游戏中隐藏分组信息",
                 "show-runs-in-game-tooltip": "关闭此项可在游戏中隐藏最近轮次",
                 "number-of-runs-tooltip": "显示轮次详情时，显示的最大运轮次数（最近的位于最顶部）"
@@ -6356,7 +6466,7 @@
                 },
                 "smart-app-control": {
                     "title": "Windows 11 智能应用控制",
-                    "body": "<p>Windows 11 的 <strong>智能应用控制</strong> 可能会阻止 Firestone 的内存读取器文件（<code>OverwolfUnitySpy.dll</code>）。发生这种情况时：</p><ul><li>游戏内不会显示任何小部件</li><li>重启 Firestone 或《炉石传说》也无法解决问题</li><li>Firestone 主窗口（收藏、统计等）仍可正常使用</li></ul><p>要检查智能应用控制是否已开启，请打开 <strong>Windows 安全中心 → 应用和浏览器控制 → 智能应用控制设置</strong>。详情请参阅微软的 <a href=\"https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions\" target=\"_blank\" rel=\"noopener noreferrer\">智能应用控制常见问题</a>。</p><p>请将 Firestone 更新至最新版本。近期版本已对内存读取插件进行签名，以便 Windows 允许其正常运行。如果你已经使用最新版本，但游戏内浮窗仍然没有内容，请通过应用提交错误报告。</p>"
+                    "body": "<p>Windows 11 的 <strong>智能应用控制</strong> 可能会阻止 Firestone 的内存读取器文件（<code>OverwolfUnitySpy.dll</code>）。发生这种情况时：</p><ul><li>游戏内不会显示任何小组件</li><li>重启 Firestone 或《炉石传说》也无法解决问题</li><li>Firestone 主窗口（收藏、统计等）仍可正常使用</li></ul><p>要检查智能应用控制是否已开启，请打开 <strong>Windows 安全中心 → 应用和浏览器控制 → 智能应用控制设置</strong>。详情请参阅微软的 <a href=\"https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions\" target=\"_blank\" rel=\"noopener noreferrer\">智能应用控制常见问题</a>。</p><p>请将 Firestone 更新至最新版本。近期版本已对内存读取插件进行签名，以便 Windows 允许其正常运行。如果你已经使用最新版本，但游戏内浮窗仍然没有内容，请通过应用提交错误报告。</p>"
                 }
             },
             "nav-label": "常见问题",
@@ -6436,7 +6546,7 @@
                 "step-2": "请先在上方选择计划，然后通过 Tebex 完成付款。",
                 "step-3": "几分钟后你就可以在应用中使用高级版功能。你也可以在应用内的“会员”页面订阅。",
                 "title": "如何订阅",
-                "step-4": "你可以随时在此页面或应用中管理或取消订阅，都会跳转至 Tebex。"
+                "step-4": "你可以随时在此页面或应用中管理或取消订阅。"
             },
             "carousel": {
                 "gallery": "媒体图库，共{{count}}项",
@@ -6690,10 +6800,11 @@
                 }
             },
             "checkout": {
-                "success-pending": "感谢你支持 Firestone！正在确认付款，通常不到一分钟即可完成……",
+                "success-pending": "感谢你支持 Firestone！我们正在确认付款，高级版将在几分钟内显示于此处。",
                 "cancel": "结账已取消，未产生任何扣费。",
                 "success-slow": "你的付款仍在处理中，请稍后几分钟刷新此页面。如果仍未显示会员订阅状态，请通过 Discord 联系我们。",
-                "success-done": "一切就绪，你的账号已开通会员订阅。"
+                "success-done": "一切就绪，你的账号已开通会员订阅。",
+                "failed": "无法打开结账页面，请稍后重试。"
             },
             "plans": {
                 "apps-note": "会员权益与你的 Firestone 账号绑定。请在 Firestone 应用中登录同一个账号。对于 Overwolf 版 Firestone，在此处购买高级版后，只有将 Overwolf 登录方式关联到该账号才能解锁，你可以在此处使用 Overwolf 登录，也可以在应用设置中关联 Overwolf。",
@@ -6735,7 +6846,9 @@
             "status": {
                 "error": "暂时无法查询你的订阅状态。如果你已经订阅，无需重复订阅，请稍后刷新页面。",
                 "loading": "正在检查订阅状态…"
-            }
+            },
+            "status-error": "暂时无法查询订阅状态。如果你已经订阅，无需重复订阅，请稍后刷新页面。",
+            "apps-note": "在 Firestone 中使用此账号登录，或前往“设置”>“账号”关联此账号，即可在应用中享受会员权益。"
         },
         "docs": {
             "images": {
@@ -6770,7 +6883,7 @@
                     "sections": {
                         "api-links": {
                             "title": "API 链接",
-                            "body": "<p>API 中多个位置会使用以下占位符：</p><ul><li><code>%timeSuffix%</code> 可替换为 <code>all-time</code>、<code>past-three</code>、<code>past-seven</code> 或 <code>last-patch</code>，以获取不同时间段的数据</li><li><code>%tribeSuffix%</code> 可以是 <code>all-tribes</code>（推荐），也可以是五个种族的组合；种族之间用连字符（<code>-</code>）分隔，并使用 <a href=\"https://github.com/Zero-to-Heroes/hs-reference-data/blob/master/src/enums/race.ts\" target=\"_blank\" rel=\"noopener noreferrer\">race.ts</a> 中定义的种族 ID（但这种情况下样本量通常太小）</li></ul>"
+                            "body": "<p>API 中多个位置会使用以下占位符：</p><ul><li><code>%timeSuffix%</code> 可替换为 <code>all-time</code>、<code>past-three</code>、<code>past-seven</code> 或 <code>last-patch</code>，以获取不同时间段的数据</li><li><code>%tribeSuffix%</code> 可以是 <code>all-tribes</code>（推荐），也可以是五个随从类型的组合；随从类型间用连字符（<code>-</code>）分隔，并使用 <a href=\"https://github.com/Zero-to-Heroes/hs-reference-data/blob/master/src/enums/race.ts\" target=\"_blank\" rel=\"noopener noreferrer\">race.ts</a> 中定义的种族类型 ID（但这种情况下样本量通常太小）</li></ul>"
                         },
                         "general": {
                             "title": "通用",
@@ -6787,11 +6900,11 @@
                     }
                 },
                 "setup": {
-                    "blurb": "调整 Firestone 设置，让浮窗和小部件符合你的游戏习惯。",
+                    "blurb": "调整 Firestone 设置，让浮窗和小组件符合你的游戏习惯。",
                     "sections": {
                         "general": {
                             "title": "通用",
-                            "body": "<ul><li>你可以在“全局 &gt; 小部件”中调整应用内小部件的全局缩放比例。</li></ul>"
+                            "body": "<ul><li>你可以在“全局 &gt; 小组件”中调整应用内小组件的全局缩放比例。</li></ul>"
                         },
                         "streamer": {
                             "title": "主播",
@@ -7075,7 +7188,8 @@
             "account-id-copied": "已复制账号ID",
             "go-premium": "升级会员",
             "manage-subscription": "管理订阅",
-            "premium-badge": "会员"
+            "premium-badge": "会员",
+            "main-login": "主登录方式"
         },
         "contribute": {
             "nav-label": "贡献",
@@ -7268,9 +7382,9 @@
     },
     "twitch": {
         "adaptative-scaling": "自适应缩放",
-        "adaptative-scaling-tooltip": "（测试功能）根据窗口尺寸自动改变小部件的尺寸",
+        "adaptative-scaling-tooltip": "（测试功能）根据窗口尺寸自动改变小组件的尺寸",
         "scale": "尺寸",
-        "scale-tooltip": "调节小部件的尺寸",
+        "scale-tooltip": "调节小组件的尺寸",
         "move-magnifier-icon-on-top": "显示对手阵容图标",
         "move-magnifier-icon-on-top-tooltip": "在位次榜上方显示对手阵容的图标",
         "constructed-section-title": "传统对战",
@@ -7283,7 +7397,7 @@
         "show-related-cards-help": "显示相关卡牌",
         "show-related-cards-help-tooltip": "当鼠标悬停在卡牌上时，也会显示与此关联的卡牌（一般是其衍生卡牌）。",
         "show-minions-list": "显示随从列表",
-        "show-minions-list-tooltip": "显示一个包含所有可用随从的小部件。您可以悬停鼠标看到完整信息及其金色版本",
+        "show-minions-list-tooltip": "显示一个包含所有可用随从的小组件。您可以悬停鼠标看到完整信息及其金色版本",
         "minions-list-size": "随从列表尺寸",
         "show-minions-list-golden-cards": "显示金卡",
         "show-minions-list-golden-cards-tooltip": "鼠标悬停在列表中的随从图标时显示其金色版本",
@@ -7296,7 +7410,7 @@
         "hide-battle-odds-in-tavern": "在招募阶段隐藏模拟",
         "hide-battle-odds-in-tavern-tooltip": "不在招募阶段显示对战模拟",
         "hide-battle-odds-when-empty": "隐藏空白结果的模拟",
-        "hide-battle-odds-when-empty-tooltip": "当模拟不可用时完全隐藏对战模拟小部件，而非显示空白信息",
+        "hide-battle-odds-when-empty-tooltip": "当模拟不可用时完全隐藏对战模拟小组件，而非显示空白信息",
         "options": {
             "auto": "自动",
             "true": "确定",
@@ -7315,7 +7429,33 @@
         "reconnect-for-chat-text": "请前往设置并重新连接您的Twitch账号，以便观众可以在聊天中使用 !deck",
         "reconnect-for-chat-title": "重新连接Twitch以启用 !deck",
         "lease-held-text": "点击打开设置并用这台电脑直播",
-        "lease-held-title": "另一台电脑正在用此频道直播"
+        "lease-held-title": "另一台电脑正在用此频道直播",
+        "config": {
+            "constructed": "传统对战",
+            "general": "通用",
+            "language-auto": "自动",
+            "page-title": "配置页面",
+            "title": "Firestone 浮窗",
+            "horizontal-offset": "水平偏移",
+            "invert-tracker": "反转记牌器位置",
+            "language": "语言",
+            "invert-tracker-help": "将记牌器显示在屏幕左侧，方便观众查看。他们仍可自行移动记牌器。",
+            "magnifier-bottom": "底部",
+            "magnifier-help": "固定放大镜图标的位置，避免它遮挡你的直播画面。",
+            "magnifier": "放大镜图标置顶",
+            "magnifier-user": "用户",
+            "widgets": "小组件",
+            "magnifier-top": "顶部",
+            "magnifier-options-help": "用户：每位观众都可以选择将排行榜显示在底部或顶部，默认位于底部。“底部”和“顶部”会固定排行榜的位置。",
+            "widgets-help": "观众默认会看到这些设置，但仍可在设置中自行更改。",
+            "minion-list": "随从列表",
+            "opponent-tracker": "对手的记牌器",
+            "save": "保存",
+            "battle-simulator": "战斗模拟",
+            "battlegrounds": "酒馆战棋",
+            "horizontal-offset-help": "将鼠标悬停棋盘横向移动。请根据你的捕获区域设置进行调整。",
+            "language-help": "使用你在 Twitch 设置的语言。如果 Twitch 未提供语言，则使用浏览器语言。"
+        }
     },
     "archetype": {
         "mech-rogue": "机械贼",
