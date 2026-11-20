@@ -338,7 +338,7 @@
             "min": "{{min}} 分钟",
             "sec": "{{sec}} 秒",
             "ago": {
-                "less-than-an-hour-ago": "少于一小时前",
+                "less-than-an-hour-ago": "不到一小时前",
                 "weeks-ago": "{{value}}周前",
                 "hours-ago": "{{value}}小时前",
                 "days-ago": "{{value}}天前"
@@ -434,7 +434,7 @@
             },
             "replay-in-game": {
                 "title": "游戏内高清回放",
-                "blurb": "在炉石客户端中观看自己的对局，带完整动画和音效。现已对所有人开放——请先安装 Replay Viewer 模组。"
+                "blurb": "在炉石客户端中观看自己的对局，带完整动画和音效。现已对所有人开放 - 请先安装 Replay Viewer 模组。"
             },
             "general-hotkeys": {
                 "title": "自定义快捷键",
@@ -709,7 +709,7 @@
             "reset-positions": "恢复窗口默认位置",
             "settings": "设置",
             "main-window": "显示主窗口",
-            "premium-required-tooltip": "Firestone — 需要会员账号。在菜单中登录。",
+            "premium-required-tooltip": "Firestone - 需要会员账号。在菜单中登录。",
             "log-in": "登录",
             "log-out": "登出 ({{username}})",
             "main-window-requires-premium": "主窗口（需要会员）",
@@ -913,6 +913,36 @@
                 "average-match-time-tooltip": "你的平均对局时长",
                 "reward-tickets-tooltip": "你在竞技模式中赢得的旅店通票总数/平均数。仅包含我们记录的拥有完整奖励数据的轮次。",
                 "reward-tickets": "通票奖励"
+            },
+            "legendaries": {
+                "comes-with": "包含",
+                "legendaries-count": "传说",
+                "offered": "出现次数",
+                "pick-rate": "选取率",
+                "pick-rate-tooltip": "这张传说卡牌出现时，玩家选择它的频率。",
+                "legendary-picks": "次传说选择",
+                "tab": "张传说卡牌",
+                "avg-wins": "平均胜场",
+                "avg-wins-tooltip": "选取这张传说牌的竞技模式轮次中的平均胜场数",
+                "empty-title": "此筛选条件下暂无数据",
+                "hide-low-data": "隐藏低数据信息",
+                "low-data": "数据量低",
+                "low-data-tooltip": "出现次数少于{{value}}次",
+                "pick-rate-high-wins-tooltip": "至少获得{{value}}胜的竞技模式轮次中，这张传说卡牌的选取率（出现{{offers}}次）。高胜场竞技中这张牌的选取率高于整体时显示绿色，低于整体时显示红色。",
+                "sort": {
+                    "avg-wins": "排序：平均胜场",
+                    "name": "排序：卡牌名",
+                    "offered": "排序：出现次数",
+                    "pick-rate": "排序：选取率",
+                    "pick-rate-high-wins": "排序：高胜轮次选取率",
+                    "pick-rate-high-wins-gap": "排序：最少被选"
+                },
+                "empty-error-title": "暂无传说卡牌数据",
+                "empty-mode-title": "此模式暂无数据",
+                "empty-error-text": "无法加载这些内容，请几分钟后重试。",
+                "empty-mode-text": "目前仅追踪竞技模式和地下竞技场的传说团队，请切换模式查看。",
+                "empty-text": "请尝试增加时间范围、更换职业或清除搜索条件。",
+                "hide-low-data-tooltip": "隐藏出现次数少于{{value}}次的传说卡牌。按“最少被选”排序时，也会隐藏高胜场竞技中出现次数少于{{value}}次的传说卡牌。"
             }
         },
         "collection": {
@@ -1439,7 +1469,7 @@
                         "show-relative-info-button": "显示影响",
                         "show-relative-info-button-tooltip": "显示每张卡牌与此类套牌的相对胜率",
                         "copy-2-header-tooltip": "包含两张此卡牌的此套牌类型占比",
-                        "copy-1-header": "流行度",
+                        "copy-1-header": "热度",
                         "copy-per-deck-header-tooltip": "此类套牌中该卡牌的平均数量",
                         "copy-per-deck-header": "每套牌平均携带",
                         "mulligan-winrate-impact-header-tooltip": "当此卡牌在你的起手调度后的手牌中时，套牌的平均胜率变化（数值越高越好）",
@@ -1859,23 +1889,23 @@
                 "hover": {
                     "now": "现在",
                     "reach-title": "{{hero}}何时升至{{tier}}级酒馆",
-                    "title": "{{hero}} · {{tier}}级酒馆 → {{next}}"
+                    "title": "{{hero}} - {{tier}}级酒馆 → {{next}}"
                 },
                 "board-avg-tooltip": "在该对局阶段，阵容总属性值处于使用此英雄的玩家中25%至75%的玩家",
                 "never": "从未",
                 "recommended-curves-title": "推荐升级曲线",
                 "recommended-best": "最佳",
                 "recommended-delta-header": "对比平均值",
-                "recommended-delta-tooltip": "采用此升级曲线时的平均名次，与同一批玩家（{{group}}）的所有对局相比。",
+                "recommended-delta-tooltip": "采用此升级曲线时的平均名次，与平均值（{{group}}）相比。",
                 "recommended-most-played": "最常用",
                 "no-data": "当前筛选条件下还没有该英雄的酒馆数据。",
                 "played": "使用率",
                 "tier-mix-title": "每回合的酒馆等级",
-                "openings-curve-header": "2 · 3 · 4 级酒馆升级回合",
+                "openings-curve-header": "2 - 3 - 4 级酒馆升级回合",
                 "tier-mix-tooltip-end-of-turn": "回合结束时的酒馆等级",
-                "tier-mix-tooltip-title": "第{{turn}}回合 · 仍在游戏中的玩家",
+                "tier-mix-tooltip-title": "第{{turn}}回合 - 仍在游戏中的玩家",
                 "tier-mix-tooltip-upgraded": "本回合已升级",
-                "takeaway-hold-title": "第{{turn}}回合：他们保持当前等级",
+                "takeaway-hold-title": "第{{turn}}回合：他们不升级",
                 "takeaway-points": "{{value}} 分",
                 "takeaways-title-heroes": "{{hero}}的获胜者有哪些不同之处",
                 "takeaways-title-winners": "获胜者有哪些不同之处",
@@ -1883,24 +1913,77 @@
                 "tier-mix-tooltip-from-tier": "{{from}}级酒馆 → {{to}}级",
                 "takeaway-ahead-title": "第{{turn}}回合领先",
                 "takeaway-behind-title": "第{{turn}}回合落后",
-                "takeaway-hold-range-title": "第{{from}}–{{to}}回合：他们保持当前等级",
-                "takeaway-level-range-title": "第{{from}}–{{to}}回合：他们更常升级",
-                "takeaway-level-title": "第{{turn}}回合：他们更常升级",
+                "takeaway-hold-range-title": "第{{from}}–{{to}}回合：他们不升级",
+                "takeaway-level-range-title": "第{{from}}–{{to}}回合：他们升级酒馆",
+                "takeaway-level-title": "第{{turn}}回合：他们升级酒馆",
                 "takeaway-ahead-text": "第{{turn}}回合时，有{{a}}%的玩家达到{{tier}}级酒馆或更高等级，对比之下为{{b}}%。",
                 "takeaways-none": "两组之间没有明显差异。",
                 "reach-all-boards": "全部阵容",
                 "reach-column-header": "到达回合",
                 "reach-never": "从未",
-                "reach-subtitle": "等级积分前25% · 相较于该回合仍在游戏中的所有等级积分前25%玩家的名次差异",
+                "reach-subtitle": "等级积分前25% - 相较于该回合仍在游戏中的所有等级积分前25%玩家的名次差异",
                 "reach-title": "何时升至各酒馆等级",
                 "reach-legend-better": "最终名次更靠前",
                 "reach-legend-worse": "最终名次更靠后",
                 "reach-row": "{{from}}级酒馆 → {{to}}级",
                 "reach-legend-never": "从未：与所有升到该等级的玩家相比",
-                "reach-never-tooltip": "从未到达{{tier}}级酒馆 · {{games}}场对局<br/>平均名次为第{{avg}}名，而所有达到{{from}}级的的对局平均为 {{reference}}。",
-                "reach-cell-tooltip": "第{{turn}}回合升{{tier}}级酒馆 · {{games}}场对局<br/>平均名次为第{{avg}}名。<br/>前25%玩家在第{{turn}}回合仍在游戏中：{{reference}}。",
+                "reach-never-tooltip": "从未升到{{tier}}级酒馆 - {{games}}场对局<br/>平均名次为第{{avg}}名，而所有升到{{from}}级的的对局平均为 {{reference}}。",
+                "reach-cell-tooltip": "第{{turn}}回合升{{tier}}级酒馆 - {{games}}场对局<br/>平均名次为第{{avg}}名。<br/>前25%玩家在第{{turn}}回合仍在游戏中：{{reference}}。",
                 "takeaway-upgrade-text": "第{{turn}}回合：处于{{from}}级酒馆的玩家中有{{a}}%升至{{to}}级酒馆，对比之下为{{b}}%。",
                 "takeaways-title-mmr": "顶尖玩家有哪些不同之处"
+            },
+            "dark-gift-timings": {
+                "uses-left-title": "黑暗发现剩余使用次数，逐回合统计",
+                "all-heroes-fallback": "{{hero}}的对局数据不足，当前显示所有英雄的数据。",
+                "compare-heroes-tooltip": "等级积分前10%的玩家：{{hero}}与所有英雄对比",
+                "takeaway-earlier-range-title": "第{{from}}–{{to}}回合：他们更常使用黑暗之赐",
+                "takeaway-earlier-title": "第{{turn}}回合：他们更常使用黑暗之赐",
+                "takeaway-later-range-title": "第{{from}}–{{to}}回合：他们更少使用黑暗之赐",
+                "takeaway-later-title": "第{{turn}}回合：他们更少使用黑暗之赐",
+                "takeaways-title-heroes": "顶尖玩家有哪些不同之处",
+                "uses-left-tooltip-from": "剩余{{value}}次",
+                "uses-left-tooltip-groups": "回合结束时剩余的使用次数（{{a}} - {{b}}）",
+                "uses-left-tooltip-used": "本回合已使用",
+                "takeaway-ahead-text": "到第{{turn}}回合结束时，有{{a}}%的玩家至少使用过一次，对比之下为{{b}}%。",
+                "takeaway-ahead-title": "截至第{{turn}}回合，更多玩家已使用过一次黑暗之赐",
+                "takeaway-use-text-2": "第{{turn}}回合，剩余2次使用机会时：有{{a}}%的玩家会使用一次，对比之下为{{b}}%。",
+                "takeaway-use-text-3": "第{{turn}}回合，剩余3次使用机会时：有{{a}}%的玩家会使用一次，对比之下为{{b}}%。",
+                "delta-header": "对比存活玩家",
+                "grid-title": "何时使用每一次的黑暗发现",
+                "recommended-subtitle": "第1次和第2次使用的回合，{{group}}。",
+                "recommended-title": "推荐时机",
+                "takeaway-use-text-1": "第{{turn}}回合，最后一次使用机会时：有{{a}}%的玩家会使用，对比之下为{{b}}%。",
+                "grid-cell-tooltip": "第{{turn}}回合使用{{use}}：共{{games}}场<br/>平均名次为第{{avg}}名。<br/>该回合仍在游戏中的该组玩家：{{reference}}。",
+                "grid-column-header": "回合",
+                "grid-subtitle": "等级积分前25%的玩家。将玩家使用黑暗之赐的回合与该回合仍在游戏中的所有玩家进行比较。",
+                "histogram-never": "从未在此时机使用的玩家中占{{value}}%",
+                "in-game-histogram-title": "玩家何时使用其{{use}}",
+                "in-game-timings-source": "第1次和第2次使用，{{group}}",
+                "in-game-yours-so-far": "你目前的使用回合：{{turns}}",
+                "no-data": "当前筛选条件下暂无该英雄的黑暗之赐数据。",
+                "use-1": "第1次使用",
+                "use-2": "第2次使用",
+                "use-3": "第3次使用",
+                "delta-tooltip": "采用此时机的平均名次，与第二次使用时仍在游戏中的所有玩家（{{group}}）相比。",
+                "takeaway-behind-title": "截至第{{turn}}回合，更少玩家已使用过一次黑暗之赐",
+                "third-use": "第3次使用：前10%玩家的中位数为第{{high}}回合，后50%玩家为第{{low}}回合。"
+            },
+            "dark-gift-picks": {
+                "no-data": "当前筛选条件下暂无黑暗之赐数据。",
+                "phase-all": "全部回合",
+                "phase-early": "前期",
+                "phase-late": "后期",
+                "phase-mid": "中期",
+                "popularity-title": "热度 vs 影响力",
+                "quadrant-overlooked": "被低估：很少被选，但选择它的玩家名次更好",
+                "quadrant-popular-better": "广受欢迎且选择它的玩家名次更好",
+                "quadrant-popular-no-gain": "被高估：很热门，但名次没有提升",
+                "quadrant-rare-worse": "很少被选，且选择它的玩家名次更差",
+                "turn-by-turn-title": "逐回合统计数据",
+                "games-range": "场数：{{range}}",
+                "gift-tooltip": "{{name}}：出现时有 {{pickRate}}% 的概率被选取，影响为 {{impact}}（出现 {{offers}} 次）",
+                "popularity-tooltip": "每个圆点代表出现1000次以上的黑暗之赐。越靠右，表示出现时被选择的频率越高；越靠上，表示选择该黑暗之赐的玩家名次优于同回合选择其他黑暗之赐的玩家。",
+                "turn-by-turn-tooltip": "选取率：此黑暗之赐出现在3选1选项中时被玩家选取的频率。<br/>影响力：该回合选择此黑暗之赐的玩家平均最终名次，减去该回合选择任意黑暗发现选项的所有玩家的平均最终名次。"
             }
         },
         "duels": {
@@ -2044,7 +2127,7 @@
                 "rank": "名次",
                 "rating": "等级",
                 "name": "昵称",
-                "region": "地区"
+                "region": "区服"
             },
             "search": {
                 "hero": {
@@ -2390,7 +2473,9 @@
                     "spellsPlayed-label": "已施放的法术",
                     "spellsPlayed-tooltip": "打出法术来获取点数（{{pointsGained}}点）",
                     "damageWithSpells-label": "使用法术造成伤害",
-                    "damageWithSpells-tooltip": "使用法术造成伤害来获取点数（{{pointsGained}}点）"
+                    "damageWithSpells-tooltip": "使用法术造成伤害来获取点数（{{pointsGained}}点）",
+                    "aberrationsPlayed-tooltip": "打出畸变怪来获取点数（{{pointsGained}}点）",
+                    "aberrationsPlayed-label": "打出的畸变怪"
                 }
             },
             "overlay-toggle-label": "设置浮窗",
@@ -2519,7 +2604,7 @@
             "override-checkbox-label": "无论如何让我继续订阅",
             "override-confirmation": "我已了解：如果我完成此订阅流程，我将失去当前的订阅",
             "login-to-subscribe": "登录订阅",
-            "third-party-auth-tools-unsupported": "高级会员需要通过 Firestone 官方订阅。第三方“授权修复”或解锁工具不受支持且不安全——它们通常会要求管理员权限，并修改 hosts 文件或防火墙规则。请将其移除，并通过官方高级会员页面订阅。",
+            "third-party-auth-tools-unsupported": "高级会员需要通过 Firestone 官方订阅。第三方“授权修复”或解锁工具不受支持且不安全 - 它们通常会要求管理员权限，并修改 hosts 文件或防火墙规则。请将其移除，并通过官方高级会员页面订阅。",
             "price-taxes-excluded": "（+ 税）",
             "price-taxes-excluded-tooltip": "在结账时，会根据您的账单地址添加税费。"
         },
@@ -2702,7 +2787,7 @@
                 },
                 "added-to-hand": "置入手牌",
                 "base": "基础",
-                "choice-tag": "选择 · {{kind}}",
+                "choice-tag": "选择 - {{kind}}",
                 "result": {
                     "conceded": "投降",
                     "defeat": "败北",
@@ -2724,9 +2809,9 @@
                     "second": "后半",
                     "first": "前半"
                 },
-                "progress": "第{{position}}步，共{{count}}步 · {{elapsed}} / {{total}}",
+                "progress": "第{{position}}步，共{{count}}步 - {{elapsed}} / {{total}}",
                 "turn": "第{{turn}}回合",
-                "turn-source": "第{{turn}}回合 · {{source}}",
+                "turn-source": "第{{turn}}回合 - {{source}}",
                 "you-forged": "你锻造了一张卡牌",
                 "you-traded": "你交易了一张卡牌",
                 "end-of-game": "对局结束",
@@ -2735,7 +2820,7 @@
                 "you-offered": "提供给你的选项",
                 "picked-option": "选取的选项",
                 "result-label": "拼装结果",
-                "deck-change": "套牌{{before}}到{{after}} · {{cost}}点法力值",
+                "deck-change": "套牌从{{before}}变为{{after}} - {{cost}}点法力值",
                 "drawn": "抽牌",
                 "from-their-hand": "来自对方手牌",
                 "from-your-hand": "来自你的手牌",
@@ -2776,7 +2861,7 @@
                 "hint": "点击任意一行跳转至该处",
                 "key-moments": "关键时刻",
                 "empty": "当前筛选条件下没有可显示的内容。",
-                "turn-title": "第{{turn}}回合 · {{side}}",
+                "turn-title": "第{{turn}}回合 - {{side}}",
                 "title": "事件",
                 "everything": "全部",
                 "filter": "筛选事件"
@@ -2800,7 +2885,7 @@
                 },
                 "now-playing": "正在播放",
                 "enchantments": "附加效果",
-                "deck-title": "{{name}} · 套牌",
+                "deck-title": "{{name}} - 套牌",
                 "cast": "施放",
                 "never-revealed": "从未揭示"
             },
@@ -2831,7 +2916,7 @@
                 "parsing": "正在解析回放",
                 "preparing": "正在准备回放",
                 "label": "正在准备您的回放",
-                "progress": "正在准备您的回放 · 第{{turn}}回合，共{{total}}回合"
+                "progress": "正在准备您的回放 - 第{{turn}}回合，共{{total}}回合"
             },
             "turn": {
                 "opponent": "对手的回合",
@@ -2917,7 +3002,7 @@
                 "hero": "英雄",
                 "lobby": "大厅",
                 "mode": "模式",
-                "mode-solo": "酒馆战棋 · 单打",
+                "mode-solo": "酒馆战棋 - 单打",
                 "next": "下一步：",
                 "restart": "从英雄选择开始重播",
                 "round-vs": "第{{n}}回合，对手是{{hero}}...",
@@ -3546,7 +3631,7 @@
     },
     "ftue": {
         "title": "欢迎使用 Firestone",
-        "subtitle": "Firestone 是一个非常强大且直观的炉石传说助手。从萌新到世界冠军，全球有数以百万计的玩家都在使用它。",
+        "subtitle": "Firestone 是一款功能强大的炉石传说助手。从萌新到世界冠军，全球有数以百万计的玩家都在使用它。",
         "start-button": "继续",
         "skip-button": "跳过",
         "previous-button": "上一个",
@@ -3598,7 +3683,7 @@
                 "text": "完整的默认体验，包含常规的浮窗和小组件。如果你有会员订阅，强烈推荐。"
             }
         },
-        "setup-intro": "这个简短的设置能让你在开始使用之前根据你的偏好调整应用程序。",
+        "setup-intro": "这个简短的设置能让你在开始使用之前调整好应用程序。",
         "overview": {
             "title": "Firestone 会做什么",
             "battlegrounds": {
@@ -4432,10 +4517,11 @@
                 "arrives": "稍后到达",
                 "expired": "已过时",
                 "expires-soon": "即将过时",
-                "wiki-link": "炉石传说百科 — 黑暗之赐",
+                "wiki-link": "炉石传说百科 - 黑暗之赐",
                 "pool": "池",
                 "rules": "规则",
-                "wiki-source": "来源："
+                "wiki-source": "来源：",
+                "timings": "时机"
             }
         },
         "post-match-stats": {
@@ -5116,9 +5202,9 @@
             },
             "account": {
                 "unlink-battlenet-failed": "无法解除与 Battle.net 的关联。请稍后再试。",
-                "intro": "将您的 Battle.net 账号关联到现有的 Overwolf Firestone 登录，以便您可以使用 Battle.net 登录并保留相同的对局历史。",
+                "intro": "将您的 Battle.net 账号关联到现有的 Overwolf Firestone 账号，以便您可以使用 Battle.net 登录并保留相同的对局历史。",
                 "intro-signed-out": "登录以同步你的对局历史记录。之后你可以关联其他的登录提供者。",
-                "intro-battlenet": "你已使用 Battle.net 登录。将现有的 Overwolf 账户关联到此登录，以导入该登录的对局历史记录。",
+                "intro-battlenet": "你已使用 Battle.net 登录。将现有的 Overwolf 账号关联到此账号，以导入该账号的对局历史记录。",
                 "sign-in-label": "账号",
                 "log-out-label": "账号",
                 "unlink-battlenet-confirmation": "您确定吗？",
@@ -5135,7 +5221,7 @@
                 "sign-in-button": "登录",
                 "log-out-tooltip": "在此设备上登出你的 Firestone 账号。",
                 "signed-in-as": "已通过 {{provider}} 登录为 <b>{{name}}</b>。Firestone 用户名：{{username}}",
-                "intro-battlenet-linked": "此 Battle.net 登录与您的 Overwolf Firestone 账户相关联。如需单独使用，请解除关联。",
+                "intro-battlenet-linked": "此 Battle.net 账号与您的 Overwolf Firestone 账户相关联。如需单独使用，请解除关联。",
                 "unlink-battlenet-button": "取消关联",
                 "not-signed-in": "尚未登录。",
                 "provider-unknown": "未知的提供者",
@@ -5150,7 +5236,7 @@
                 "unlink-overwolf-label": "Overwolf",
                 "signed-in-linked-overwolf-tooltip": "关联的 Overwolf 账号：{{name}}",
                 "link-overwolf-need-battlenet": "请先使用 Battle.net 登录，然后再次尝试关联 Overwolf。",
-                "intro-battlenet-linked-overwolf": "此 Battle.net 登录与你的 Overwolf 账号相关联。如需单独使用每个登录，请解除 Overwolf 的关联。",
+                "intro-battlenet-linked-overwolf": "此 Battle.net 登录与你的 Overwolf 账号相关联。请先解除 Overwolf 关联，再分别使用这两个账号。",
                 "unlink-overwolf-button": "取消关联",
                 "perks-replays-title": "延长回放的保存时间",
                 "perks-intro": "登录免费。这能让 Firestone 更好地为你服务。",
@@ -5200,7 +5286,7 @@
             },
             "privacy": {
                 "manage-tooltip": "打开广告隐私设置。其中选项因所在地区而异。",
-                "intro": "管理 Firestone 及其广告合作伙伴对本设备数据的使用方式。你可以随时更改设置。",
+                "intro": "管理 Firestone 及其广告合作伙伴对本设备数据的使用方式。",
                 "manage-button": "管理",
                 "manage-label": "广告隐私设置",
                 "title": "隐私"
@@ -6240,7 +6326,7 @@
             "discover-error": "无法加载发现数据，请稍后再试。",
             "discover": "发现",
             "discover-loading": "正在加载...",
-            "discover-offered": "提供",
+            "discover-offered": "出现次数",
             "discover-picked": "选取",
             "discover-search": "搜索卡牌",
             "discover-games": "使用次数",
@@ -6257,7 +6343,7 @@
                 "signing-in": "正在登录……",
                 "success": "成功！",
                 "failed": "⚠️ 登录失败",
-                "hint": "浏览器可能会询问是否打开 Firestone 应用——请选择“允许”或“打开”。",
+                "hint": "浏览器可能会询问是否打开 Firestone 应用 - 请选择“允许”或“打开”。",
                 "try-again": "重试",
                 "fallback-prefix": "如果没有任何反应， ",
                 "link-success": "Battle.net 已关联！",
@@ -6492,7 +6578,7 @@
         },
         "monitoring": {
             "simulator": {
-                "document-title": "酒馆战棋模拟器准确率 — Firestone",
+                "document-title": "酒馆战棋模拟器准确率 - Firestone",
                 "page-title": "酒馆战棋模拟器准确率",
                 "legend-good": "准确率 > 0.5：良好",
                 "legend-needs-work": "低于此值：有待改进",
@@ -6511,31 +6597,66 @@
                 "tooltip-version": "版本：{{version}}",
                 "tooltip-accuracy": "准确率：{{accuracy}}",
                 "page-lead": "跟踪酒馆战棋战斗模拟器随时间推移与真实对局结果相符的频率。"
+            },
+            "games-played": {
+                "document-title": "对局场数 - Firestone",
+                "empty-range": "所选日期范围内没有数据。",
+                "from": "从",
+                "load-error": "无法加载对局场数数据",
+                "loading": "正在加载对局数据…",
+                "metric-games": "对局场数",
+                "metric-label": "Y轴",
+                "page-lead": "Firestone 按游戏模式统计的每日对局数。",
+                "page-title": "对局场数",
+                "to": "至",
+                "all-total": "总计",
+                "display-compare": "对比",
+                "display-stacked": "堆叠",
+                "display-total": "总计",
+                "display-label": "显示方式",
+                "modes-label": "游戏模式",
+                "regions-label": "区服",
+                "split-label": "分组依据",
+                "split-mode": "游戏模式",
+                "split-region": "区服",
+                "unit-games": "对局场数",
+                "unit-time": "游戏时长",
+                "kpi-change": "与7天前相比的变化",
+                "kpi-last-day": "{{unit}}，最近一天",
+                "kpi-peak": "峰值日",
+                "kpi-total": "周期总计",
+                "resolution-daily": "当前显示每日数据。",
+                "resolution-monthly": "当前显示每月汇总（所选范围超过 180 天）。",
+                "resolution-weekly": "当前显示每周汇总（所选范围超过 45 天）。",
+                "resolution-players-average": "显示每个时间段内玩家的日均值。",
+                "metric-players": "玩家人数",
+                "metric-time": "游戏时长",
+                "unit-players": "玩家人数"
             }
         },
         "premium": {
-            "document-title": "Firestone 高级会员 — www.firestoneapp.com",
+            "document-title": "Firestone 高级会员 - www.firestoneapp.com",
             "cta": {
                 "download": "下载 Firestone",
                 "get": "获取 Firestone",
                 "see-plans": "查看方案"
             },
             "hero": {
-                "note": "使用 Firestone 账号直接在此处订阅，也可以前往应用内的“会员”页面订阅。",
+                "note": "直接在此处或应用内的“会员”页面订阅。",
                 "title": "Firestone 高级会员",
-                "subtitle": "解锁完整的辅助体验：各界面提供更深入的数据、无限使用游戏内浮窗、移除广告，以及更多助你快速提升的功能。"
+                "subtitle": "畅享会员功能，不受使用次数限制，还可去除广告并支持开发者。"
             },
             "summary": {
                 "title": "你将获得",
-                "unlimited-overlays": "无限使用传统对战模式的发现与换牌浮窗，以及酒馆战棋的选择与数据浮窗（免费用户有每日或每周次数限制）",
-                "battlegrounds": "酒馆战棋英雄选择浮窗、任务与奖励数据、提示、自动高亮、大厅洞察及赛后明细",
+                "unlimited-overlays": "传统对战模式中无限使用发现与换牌浮窗",
+                "battlegrounds": "酒馆战棋英雄选择浮窗、任务与奖励数据、提示、自动高亮、大厅洞察及赛后统计数据",
                 "support": "支持 Firestone 持续开发",
                 "ad-free": "移除应用内广告",
-                "meta-analytics": "完整的环境套牌与套牌类型分析、卡牌级明细，以及应用内内容更丰富的套牌页面"
+                "meta-analytics": "完整的环境套牌与套牌类型分析、卡牌评级明细，以及各页面的更多信息。"
             },
             "free-tier": {
                 "title": "免费版 vs 高级会员",
-                "lead": "Firestone 可永久免费使用。许多浮窗提供每日或每周免费次数；高级会员可无限使用这些指南。",
+                "lead": "Firestone 可永久免费使用，所有统计数据也都可免费查看。不过部分浮窗功能在未订阅会员时有每日或每周使用次数限制：",
                 "arena": "竞技模式：发现每日 {{discovers}} 次；换牌每日 {{mulligan}} 次；选牌浮窗每周 {{draft}} 次",
                 "constructed": "传统对战：发现浮窗每日 {{discovers}} 次；换牌指南每日 {{mulligan}} 次",
                 "unlimited": "高级会员会移除上述浮窗的次数限制，让你在关键时刻始终有数据可用。",
@@ -6572,7 +6693,7 @@
                             "text": "流派详情中的示例场面"
                         },
                         "hero-selection": {
-                            "text": "在初始选择的关键阶段显示含评级和数据的英雄选择浮窗",
+                            "text": "包含梯度和统计数据的英雄选择浮窗",
                             "screenshots": {
                                 "overlay": {
                                     "caption": "含评级和数据的英雄选择浮窗",
@@ -6593,7 +6714,7 @@
                             "text": "浮窗中的饰品数据"
                         },
                         "quest-rewards": {
-                            "text": "针对你的英雄和 MMR 的任务完成度与奖励排名参考",
+                            "text": "任务完成情况与奖励排名",
                             "screenshots": {
                                 "stats": {
                                     "alt": "浮窗中的酒馆战棋任务与奖励数据",
@@ -6604,11 +6725,11 @@
                         "fight-by-fight": {
                             "screenshots": {
                                 "chart": {
-                                    "caption": "逐场战斗胜率走势预测图",
-                                    "alt": "酒馆战棋逐场战斗胜率走势预测图"
+                                    "caption": "逐场战斗胜率走势图",
+                                    "alt": "酒馆战棋逐场战斗胜率走势图"
                                 }
                             },
-                            "text": "逐场战斗胜率走势预测图"
+                            "text": "逐场战斗胜率走势图"
                         },
                         "hero-page-extras": {
                             "text": "英雄页面附加内容：评级摘要及该英雄的近期回放",
@@ -6847,8 +6968,8 @@
                 "error": "暂时无法查询你的订阅状态。如果你已经订阅，无需重复订阅，请稍后刷新页面。",
                 "loading": "正在检查订阅状态…"
             },
-            "status-error": "暂时无法查询订阅状态。如果你已经订阅，无需重复订阅，请稍后刷新页面。",
-            "apps-note": "在 Firestone 中使用此账号登录，或前往“设置”>“账号”关联此账号，即可在应用中享受会员权益。"
+            "status-error": "暂时无法查询订阅状态。请稍后刷新页面。",
+            "apps-note": "在 Firestone 中使用此账号登录，或前往“设置”>“账号”关联此账号。"
         },
         "docs": {
             "images": {
@@ -6858,7 +6979,8 @@
                 "twitch-main-window": "用于在直播中采集 Firestone 主窗口的设置",
                 "creator-code-checkout": "带有创作者代码字段的 Tebex 结账页面",
                 "twitch-battlegrounds-window": "用于在直播中采集酒馆战棋窗口的设置",
-                "creator-code-field": "Tebex 结账页面上的创作者代码字段"
+                "creator-code-field": "Tebex 结账页面上的创作者代码字段",
+                "premium-code-checkout": "Tebex 结账页面中的优惠券/礼品卡输入框"
             },
             "back-label": "所有文档",
             "page-subtitle": "关于设置 Firestone、直播、模组和公开 API 的指南。",
@@ -6900,7 +7022,7 @@
                     }
                 },
                 "setup": {
-                    "blurb": "调整 Firestone 设置，让浮窗和小组件符合你的游戏习惯。",
+                    "blurb": "调整 Firestone 设置，将各项功能配置成你喜欢的样子。",
                     "sections": {
                         "general": {
                             "title": "通用",
@@ -6916,7 +7038,7 @@
                     "subtitle": "Firestone 的可配置项非常丰富，但默认配置可能无法完全满足你的需求（我计划在不久的将来着手改进这一点）。因此，你可能需要先调整一些设置，因为应用中几乎所有显示内容都可以开启或关闭。"
                 },
                 "twitch": {
-                    "blurb": "将 Firestone 连接到 Twitch，并在直播中采集浮窗。",
+                    "blurb": "将 Firestone 连接到 Twitch，为观众提供接近游戏内应用的功能。",
                     "sections": {
                         "capturing-main-and-battlegrounds": {
                             "title": "采集主窗口和酒馆战棋窗口",
@@ -6982,9 +7104,16 @@
                 },
                 "lottery": {
                     "title": "Firestone 抽奖",
-                    "blurb": "在游戏过程中赚取积分，赢取高级会员。",
+                    "blurb": "在游戏过程中赚取积分，赢取会员订阅。",
                     "subtitle": "赢取 2 个月的 Firestone 高级会员。",
                     "intro": "<p>Firestone 抽奖让你有机会赢取 2 个月的 Firestone 高级会员。</p><p>游戏时保持抽奖窗口打开且可见，即可参与 Firestone 抽奖（追踪成就时也有效）。</p><p>每个赛季（目前为两周），你可以通过完成抽奖窗口中列出的特定游戏内操作来赚取积分。每场对局结束后，积分都会在整个赛季期间累积。赛季结束时，将从所有参与者中随机抽取两名获奖者；抽中概率按累计积分加权。积分越多，获奖机会越大。</p>"
+                },
+                "premium-code": {
+                    "title": "如何兑换会员代码",
+                    "blurb": "在 Tebex 的按月订阅页面兑换会员代码。",
+                    "multiple-uses": "<p>部分代码可以多次使用 - 这意味着你可以连续多个月重复兑换。</p>",
+                    "subtitle": "要兑换 Firestone 会员代码，请打开“会员”页面，选择 Tebex 的单月订阅方案，然后在“优惠券/礼品卡(Coupon/Gift Card)”栏中输入代码。",
+                    "intro": "<p>兑换 Firestone 会员代码的方法：</p><ul><li>前往会员页面：<ul><li>在应用中，点击主窗口左下角的“会员”按钮（金色爱心图标），或点击顶部的“升级会员”按钮</li><li>在网站中，点击顶部的“会员”按钮</li></ul></li><li>选择方案：请选择 Tebex 的单月会员方案</li><li>进入 Tebex 页面后，在“优惠券/礼品卡”栏中输入你收到的代码</li></ul>"
                 }
             },
             "nav-label": "文档",
@@ -6993,7 +7122,7 @@
             "toc-title": "本页内容"
         },
         "downloads": {
-            "document-title": "下载 Firestone — www.firestoneapp.com",
+            "document-title": "下载 Firestone - www.firestoneapp.com",
             "overwolf": {
                 "note": "如果尚未安装 Overwolf，安装 Firestone 时会一并安装。",
                 "blurb": "当前公开版本，需要安装 Overwolf 桌面应用。",
@@ -7003,30 +7132,30 @@
             },
             "standalone": {
                 "badge": "封闭测试",
-                "blurb": "无需 Overwolf 的 Firestone 独立版，目前仍处于封闭测试阶段。",
+                "blurb": "试用 Firestone 独立版，目前仍处于封闭测试阶段。",
                 "title": "独立版",
                 "cta": "下载独立版",
                 "discord-lead": "想要提前获取？",
                 "discord-cta": "在 Discord 上咨询我们",
-                "skip": "不想用 Overwolf 吗？"
+                "skip": "不想安装 Overwolf 吗？"
             },
             "features": {
                 "deck-tracker": {
                     "title": "记牌器",
-                    "blurb": "对局中随时查看牌库、手牌、场上卡牌和墓地中的卡牌，还可查看对手卡牌、奥秘提示以及相关计数器。",
+                    "blurb": "对局中随时查看牌库、手牌、场上卡牌和墓地中的卡牌 - 还可查看对手卡牌、奥秘提示以及相关计数器。",
                     "caption": "游戏内的记牌器和浮窗",
                     "alt": "一个双方带有 Firestone 记牌器浮窗的炉石传说棋盘"
                 },
-                "lead": "本助手可免费使用。几乎所有功能无需订阅即可体验，成为会员会解除所有限制。",
+                "lead": "Firestone 完全可以免费使用，所有功能和统计数据均可使用，不过未订阅会员时，部分覆浮窗功能有每日或每周使用次数限制。",
                 "related-cards": {
                     "alt": "鼠标悬停在一张记牌器列表中卡牌上时显示相关卡牌",
                     "title": "相关卡牌",
                     "caption": "鼠标悬停时显示相关卡牌",
-                    "blurb": "将鼠标悬停在记牌器中的卡牌上，即可在列表旁查看其生成卡牌和相关卡牌。"
+                    "blurb": "将鼠标悬停在记牌器中的卡牌上，即可查看其生成卡牌和相关卡牌。"
                 },
                 "collection": {
                     "title": "收藏追踪",
-                    "blurb": "浏览完整收藏，一目了然地查看各系列的收集进度，并追踪开包、保底进度和多余卡牌。",
+                    "blurb": "浏览完整卡牌收藏，查看各系列的详细收集进度，并追踪卡包和保底计数。",
                     "caption": "按扩展包查看收藏概况",
                     "alt": "收藏概况，显示炉石传说每个扩展包的完成进度"
                 },
@@ -7037,14 +7166,14 @@
                     "blurb": "按等级、随从类型或机制浏览酒馆随从列表，以及对战胜率和大厅工具。"
                 },
                 "mods": {
-                    "blurb": "可在设置中启用社区模组，包括自动屏蔽表情、自动补全套牌、收藏功能调整等，每项功能都能一键开关。",
+                    "blurb": "可在设置中启用社区模组 - 自动屏蔽表情、自动补全套牌、收藏功能调整等 - 每项功能都能一键开关。",
                     "caption": "内置模组管理器",
                     "alt": "Firestone 模组设置，列出了社区模组及开关",
                     "title": "模组"
                 },
                 "title": "你能免费获得什么",
                 "overlays": {
-                    "blurb": "每天可免费使用一定次数的发现和起手换牌指南，在关键时刻为你的选择提供数据参考。",
+                    "blurb": "每天可免费使用一定次数的发现和起手换牌指南。",
                     "alt": "发现浮窗，显示了每张卡抽到后的影响数据",
                     "caption": "带有抽到后影响数据的发现浮窗",
                     "title": "游戏内浮窗"
@@ -7055,7 +7184,7 @@
                 "close": "关闭全尺寸图片"
             },
             "premium": {
-                "lead": "高级会员可解锁无限次发现与起手留牌浮窗、完整的环境数据分析，以及更多酒馆战棋功能。",
+                "lead": "高级会员可解锁无限次发现与起手留牌浮窗、完整的环境数据分析，以及更多酒馆战棋游戏内统计数据。",
                 "cta": "查看高级会员",
                 "title": "想要无限使用浮窗和更深入的数据分析？"
             },
@@ -7080,7 +7209,7 @@
                     "winter-champion": "{{year}}年冬季冠军",
                     "ua-eu-number-one": "多次欧服地下竞技场第1"
                 },
-                "lead": "世界冠军、大师巡回赛冠军，以及顶级天梯玩家们都在用 Firestone — 也包括2026世界冠军小红花（OTGxhh）。",
+                "lead": "世界冠军、大师巡回赛冠军，以及顶级天梯玩家们都在用 Firestone - 也包括2026世界冠军小红花（OTGxhh）。",
                 "carousel": {
                     "gallery": "使用 Firestone 的世界冠军，共 {{count}} 位玩家",
                     "next": "下一个冠军",
@@ -7178,7 +7307,7 @@
             "discord-lead": "问题还卡在那吗？",
             "thanks": {
                 "title": "感谢您告诉我们",
-                "body": "祝您一切顺利，欢迎随时回来。如果您留下了联系方式，我们会尽快回复。"
+                "body": "如果您留下了联系方式，我们会尽快回复。"
             }
         },
         "account": {
@@ -7243,7 +7372,7 @@
                 "status-new": "新草稿",
                 "status-draft-kept": "草稿已保存在此设备上。",
                 "status-restored": "已恢复你尚未保存的草稿。",
-                "status-draft-saved": "草稿已存至本地 · {{time}}",
+                "status-draft-saved": "草稿已存至本地 - {{time}}",
                 "write-basic": "+ 编写你的基础技巧",
                 "form-title-edit-basic": "编辑基本技巧",
                 "filter-label": "筛选",
@@ -7262,7 +7391,7 @@
                 "status-published": "已发布",
                 "lobby-has": "有",
                 "optional": "可选",
-                "details-hint": "可选 · 仅应用程序",
+                "details-hint": "可选 - 仅应用程序",
                 "lobby": "当大厅中",
                 "details-placeholder": "何时调整策略，以及在酒馆中该找什么牌。",
                 "preview-empty": "你的技巧提示会显示在这里",
@@ -7280,7 +7409,7 @@
                 "nav-label": "管理员",
                 "title": "管理员",
                 "col-role": "角色身份",
-                "tab-contributors": "贡献者 · {{value}}",
+                "tab-contributors": "贡献者 - {{value}}",
                 "add": "+ 添加贡献者",
                 "col-account": "账号",
                 "tab-activity": "活动",
