@@ -4053,7 +4053,7 @@
             "add-minion-button-tooltip": "點此以新增手下",
             "update-minion-button-tooltip": "編輯手下",
             "remove-minion-button-tooltip": "移除手下",
-            "versus": "對決",
+            "versus": "VS",
             "simulate-button": "開始模擬",
             "simulate-button-tooltip": "使用當前配置的陣容進行戰鬥模擬",
             "reset-button": "重設",
