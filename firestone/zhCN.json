@@ -5010,7 +5010,9 @@
                 "export-settings-button-tooltip": "将设置导出到文件，然后导入另一台电脑",
                 "import-settings-button-label": "导入设置",
                 "import-settings-button-confirmed-label": "设置已导入",
-                "refresh-signed-out": "请先登录，才能从服务器重新下载完整的对局历史记录。"
+                "refresh-signed-out": "请先登录，才能从服务器重新下载完整的对局历史记录。",
+                "keep-local-games-tooltip": "刷新时，保留应用中已有但服务器上已不存在的对局，例如因自动清理而删除的对局。关闭此选项后，只保留从服务器获取的对局，并删除本地对局。",
+                "keep-local-games-label": "保留本地对局"
             },
             "quests": {
                 "title": "任务",
@@ -5484,7 +5486,7 @@
                     "bashana-label": "巴珊娜·符文图腾",
                     "bashana-tooltip": "显示巴珊娜·符文图腾的树人还剩多少法力值能施放",
                     "ancestral-automaton-tooltip": "显示对手召唤了多少次“星界自动机”",
-                    "ancestral-automaton-label": "星界自动机",
+                    "ancestral-automaton-label": "{{cardName}}",
                     "flesh-giant-tooltip": "显示对手在作为{{classes}}职业时，对手英雄的生命值在他们的回合中变化了多少次",
                     "cthun-abilities-label": "克苏恩的技能",
                     "cthun-abilities-tooltip": "当“克苏恩，帝国之眼”在对手的手牌、牌库或场上时，显示其四个技能中对手已触发了多少个",
