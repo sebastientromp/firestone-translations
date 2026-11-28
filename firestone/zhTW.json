@@ -5300,7 +5300,7 @@
                 "show-matchup-winrate-tooltip": "若有統計數據，在記牌器上方顯示此牌組對抗對手職業的天梯對戰勝率（依據標準或開放模式）",
                 "show-gifts-separately": "分行顯示衍生卡牌",
                 "reset-deck-position-after-trade": "更換卡牌後重設牌堆順序",
-                "reset-deck-position-after-trade-tooltip": "更換一張「可更換」卡牌後，該牌在理論上可能會被洗入牌堆底部。因此預設在發生更換時，會清空「牌堆頂端」與「牌堆底部」區塊。若希望更換後仍保留先前的推測順序，請關閉此選項。",
+                "reset-deck-position-after-trade-tooltip": "更換一張[可更換]卡牌後，該牌在理論上可能會被洗入牌堆底部。因此預設在發生更換時，會清空「牌堆頂端」與「牌堆底部」區塊。若希望更換後仍保留先前的推測順序，請關閉此選項。",
                 "show-stats-change": "顯示數值與狀態變化",
                 "show-stats-change-tooltip": "在牌組清單中即時顯示特定卡牌數值或效果的增長變化（例如：點燃、鍛造錘）",
                 "show-cost-reduction": "更新牌堆內的卡牌法力消耗",
